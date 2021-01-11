@@ -1,0 +1,4450 @@
+Last login: Mon Jan 11 11:30:48 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ pwd
+/Users/lauramathieu/Desktop/shell_magic
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 1
+-bash: 1: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ls
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 1s
+-bash: 1s: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ls shell_magic
+ls: shell_magic: No such file or directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ls/ shell_magic
+-bash: ls/: No such file or directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man ls
+
+
+
+
+
+
+
+
+
+
+lauras-MacBook-Air-2:shell_magic lauramathieu$ q
+-bash: q: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir= hello_world
+-bash: hello_world: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch= hello_world
+-bash: hello_world: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ helloworld
+-bash: helloworld: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man mv
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man touch
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world.bfe
+lauras-MacBook-Air-2:shell_magic lauramathieu$ rename-item 
+-bash: rename-item: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ rni
+-bash: rni: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv hello_world.txt
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man mv
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man chdir
+lauras-MacBook-Air-2:shell_magic lauramathieu$ chdir (/Users/lauramathieu/Desktop/shell_magic/hello_world.bfe
+-bash: syntax error near unexpected token `/Users/lauramathieu/Desktop/shell_magic/hello_world.bfe'
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world
+mkdir: hello_world: File exists
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cd 
+lauras-MacBook-Air-2:~ lauramathieu$ cd /Users/lauramathieu/Desktop/shell_magic
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ sdw
+-bash: sdw: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ pwd
+/Users/lauramathieu/Desktop/shell_magic
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cd /Users/lauramathieu/Desktop/shell_magic/hello_wolrd
+-bash: cd: /Users/lauramathieu/Desktop/shell_magic/hello_wolrd: No such file or directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cd /Users/lauramathieu/Desktop/shell_magic/hello_world
+-bash: cd: /Users/lauramathieu/Desktop/shell_magic/hello_world: Not a directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world
+mkdir: hello_world: File exists
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world.bfe
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv hello_world.bfe hello_world.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world
+mkdir: hello_world: File exists
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mkdir hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv  hello_world.txt hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv  hello_world.txt shell_magic
+mv: rename hello_world.txt to shell_magic: No such file or directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ls
+hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ls
+hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv hello_world/hello_world.txt .
+lauras-MacBook-Air-2:shell_magic lauramathieu$ mv hello_world.txt hello_world
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cd hello_world/
+lauras-MacBook-Air-2:hello_world lauramathieu$ ls
+hello_world.txt
+lauras-MacBook-Air-2:hello_world lauramathieu$ mv hello_world.txt ..
+lauras-MacBook-Air-2:hello_world lauramathieu$ cd ..
+lauras-MacBook-Air-2:shell_magic lauramathieu$ sdw
+-bash: sdw: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ pwd
+/Users/lauramathieu/Desktop/shell_magic
+lauras-MacBook-Air-2:shell_magic lauramathieu$ rm hello_world.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man cat
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ sdw
+-bash: sdw: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ pwd
+/Users/lauramathieu/Desktop/shell_magic
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch hello_world.text
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cat hello_world.text
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man echo
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man wc
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man grep
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man grep
+lauras-MacBook-Air-2:shell_magic lauramathieu$ ok
+-bash: ok: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ \
+> 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ echo "# shell_assigment" >> README.md
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git init
+Initialized empty Git repository in /Users/lauramathieu/Desktop/shell_magic/.git/
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git add README.md
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git commit -m "first commit"
+[master (root-commit) 6e788e4] first commit
+ Committer: laura mathieu <lauramathieu@lauras-MacBook-Air-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git branch -M main
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git remote add origin https://github.com/LauraMathieu/shell_assigment.git
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git push -u origin main
+Username for 'https://github.com': lauramathieu
+Password for 'https://lauramathieu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/LauraMathieu/shell_assigment.git/'
+lauras-MacBook-Air-2:shell_magic lauramathieu$ echo "# shell_assigment" >> README.md
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git init
+Reinitialized existing Git repository in /Users/lauramathieu/Desktop/shell_magic/.git/
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git add README.md
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git commit -m "first commit"
+[main af945ef] first commit
+ Committer: laura mathieu <lauramathieu@lauras-MacBook-Air-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git branch -M main
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git remote add origin https://github.com/LauraMathieu/shell_assigment.git
+fatal: remote origin already exists.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ git push -u origin main
+Username for 'https://github.com': lauramathieu
+Password for 'https://lauramathieu@github.com': 
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 444 bytes | 222.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/LauraMathieu/shell_assigment.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ curl http://cli.ucudata.nl/aup.tar.gz
+Warning: Binary output can mess up your terminal. Use "--output -" to tell 
+Warning: curl to output it to your terminal anyway, or consider "--output 
+Warning: <FILE>" to save to a file.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ curl http://cli.ucudata.nl/aup.tar.gz .
+Warning: Binary output can mess up your terminal. Use "--output -" to tell 
+Warning: curl to output it to your terminal anyway, or consider "--output 
+Warning: <FILE>" to save to a file.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ curl http://cli.ucudata.nl/aup.tar.gz hello_world
+Warning: Binary output can mess up your terminal. Use "--output -" to tell 
+Warning: curl to output it to your terminal anyway, or consider "--output 
+Warning: <FILE>" to save to a file.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ curl http://cli.ucudata.nl/aup.tar.gz ..
+Warning: Binary output can mess up your terminal. Use "--output -" to tell 
+Warning: curl to output it to your terminal anyway, or consider "--output 
+Warning: <FILE>" to save to a file.
+lauras-MacBook-Air-2:shell_magic lauramathieu$ commit
+-bash: commit: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man echo
+lauras-MacBook-Air-2:shell_magic lauramathieu$ tar aup.tar.gz
+Usage:
+  List:    tar -tf <archive-filename>
+  Extract: tar -xf <archive-filename>
+  Create:  tar -cf <archive-filename> [filenames...]
+  Help:    tar --help
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man tar
+lauras-MacBook-Air-2:shell_magic lauramathieu$ tar -xzvf aup.tar.gz
+x aup/
+x aup/cohort1/
+x aup/cohort1.5/
+x aup/cohort2/
+x aup/cohort3/
+x aup/cohort3/s201f/
+x aup/cohort3/s201fssc/
+x aup/cohort3/s202m/
+x aup/cohort3/s202msci/
+x aup/cohort3/s203mhum/
+x aup/cohort3/s204f/
+x aup/cohort3/s204funk/
+x aup/cohort3/s205f/
+x aup/cohort3/s205funk/
+x aup/cohort3/s206m/
+x aup/cohort3/s206msci/
+x aup/cohort3/s207f/
+x aup/cohort3/s207fint/
+x aup/cohort3/s208f/
+x aup/cohort3/s208fssc/
+x aup/cohort3/s209f/
+x aup/cohort3/s209fhum/
+x aup/cohort3/s210f/
+x aup/cohort3/s210fint/
+x aup/cohort3/s211f/
+x aup/cohort3/s211fssc/
+x aup/cohort3/s212f/
+x aup/cohort3/s212funk/
+x aup/cohort3/s213f/
+x aup/cohort3/s213funk/
+x aup/cohort3/s214f/
+x aup/cohort3/s214funk/
+x aup/cohort3/s215m/
+x aup/cohort3/s215mssc/
+x aup/cohort3/s216f/
+x aup/cohort3/s216funk/
+x aup/cohort3/s217m/
+x aup/cohort3/s217munk/
+x aup/cohort3/s218f/
+x aup/cohort3/s218fssc/
+x aup/cohort3/s219f/
+x aup/cohort3/s219fsci/
+x aup/cohort3/s220f/
+x aup/cohort3/s220fssc/
+x aup/cohort3/s221msoc/
+x aup/cohort3/s222f/
+x aup/cohort3/s222funk/
+x aup/cohort3/s223f/
+x aup/cohort3/s223fint/
+x aup/cohort3/s224fhum/
+x aup/cohort3/s225m/
+x aup/cohort3/s225msci/
+x aup/cohort3/s226f/
+x aup/cohort3/s226fsci/
+x aup/cohort3/s227fsci/
+x aup/cohort3/s228f/
+x aup/cohort3/s228fsci/
+x aup/cohort3/s229m/
+x aup/cohort3/s229mint/
+x aup/cohort3/s230funk/
+x aup/cohort3/s231fssc/
+x aup/cohort3/s232f/
+x aup/cohort3/s232funk/
+x aup/cohort3/s233f/
+x aup/cohort3/s233fhum/
+x aup/cohort3/s234f/
+x aup/cohort3/s234funk/
+x aup/cohort3/s235f/
+x aup/cohort3/s235funk/
+x aup/cohort3/s236f/
+x aup/cohort3/s236funk/
+x aup/cohort3/s237m/
+x aup/cohort3/s237mint/
+x aup/cohort3/s238f/
+x aup/cohort3/s238fssc/
+x aup/cohort3/s239fssc/
+x aup/cohort3/s240f/
+x aup/cohort3/s240fsci/
+x aup/cohort3/s241f/
+x aup/cohort3/s241fssc/
+x aup/cohort3/s242f/
+x aup/cohort3/s242funk/
+x aup/cohort3/s243m/
+x aup/cohort3/s243munk/
+x aup/cohort3/s244m/
+x aup/cohort3/s244munk/
+x aup/cohort3/s245f/
+x aup/cohort3/s245fsci/
+x aup/cohort3/s246f/
+x aup/cohort3/s246fssc/
+x aup/cohort3/s247f/
+x aup/cohort3/s247fssc/
+x aup/cohort3/s248f/
+x aup/cohort3/s248fssc/
+x aup/cohort3/s249f/
+x aup/cohort3/s249funk/
+x aup/cohort3/s250f/
+x aup/cohort3/s250funk/
+x aup/cohort3/s252f/
+x aup/cohort3/s252fssc/
+x aup/cohort3/s253f/
+x aup/cohort3/s253fssc/
+x aup/cohort3/s254fsci/
+x aup/cohort3/s255m/
+x aup/cohort3/s255mssc/
+x aup/cohort3/s256f/
+x aup/cohort3/s256fssc/
+x aup/cohort3/s257f/
+x aup/cohort3/s257fssc/
+x aup/cohort3/s258f/
+x aup/cohort3/s258fsci/
+x aup/cohort3/s259m/
+x aup/cohort3/s259mdou/
+x aup/cohort3/s260f/
+x aup/cohort3/s260fint/
+x aup/cohort3/s261msci/
+x aup/cohort3/s262f/
+x aup/cohort3/s262funk/
+x aup/cohort3/s263f/
+x aup/cohort3/s263fsci/
+x aup/cohort3/s264msci/
+x aup/cohort3/s265m/
+x aup/cohort3/s265mssc/
+x aup/cohort3/s266f/
+x aup/cohort3/s266flaw/
+x aup/cohort3/s267m/
+x aup/cohort3/s267munk/
+x aup/cohort3/s268fbio/
+x aup/cohort3/s269f/
+x aup/cohort3/s269fint/
+x aup/cohort3/s270f/
+x aup/cohort3/s270fssc/
+x aup/cohort3/s271f/
+x aup/cohort3/s271fsci/
+x aup/cohort3/s273f/
+x aup/cohort3/s273fint/
+x aup/cohort3/s274f/
+x aup/cohort3/s274fhum/
+x aup/cohort3/s274fhum/s274fhum.aup
+x aup/cohort3/s274f/s274f4.aup
+x aup/cohort3/s273fint/s273f4.aup
+x aup/cohort3/s273fint/s273fint1.aup
+x aup/cohort3/s273f/s273f2.aup
+x aup/cohort3/s273f/s273f3.aup
+x aup/cohort3/s273f/s273f4.aup
+x aup/cohort3/s273f/s273f5.aup
+x aup/cohort3/s271fsci/s271fsci.aup
+x aup/cohort3/s271f/s271f2.aup
+x aup/cohort3/s271f/s271f3.aup
+x aup/cohort3/s271f/s271f4.aup
+x aup/cohort3/s271f/s271f5.aup
+x aup/cohort3/s270fssc/s270fssc.aup
+x aup/cohort3/s270f/s270f3.aup
+x aup/cohort3/s270f/s270f4.aup
+x aup/cohort3/s270f/s270f5.aup
+x aup/cohort3/s269fint/s269f2.aup
+x aup/cohort3/s269fint/s269fint.aup
+x aup/cohort3/s269f/s269f2.aup
+x aup/cohort3/s269f/s269f3.aup
+x aup/cohort3/s269f/s269f4.aup
+x aup/cohort3/s269f/s269f5.aup
+x aup/cohort3/s268fbio/s268fbio.aup
+x aup/cohort3/s267munk/s267m2.aup
+x aup/cohort3/s267munk/s267munk.aup
+x aup/cohort3/s267m/s267m2.aup
+x aup/cohort3/s267m/s267m3.aup
+x aup/cohort3/s267m/s267m4.aup
+x aup/cohort3/s267m/s267m5.aup
+x aup/cohort3/s266flaw/s266f2.aup
+x aup/cohort3/s266flaw/s266flaw.aup
+x aup/cohort3/s266f/s266f2.aup
+x aup/cohort3/s266f/s266f3.aup
+x aup/cohort3/s266f/s266f8.aup
+x aup/cohort3/s265mssc/s265mssc.aup
+x aup/cohort3/s265m/s265m2.aup
+x aup/cohort3/s265m/s265m3.aup
+x aup/cohort3/s265m/s265m4.aup
+x aup/cohort3/s264msci/s264msci.aup
+x aup/cohort3/s263fsci/s263fsci.aup
+x aup/cohort3/s263f/s263f4.aup
+x aup/cohort3/s263f/s263f5.aup
+x aup/cohort3/s262funk/s262funk.aup
+x aup/cohort3/s262f/s262f2.aup
+x aup/cohort3/s262f/s262f3.aup
+x aup/cohort3/s262f/s262f4.aup
+x aup/cohort3/s262f/s262f5.aup
+x aup/cohort3/s261msci/s261msci.aup
+x aup/cohort3/s260fint/s260fint.aup
+x aup/cohort3/s260f/s260f4.aup
+x aup/cohort3/s260f/s260f5.aup
+x aup/cohort3/s259mdou/s259mdou.aup
+x aup/cohort3/s259m/s259m2.aup
+x aup/cohort3/s259m/s259m3.aup
+x aup/cohort3/s259m/s259m4.aup
+x aup/cohort3/s259m/s259m5.aup
+x aup/cohort3/s258fsci/s258fsci1.aup
+x aup/cohort3/s258f/s257f5.aup
+x aup/cohort3/s258f/s258f2.aup
+x aup/cohort3/s258f/s258f3.aup
+x aup/cohort3/s258f/s258f4.aup
+x aup/cohort3/s258f/s258f5.aup
+x aup/cohort3/s257fssc/s257ssc1.aup
+x aup/cohort3/s257f/s257f.aup
+x aup/cohort3/s257f/s257f1.aup
+x aup/cohort3/s257f/s257f2.aup
+x aup/cohort3/s257f/s257f5.aup
+x aup/cohort3/s257f/s257f55.aup
+x aup/cohort3/s256fssc/s256fssc1.aup
+x aup/cohort3/s256f/s256f2.aup
+x aup/cohort3/s256f/s256f3.aup
+x aup/cohort3/s256f/s256f4.aup
+x aup/cohort3/s256f/s256f4_formal_English.aup
+x aup/cohort3/s256f/s256f5.aup
+x aup/cohort3/s255mssc/s255mssc1.aup
+x aup/cohort3/s255m/s255m2.aup
+x aup/cohort3/s255m/s255m3.aup
+x aup/cohort3/s255m/s255m4.aup
+x aup/cohort3/s255m/s255m5.aup
+x aup/cohort3/s254fsci/s254fsci.aup
+x aup/cohort3/s253fssc/s253fssc.aup
+x aup/cohort3/s253f/s253f2.aup
+x aup/cohort3/s253f/s253f3.aup
+x aup/cohort3/s253f/s253f4.aup
+x aup/cohort3/s253f/s253f5.aup
+x aup/cohort3/s252fssc/s252fssc1.aup
+x aup/cohort3/s252f/s252f2.aup
+x aup/cohort3/s252f/s252f3.aup
+x aup/cohort3/s252f/s252f4.aup
+x aup/cohort3/s252f/s252f5.aup
+x aup/cohort3/s250funk/s250funk.aup
+x aup/cohort3/s250f/s250f2.aup
+x aup/cohort3/s250f/s250f3.aup
+x aup/cohort3/s250f/s250f4a.aup
+x aup/cohort3/s250f/s250f4b.aup
+x aup/cohort3/s250f/s250f5.aup
+x aup/cohort3/s249funk/s249f2.aup
+x aup/cohort3/s249funk/s249funk.aup
+x aup/cohort3/s249f/s249f2.aup
+x aup/cohort3/s249f/s249f3.aup
+x aup/cohort3/s249f/s249f4.aup
+x aup/cohort3/s249f/s249f5.aup
+x aup/cohort3/s248fssc/s248fssc1.aup
+x aup/cohort3/s248f/s248f2.aup
+x aup/cohort3/s248f/s248f3.aup
+x aup/cohort3/s248f/s248f4.aup
+x aup/cohort3/s248f/s248f5.aup
+x aup/cohort3/s247fssc/s247fssc1.aup
+x aup/cohort3/s247f/s247f2.aup
+x aup/cohort3/s247f/s247f3.aup
+x aup/cohort3/s247f/s247f4.aup
+x aup/cohort3/s247f/s247f5.aup
+x aup/cohort3/s246fssc/s246fssc.aup
+x aup/cohort3/s246f/s246f2.aup
+x aup/cohort3/s245fsci/s245f2.aup
+x aup/cohort3/s245fsci/s245fsci1.aup
+x aup/cohort3/s245f/s245f2.aup
+x aup/cohort3/s245f/s245f3.aup
+x aup/cohort3/s245f/s245f4.aup
+x aup/cohort3/s245f/s245f5.aup
+x aup/cohort3/s244munk/s244munk1.aup
+x aup/cohort3/s244m/s244m2.aup
+x aup/cohort3/s244m/s244m3.aup
+x aup/cohort3/s244m/s244m4.aup
+x aup/cohort3/s244m/s244m5.aup
+x aup/cohort3/s243munk/s243m2.aup
+x aup/cohort3/s243munk/s243munk-irish-uhdr.aup
+x aup/cohort3/s243munk/s243munk1.aup
+x aup/cohort3/s243m/s243m2.aup
+x aup/cohort3/s243m/s243m5.aup
+x aup/cohort3/s242funk/s242f2.aup
+x aup/cohort3/s242funk/s242funk1.aup
+x aup/cohort3/s242f/s242f2.aup
+x aup/cohort3/s242f/s242f3.aup
+x aup/cohort3/s241fssc/s241f2.aup
+x aup/cohort3/s241fssc/s241fssc.aup
+x aup/cohort3/s241f/s241f2.aup
+x aup/cohort3/s241f/s241f3.aup
+x aup/cohort3/s241f/s241f4.aup
+x aup/cohort3/s241f/s241f5.aup
+x aup/cohort3/s241f/spare-second-version-r2/
+x aup/cohort3/s241f/spare-second-version-r2/s241f2.aup
+x aup/cohort3/s240fsci/s240f2.aup
+x aup/cohort3/s240fsci/s240fsci.aup
+x aup/cohort3/s240f/s240f2.aup
+x aup/cohort3/s240f/s240f3.aup
+x aup/cohort3/s240f/s240f4.aup
+x aup/cohort3/s240f/s240f5.aup
+x aup/cohort3/s239fssc/s239fssc.aup
+x aup/cohort3/s238fssc/s238fssc.aup
+x aup/cohort3/s238f/s238f2.aup
+x aup/cohort3/s237mint/s237m2.aup
+x aup/cohort3/s237mint/s237mint1.aup
+x aup/cohort3/s237m/s237m2.aup
+x aup/cohort3/s237m/s237m3.aup
+x aup/cohort3/s237m/s237m4.aup
+x aup/cohort3/s237m/s237m5.aup
+x aup/cohort3/s236funk/s236funk1.aup
+x aup/cohort3/s236f/s236f2.aup
+x aup/cohort3/s236f/s236f3.aup
+x aup/cohort3/s236f/s236f4.aup
+x aup/cohort3/s236f/s236f5.aup
+x aup/cohort3/s235funk/s235f4.aup
+x aup/cohort3/s235funk/s235funk.aup
+x aup/cohort3/s235f/s235f2.aup
+x aup/cohort3/s235f/s235f3.aup
+x aup/cohort3/s235f/s235f4.aup
+x aup/cohort3/s235f/s235f5.aup
+x aup/cohort3/s234funk/s234funk.aup
+x aup/cohort3/s234f/s234f2.aup
+x aup/cohort3/s234f/s234f3.aup
+x aup/cohort3/s234f/s234f4.aup
+x aup/cohort3/s233fhum/s233f2.aup
+x aup/cohort3/s233fhum/s233fhum.aup
+x aup/cohort3/s233f/s233f3.aup
+x aup/cohort3/s233f/s233f4.aup
+x aup/cohort3/s233f/s233f5.aup
+x aup/cohort3/s232funk/s232funk.aup
+x aup/cohort3/s232f/s232f2.aup
+x aup/cohort3/s232f/s232f3.aup
+x aup/cohort3/s231fssc/s231fssc.aup
+x aup/cohort3/s230funk/s230funk1.aup
+x aup/cohort3/s229mint/s229m2.aup
+x aup/cohort3/s229mint/s229mint1.aup
+x aup/cohort3/s229m/s229m2.aup
+x aup/cohort3/s229m/s229m3.aup
+x aup/cohort3/s229m/s229m4.aup
+x aup/cohort3/s229m/s229m5.aup
+x aup/cohort3/s228fsci/s228f2.aup
+x aup/cohort3/s228fsci/s228fsci1.aup
+x aup/cohort3/s228fsci/s228fsci3.aup
+x aup/cohort3/s228f/s228f2.aup
+x aup/cohort3/s228f/s228f3.aup
+x aup/cohort3/s228f/s228f4.aup
+x aup/cohort3/s228f/s228f5.aup
+x aup/cohort3/s227fsci/s227fsci1.aup
+x aup/cohort3/s226fsci/s226f2.aup
+x aup/cohort3/s226fsci/s226fsci1.aup
+x aup/cohort3/s226f/s226f2.aup
+x aup/cohort3/s226f/s226f3.aup
+x aup/cohort3/s226f/s226f4.aup
+x aup/cohort3/s226f/s226f5.aup
+x aup/cohort3/s225msci/s225m2.aup
+x aup/cohort3/s225msci/s225msci1.aup
+x aup/cohort3/s225m/s225m2.aup
+x aup/cohort3/s225m/s225m3.aup
+x aup/cohort3/s225m/s225m4.aup
+x aup/cohort3/s225m/s225m5.aup
+x aup/cohort3/s225m/s255m5.aup
+x aup/cohort3/s224fhum/s224fhum.aup
+x aup/cohort3/s223fint/s223fint.aup
+x aup/cohort3/s223f/s223f2.aup
+x aup/cohort3/s223f/s223f3.aup
+x aup/cohort3/s223f/s223f4.aup
+x aup/cohort3/s223f/s223f5.aup
+x aup/cohort3/s222funk/s222funk.aup
+x aup/cohort3/s222f/s222f2.aup
+x aup/cohort3/s222f/s222f3.aup
+x aup/cohort3/s222f/s222f4.aup
+x aup/cohort3/s222f/s222f5.aup
+x aup/cohort3/s221msoc/s221msoc.aup
+x aup/cohort3/s220fssc/s220f2.aup
+x aup/cohort3/s220fssc/s220fssc1.aup
+x aup/cohort3/s220f/s220f2.aup
+x aup/cohort3/s220f/s220f3.aup
+x aup/cohort3/s220f/s220f4.aup
+x aup/cohort3/s220f/s220f5.aup
+x aup/cohort3/s219fsci/s219f2.aup
+x aup/cohort3/s219fsci/s219fsci1.aup
+x aup/cohort3/s219f/s219f2.aup
+x aup/cohort3/s219f/s219f3.aup
+x aup/cohort3/s219f/s219f4.aup
+x aup/cohort3/s219f/s219f5.aup
+x aup/cohort3/s218fssc/s218f2.aup
+x aup/cohort3/s218fssc/s218fssc1.aup
+x aup/cohort3/s218f/s218f2.aup
+x aup/cohort3/s218f/s218f4.aup
+x aup/cohort3/s218f/s218f5.aup
+x aup/cohort3/s217munk/s217m2.aup
+x aup/cohort3/s217munk/s217munk1.aup
+x aup/cohort3/s217m/s217m2.aup
+x aup/cohort3/s217m/s217m3.aup
+x aup/cohort3/s217m/s217m4.aup
+x aup/cohort3/s216funk/s216funk1.aup
+x aup/cohort3/s216f/s216f2.aup
+x aup/cohort3/s216f/s216f3.aup
+x aup/cohort3/s216f/s216f4.aup
+x aup/cohort3/s216f/s216f5.aup
+x aup/cohort3/s215mssc/s215mssc.aup
+x aup/cohort3/s215m/s215m2.aup
+x aup/cohort3/s215m/s215m3.aup
+x aup/cohort3/s215m/s215m4.aup
+x aup/cohort3/s215m/s215m5.aup
+x aup/cohort3/s214funk/s214funk1.aup
+x aup/cohort3/s214f/s214f1.aup
+x aup/cohort3/s214f/s214f2.aup
+x aup/cohort3/s214f/s214f3.aup
+x aup/cohort3/s214f/s214f4.aup
+x aup/cohort3/s214f/s214f5.aup
+x aup/cohort3/s213funk/s213funk1.aup
+x aup/cohort3/s213f/s213f2.aup
+x aup/cohort3/s213f/s213f3.aup
+x aup/cohort3/s213f/s213f4.aup
+x aup/cohort3/s212funk/s212f2.aup
+x aup/cohort3/s212funk/s212funk.aup
+x aup/cohort3/s212f/s212f2.aup
+x aup/cohort3/s212f/s212f3.aup
+x aup/cohort3/s212f/s212f4.aup
+x aup/cohort3/s212f/s212f5.aup
+x aup/cohort3/s211fssc/s211fssc1.aup
+x aup/cohort3/s211f/s211f3.aup
+x aup/cohort3/s211f/s211f4.aup
+x aup/cohort3/s211f/s211f5.aup
+x aup/cohort3/s210fint/s210fint1.aup
+x aup/cohort3/s210f/s210f2.aup
+x aup/cohort3/s210f/s210f3.aup
+x aup/cohort3/s210f/s210f4.aup
+x aup/cohort3/s210f/s210f5.aup
+x aup/cohort3/s209fhum/s209fhum.aup
+x aup/cohort3/s209f/s209f2.aup
+x aup/cohort3/s209f/s209f3.aup
+x aup/cohort3/s209f/s209f4.aup
+x aup/cohort3/s209f/s209f5.aup
+x aup/cohort3/s208fssc/s208fssc.aup
+x aup/cohort3/s208f/s208f2.aup
+x aup/cohort3/s208f/s208f3.aup
+x aup/cohort3/s208f/s208f4.aup
+x aup/cohort3/s208f/s208f5.aup
+x aup/cohort3/s207fint/s207fint.aup
+x aup/cohort3/s207f/s207f2.aup
+x aup/cohort3/s207f/s207f3.aup
+x aup/cohort3/s207f/s207f4.aup
+x aup/cohort3/s207f/s207f5.aup
+x aup/cohort3/s206msci/s206msci.aup
+x aup/cohort3/s206m/s206m2.aup
+x aup/cohort3/s206m/s206m3.aup
+x aup/cohort3/s206m/s206m4.aup
+x aup/cohort3/s206m/s206m5.aup
+x aup/cohort3/s205funk/s205funk1.aup
+x aup/cohort3/s205f/s205f2.aup
+x aup/cohort3/s205f/s205f3.aup
+x aup/cohort3/s205f/s205f4.aup
+x aup/cohort3/s205f/s205f5.aup
+x aup/cohort3/s205f/s250f5.aup
+x aup/cohort3/s204funk/s204funk1.aup
+x aup/cohort3/s204f/s204f2.aup
+x aup/cohort3/s204f/s204f3.aup
+x aup/cohort3/s204f/s204f4.aup
+x aup/cohort3/s204f/s204f5.aup
+x aup/cohort3/s203mhum/s203mhum1.aup
+x aup/cohort3/s202msci/s202msci.aup
+x aup/cohort3/s202m/s202m2.aup
+x aup/cohort3/s202m/s202m3.aup
+x aup/cohort3/s202m/s202m4.aup
+x aup/cohort3/s202m/s202m5.aup
+x aup/cohort3/s201fssc/s201fssc.aup
+x aup/cohort3/s201f/s201f2.aup
+x aup/cohort3/s201f/s201f3.aup
+x aup/cohort3/s201f/s201f4.aup
+x aup/cohort3/s201f/s201f5.aup
+x aup/cohort2/s101f/
+x aup/cohort2/s101fssc/
+x aup/cohort2/s102m/
+x aup/cohort2/s102mint/
+x aup/cohort2/s103f/
+x aup/cohort2/s103funk/
+x aup/cohort2/s104f/
+x aup/cohort2/s104fssc/
+x aup/cohort2/s105munk/
+x aup/cohort2/s106f/
+x aup/cohort2/s106fsci/
+x aup/cohort2/s107f/
+x aup/cohort2/s107fssc/
+x aup/cohort2/s108m/
+x aup/cohort2/s108mssc/
+x aup/cohort2/s109f/
+x aup/cohort2/s109fsci/
+x aup/cohort2/s110fexc/
+x aup/cohort2/s111f/
+x aup/cohort2/s111fsci/
+x aup/cohort2/s112f/
+x aup/cohort2/s112fssc/
+x aup/cohort2/s113fsci/
+x aup/cohort2/s114f/
+x aup/cohort2/s114fhum/
+x aup/cohort2/s115f/
+x aup/cohort2/s115fssc/
+x aup/cohort2/s116fssc/
+x aup/cohort2/s117m/
+x aup/cohort2/s117mint/
+x aup/cohort2/s118m/
+x aup/cohort2/s118mint/
+x aup/cohort2/s119f/
+x aup/cohort2/s119fssc/
+x aup/cohort2/s120f/
+x aup/cohort2/s120fssc/
+x aup/cohort2/s121f/
+x aup/cohort2/s121fssc/
+x aup/cohort2/s122f/
+x aup/cohort2/s122funk/
+x aup/cohort2/s123m/
+x aup/cohort2/s123mssc/
+x aup/cohort2/s124f/
+x aup/cohort2/s124fint/
+x aup/cohort2/s125f/
+x aup/cohort2/s125fint/
+x aup/cohort2/s126fsci/
+x aup/cohort2/s127m/
+x aup/cohort2/s127munk/
+x aup/cohort2/s128f/
+x aup/cohort2/s128fsci/
+x aup/cohort2/s129mhum/
+x aup/cohort2/s130m/
+x aup/cohort2/s130msci/
+x aup/cohort2/s131f/
+x aup/cohort2/s131fssc/
+x aup/cohort2/s132m/
+x aup/cohort2/s132munk/
+x aup/cohort2/s133fssc/
+x aup/cohort2/s134m/
+x aup/cohort2/s134mssc/
+x aup/cohort2/s135f/
+x aup/cohort2/s135fssc/
+x aup/cohort2/s136m/
+x aup/cohort2/s136msci/
+x aup/cohort2/s137m/
+x aup/cohort2/s137mssc/
+x aup/cohort2/s138m/
+x aup/cohort2/s138munk/
+x aup/cohort2/s139f/
+x aup/cohort2/s139fssc/
+x aup/cohort2/s140f/
+x aup/cohort2/s140fsci/
+x aup/cohort2/s141m/
+x aup/cohort2/s141mint/
+x aup/cohort2/s142f/
+x aup/cohort2/s142fint/
+x aup/cohort2/s143fex/
+x aup/cohort2/s144flaw/
+x aup/cohort2/s145f/
+x aup/cohort2/s145fssc/
+x aup/cohort2/s146fsci/
+x aup/cohort2/s147f/
+x aup/cohort2/s147fssc/
+x aup/cohort2/s148fssc/
+x aup/cohort2/s149fhum/
+x aup/cohort2/s151f/
+x aup/cohort2/s151fsci/
+x aup/cohort2/s152mssc/
+x aup/cohort2/s153f/
+x aup/cohort2/s153fint/
+x aup/cohort2/s154m/
+x aup/cohort2/s154mint/
+x aup/cohort2/s155f/
+x aup/cohort2/s155fsci/
+x aup/cohort2/s156f/
+x aup/cohort2/s156fssc/
+x aup/cohort2/s157mssc/
+x aup/cohort2/s158f/
+x aup/cohort2/s158funk/
+x aup/cohort2/s159fhum/
+x aup/cohort2/s160m/
+x aup/cohort2/s160msci/
+x aup/cohort2/s161f/
+x aup/cohort2/s161fsci/
+x aup/cohort2/s162m/
+x aup/cohort2/s162munk/
+x aup/cohort2/s163f/
+x aup/cohort2/s163fssc/
+x aup/cohort2/s164m/
+x aup/cohort2/s164msci/
+x aup/cohort2/s165mssc/
+x aup/cohort2/s166f/
+x aup/cohort2/s166fint/
+x aup/cohort2/s167f/
+x aup/cohort2/s167fssc/
+x aup/cohort2/s168f/
+x aup/cohort2/s168fsci/
+x aup/cohort2/s169m/
+x aup/cohort2/s169mssc/
+x aup/cohort2/s170f/
+x aup/cohort2/s170funk/
+x aup/cohort2/s171m/
+x aup/cohort2/s171msci/
+x aup/cohort2/s172m/
+x aup/cohort2/s172mint/
+x aup/cohort2/s173f/
+x aup/cohort2/s173fsci/
+x aup/cohort2/s174f/
+x aup/cohort2/s174fssc/
+x aup/cohort2/s175fssc/
+x aup/cohort2/s176fint/
+x aup/cohort2/s177f/
+x aup/cohort2/s177fssc/
+x aup/cohort2/s178m/
+x aup/cohort2/s178msci/
+x aup/cohort2/s179fint/
+x aup/cohort2/s180f/
+x aup/cohort2/s180fssc/
+x aup/cohort2/s181f/
+x aup/cohort2/s181flaw/
+x aup/cohort2/s181flaw/s181flaw1.aup
+x aup/cohort2/s181flaw/s181flaw2.aup
+x aup/cohort2/s181flaw/s181flaw3.aup
+x aup/cohort2/s181f/s181f4.aup
+x aup/cohort2/s181f/s181f5.aup
+x aup/cohort2/s180fssc/s180fssc1.aup
+x aup/cohort2/s180fssc/s180fssc2.aup
+x aup/cohort2/s180fssc/s180fssc3.aup
+x aup/cohort2/s180f/s180f5.aup
+x aup/cohort2/s179fint/s179fint1.aup
+x aup/cohort2/s179fint/s179fint3.aup
+x aup/cohort2/s178msci/s178msci1.aup
+x aup/cohort2/s178msci/s178msci2.aup
+x aup/cohort2/s178msci/s178msci3.aup
+x aup/cohort2/s178m/s178m4.aup
+x aup/cohort2/s178m/s178m5.aup
+x aup/cohort2/s177fssc/s177fssc.aup
+x aup/cohort2/s177fssc/s177fssc2.aup
+x aup/cohort2/s177fssc/s177fssc3.aup
+x aup/cohort2/s177f/s177f4.aup
+x aup/cohort2/s177f/s177f5.aup
+x aup/cohort2/s176fint/s176fint.aup
+x aup/cohort2/s175fssc/s175fssc.aup
+x aup/cohort2/s175fssc/s175fssc2.aup
+x aup/cohort2/s174fssc/s174f4.aup
+x aup/cohort2/s174fssc/s174fssc.aup
+x aup/cohort2/s174fssc/s174fssc2.aup
+x aup/cohort2/s174fssc/s174fssc3.aup
+x aup/cohort2/s174f/s174f4.aup
+x aup/cohort2/s174f/s174f5.aup
+x aup/cohort2/s173fsci/s173fsci.aup
+x aup/cohort2/s173fsci/s173fsci2.aup
+x aup/cohort2/s173f/s173f5.aup
+x aup/cohort2/s172mint/s172mint.aup
+x aup/cohort2/s172mint/s172mint2.aup
+x aup/cohort2/s172mint/s172mint3.aup
+x aup/cohort2/s172m/s172m4.aup
+x aup/cohort2/s172m/s172m5.aup
+x aup/cohort2/s171msci/s171msci.aup
+x aup/cohort2/s171msci/s171msci2.aup
+x aup/cohort2/s171msci/s171msci3.aup
+x aup/cohort2/s171m/s171m4.aup
+x aup/cohort2/s171m/s171m5.aup
+x aup/cohort2/s170funk/s170funk.aup
+x aup/cohort2/s170funk/s170funk3.aup
+x aup/cohort2/s170f/s170f4.aup
+x aup/cohort2/s170f/s170f5.aup
+x aup/cohort2/s169mssc/s169mssc.aup
+x aup/cohort2/s169mssc/s169mssc2-part2.aup
+x aup/cohort2/s169mssc/s169mssc2.aup
+x aup/cohort2/s169mssc/s169mssc3.aup
+x aup/cohort2/s169m/s169m5.aup
+x aup/cohort2/s168fsci/s168f4.aup
+x aup/cohort2/s168fsci/s168fsci.aup
+x aup/cohort2/s168fsci/s168fsci3.aup
+x aup/cohort2/s168f/s168f4.aup
+x aup/cohort2/s168f/s168f5.aup
+x aup/cohort2/s167fssc/s167fssc.aup
+x aup/cohort2/s167fssc/s167fssc2.aup
+x aup/cohort2/s167fssc/s167fssc3.aup
+x aup/cohort2/s167f/s167f5.aup
+x aup/cohort2/s166fint/renamed/
+x aup/cohort2/s166fint/s166fint.aup
+x aup/cohort2/s166fint/s166fint2.aup
+x aup/cohort2/s166fint/s166fint3.aup
+x aup/cohort2/s166fint/renamed/s166fssc3.aup
+x aup/cohort2/s166f/s166f4.aup
+x aup/cohort2/s165mssc/s165mssc1.aup
+x aup/cohort2/s165mssc/s165mssc2.aup
+x aup/cohort2/s164msci/s164msci1.aup
+x aup/cohort2/s164msci/s164msci2.aup
+x aup/cohort2/s164msci/s164msci3.aup
+x aup/cohort2/s164m/s164m5.aup
+x aup/cohort2/s163fssc/s163fssc1.aup
+x aup/cohort2/s163fssc/s163fssc2.aup
+x aup/cohort2/s163fssc/s163fssc3.aup
+x aup/cohort2/s163f/s163f4.aup
+x aup/cohort2/s163f/s163f5.aup
+x aup/cohort2/s162munk/s162munk2.aup
+x aup/cohort2/s162munk/s162munk3.aup
+x aup/cohort2/s162m/s162m4.aup
+x aup/cohort2/s162m/s162m5.aup
+x aup/cohort2/s161fsci/s161fsci1.aup
+x aup/cohort2/s161fsci/s161fsci2.aup
+x aup/cohort2/s161fsci/s161fsci3.aup
+x aup/cohort2/s161f/s161f4.aup
+x aup/cohort2/s161f/s161f5.aup
+x aup/cohort2/s160msci/s160msci.aup
+x aup/cohort2/s160msci/s160msci2.aup
+x aup/cohort2/s160msci/s160msci3.aup
+x aup/cohort2/s160m/s160m3.aup
+x aup/cohort2/s160m/s160m5.aup
+x aup/cohort2/s159fhum/s159fhum.aup
+x aup/cohort2/s158funk/s158funk.aup
+x aup/cohort2/s158funk/s158funk2.aup
+x aup/cohort2/s158funk/s158funk3.aup
+x aup/cohort2/s158f/s158f4.aup
+x aup/cohort2/s158f/s158f5.aup
+x aup/cohort2/s157mssc/s157mssc1.aup
+x aup/cohort2/s157mssc/s157mssc2.aup
+x aup/cohort2/s156fssc/s156f4.aup
+x aup/cohort2/s156fssc/s156fssc1.aup
+x aup/cohort2/s156fssc/s156fssc2.aup
+x aup/cohort2/s156fssc/s156fssc3.aup
+x aup/cohort2/s156f/s156f4.aup
+x aup/cohort2/s156f/s156f5.aup
+x aup/cohort2/s155fsci/s155fsci1.aup
+x aup/cohort2/s155fsci/s155fsci2.aup
+x aup/cohort2/s155fsci/s155fsci3.aup
+x aup/cohort2/s155f/s155f4.aup
+x aup/cohort2/s155f/s155f5.aup
+x aup/cohort2/s154mint/s154mint.aup
+x aup/cohort2/s154mint/s154mint2.aup
+x aup/cohort2/s154mint/s154mint3.aup
+x aup/cohort2/s154m/s154m5.aup
+x aup/cohort2/s153fint/s153fint.aup
+x aup/cohort2/s153fint/s153fint2-part2.aup
+x aup/cohort2/s153fint/s153fint2.aup
+x aup/cohort2/s153fint/s153fint3.aup
+x aup/cohort2/s153f/s153f4.aup
+x aup/cohort2/s153f/s153f5.aup
+x aup/cohort2/s152mssc/s152mssc.aup
+x aup/cohort2/s151fsci/s151f4.aup
+x aup/cohort2/s151fsci/s151fsci.aup
+x aup/cohort2/s151fsci/s151fsci2.aup
+x aup/cohort2/s151f/s151f4.aup
+x aup/cohort2/s149fhum/s149fhum1.aup
+x aup/cohort2/s149fhum/s149fhum2.aup
+x aup/cohort2/s149fhum/s149fhum3.aup
+x aup/cohort2/s148fssc/s148fssc.aup
+x aup/cohort2/s148fssc/s148fssc2.aup
+x aup/cohort2/s147fssc/s147fssc.aup
+x aup/cohort2/s147fssc/s147fssc2.aup
+x aup/cohort2/s147fssc/s147fssc3.aup
+x aup/cohort2/s147f/s147f4.aup
+x aup/cohort2/s147f/s147f5.aup
+x aup/cohort2/s146fsci/s146fsci.aup
+x aup/cohort2/s145fssc/s145fssc2.aup
+x aup/cohort2/s145fssc/s145fssc3.aup
+x aup/cohort2/s145f/s145f5.aup
+x aup/cohort2/s144flaw/s144flaw1.aup
+x aup/cohort2/s144flaw/s144flaw2.aup
+x aup/cohort2/s144flaw/s144flaw3.aup
+x aup/cohort2/s143fex/s143fex1.aup
+x aup/cohort2/s142fint/s142fint1.aup
+x aup/cohort2/s142fint/s142fint2.aup
+x aup/cohort2/s142fint/s142fint3.aup
+x aup/cohort2/s142f/s142f4.aup
+x aup/cohort2/s142f/s142f5.aup
+x aup/cohort2/s141mint/s141mint.aup
+x aup/cohort2/s141mint/s141mint2.aup
+x aup/cohort2/s141mint/s141mint3.aup
+x aup/cohort2/s141m/s141m4.aup
+x aup/cohort2/s140fsci/s140fsci.aup
+x aup/cohort2/s140fsci/s140fsci2.aup
+x aup/cohort2/s140fsci/s140fsci3.aup
+x aup/cohort2/s140f/s140f4.aup
+x aup/cohort2/s140f/s140f5.aup
+x aup/cohort2/s139fssc/s139fssc1.aup
+x aup/cohort2/s139fssc/s139fssc2.aup
+x aup/cohort2/s139fssc/s139fssc3.aup
+x aup/cohort2/s139f/s139f4.aup
+x aup/cohort2/s139f/s139f5.aup
+x aup/cohort2/s138munk/s138m4.aup
+x aup/cohort2/s138munk/s138mssc1.aup
+x aup/cohort2/s138munk/s138mssc2.aup
+x aup/cohort2/s138m/s138m4.aup
+x aup/cohort2/s138m/s138m5.aup
+x aup/cohort2/s137mssc/s137mssc1.aup
+x aup/cohort2/s137mssc/s137mssc2.aup
+x aup/cohort2/s137mssc/s137mssc3.aup
+x aup/cohort2/s137m/s137m4.aup
+x aup/cohort2/s137m/s137m5.aup
+x aup/cohort2/s136msci/s136mfsi.aup
+x aup/cohort2/s136msci/s136msci2.aup
+x aup/cohort2/s136msci/s136msci3.aup
+x aup/cohort2/s136m/s136m4.aup
+x aup/cohort2/s136m/s136m5.aup
+x aup/cohort2/s135fssc/rename/
+x aup/cohort2/s135fssc/s135fssc.aup
+x aup/cohort2/s135fssc/s135fssc2.aup
+x aup/cohort2/s135fssc/s135fssc3.aup
+x aup/cohort2/s135fssc/rename/s135ssc2.aup
+x aup/cohort2/s135f/s135f4.aup
+x aup/cohort2/s135f/s135f5.aup
+x aup/cohort2/s134mssc/s134mssc.aup
+x aup/cohort2/s134mssc/s134mssc2.aup
+x aup/cohort2/s134mssc/s134mssc3.aup
+x aup/cohort2/s134m/s134m5.aup
+x aup/cohort2/s133fssc/s133fssc.aup
+x aup/cohort2/s132munk/s132munk.aup
+x aup/cohort2/s132munk/s132munk2.aup
+x aup/cohort2/s132munk/s132munk3.aup
+x aup/cohort2/s132m/s132m4.aup
+x aup/cohort2/s132m/s132m5.aup
+x aup/cohort2/s131fssc/s131fssc.aup
+x aup/cohort2/s131fssc/s131fssc2.aup
+x aup/cohort2/s131fssc/s131fssc3.aup
+x aup/cohort2/s131f/s131f4.aup
+x aup/cohort2/s131f/s131f5.aup
+x aup/cohort2/s130msci/s130msci.aup
+x aup/cohort2/s130msci/s130msci2.aup
+x aup/cohort2/s130msci/s130msci3.aup
+x aup/cohort2/s130m/s130m4.aup
+x aup/cohort2/s130m/s130m5.aup
+x aup/cohort2/s129mhum/s129mhum.aup
+x aup/cohort2/s129mhum/s129mhum2.aup
+x aup/cohort2/s128fsci/s128fsci.aup
+x aup/cohort2/s128fsci/s128fsci2.aup
+x aup/cohort2/s128fsci/s128fsci3.aup
+x aup/cohort2/s128f/s128f4.aup
+x aup/cohort2/s128f/s128f5.aup
+x aup/cohort2/s127munk/s127munk.aup
+x aup/cohort2/s127munk/s127munk2.aup
+x aup/cohort2/s127munk/s127munk3.aup
+x aup/cohort2/s127m/s127m4.aup
+x aup/cohort2/s127m/s127m5.aup
+x aup/cohort2/s126fsci/s126fsci.aup
+x aup/cohort2/s126fsci/s126fsci2.aup
+x aup/cohort2/s126fsci/s126fsci3.aup
+x aup/cohort2/s126fsci/s126fsci4.aup
+x aup/cohort2/s125fint/s125fint.aup
+x aup/cohort2/s125fint/s125fint2.aup
+x aup/cohort2/s125fint/s125fint3.aup
+x aup/cohort2/s125f/s125f4.aup
+x aup/cohort2/s125f/s125f5.aup
+x aup/cohort2/s124fint/s124fint.aup
+x aup/cohort2/s124fint/s124fint2.aup
+x aup/cohort2/s124fint/s124fint3.aup
+x aup/cohort2/s124f/s124f5.aup
+x aup/cohort2/s123mssc/s123mssc2.aup
+x aup/cohort2/s123mssc/s123mssc3.aup
+x aup/cohort2/s123m/s123m5.aup
+x aup/cohort2/s122funk/s122f4.aup
+x aup/cohort2/s122funk/s122funk1.aup
+x aup/cohort2/s122funk/s122funk2.aup
+x aup/cohort2/s122funk/s122funk3.aup
+x aup/cohort2/s122f/s122f1.aup
+x aup/cohort2/s122f/s122f4.aup
+x aup/cohort2/s122f/s122f5.aup
+x aup/cohort2/s121fssc/s121fssc.aup
+x aup/cohort2/s121fssc/s121fssc2.aup
+x aup/cohort2/s121fssc/s121fssc3.aup
+x aup/cohort2/s121f/s121f5.aup
+x aup/cohort2/s120fssc/s120fssc.aup
+x aup/cohort2/s120fssc/s120fssc2.aup
+x aup/cohort2/s120fssc/s120fssc3.aup
+x aup/cohort2/s120f/s120f1.aup
+x aup/cohort2/s119fssc/s119fssc.aup
+x aup/cohort2/s119fssc/s119fssc2.aup
+x aup/cohort2/s119fssc/s119fssc3.aup
+x aup/cohort2/s119fssc/s119fssc4.aup
+x aup/cohort2/s119f/s119f4_20130515.aup
+x aup/cohort2/s119f/s119f5.aup
+x aup/cohort2/s118mint/s118mint.aup
+x aup/cohort2/s118mint/s118mint2.aup
+x aup/cohort2/s118mint/s118mint2a.aup
+x aup/cohort2/s118mint/s118mint3.aup
+x aup/cohort2/s118m/s118m2a.aup
+x aup/cohort2/s118m/s118m4.aup
+x aup/cohort2/s118m/s118m5.aup
+x aup/cohort2/s117mint/s117mint.aup
+x aup/cohort2/s117mint/s117mint2.aup
+x aup/cohort2/s117mint/s117mint3.aup
+x aup/cohort2/s117m/s117m.aup
+x aup/cohort2/s117m/s117m5.aup
+x aup/cohort2/s116fssc/s116fssc.aup
+x aup/cohort2/s116fssc/s116fssc2.aup
+x aup/cohort2/s116fssc/s116fssc3.aup
+x aup/cohort2/s115fssc/s115fssc.aup
+x aup/cohort2/s115fssc/s115fssc3.aup
+x aup/cohort2/s115f/s115f4.aup
+x aup/cohort2/s115f/s115f5.aup
+x aup/cohort2/s114fhum/s114fhum.aup
+x aup/cohort2/s114fhum/s114fhum3.aup
+x aup/cohort2/s114f/s114f5.aup
+x aup/cohort2/s113fsci/s113fsci.aup
+x aup/cohort2/s113fsci/s113fsci2.aup
+x aup/cohort2/s113fsci/s113fsci3.aup
+x aup/cohort2/s112fssc/s112f4.aup
+x aup/cohort2/s112fssc/s112fssc.aup
+x aup/cohort2/s112fssc/s112fssc2.aup
+x aup/cohort2/s112fssc/s112fssc3.aup
+x aup/cohort2/s112f/s112f5.aup
+x aup/cohort2/s111fsci/s111f4.aup
+x aup/cohort2/s111fsci/s111fsci.aup
+x aup/cohort2/s111fsci/s111fsci2.aup
+x aup/cohort2/s111fsci/s111fsci3.aup
+x aup/cohort2/s111f/s111f4.aup
+x aup/cohort2/s111f/s111f5.aup
+x aup/cohort2/s110fexc/s110fexc.aup
+x aup/cohort2/s109fsci/s109fsci2.aup
+x aup/cohort2/s109fsci/s109fsci3.aup
+x aup/cohort2/s109f/s109f4.aup
+x aup/cohort2/s109f/s109f5.aup
+x aup/cohort2/s108mssc/s108mssc1.aup
+x aup/cohort2/s108mssc/s108mssc2.aup
+x aup/cohort2/s108mssc/s108mssc3.aup
+x aup/cohort2/s108m/s108m5.aup
+x aup/cohort2/s107fssc/s107fssc1.aup
+x aup/cohort2/s107fssc/s107fssc2.aup
+x aup/cohort2/s107fssc/s107fssc3.aup
+x aup/cohort2/s107f/s107f4.aup
+x aup/cohort2/s107f/s107f5.aup
+x aup/cohort2/s106fsci/s106fsci1.aup
+x aup/cohort2/s106fsci/s106fsci2.aup
+x aup/cohort2/s106f/s106f4.aup
+x aup/cohort2/s106f/s106f5.aup
+x aup/cohort2/s105munk/s105munk1.aup
+x aup/cohort2/s104fssc/s104f4.aup
+x aup/cohort2/s104fssc/s104fssc1.aup
+x aup/cohort2/s104fssc/s104fssc2.aup
+x aup/cohort2/s104fssc/s104fssc3.aup
+x aup/cohort2/s104f/s104f4.aup
+x aup/cohort2/s103funk/s103funk1.aup
+x aup/cohort2/s103funk/s103funk2.aup
+x aup/cohort2/s103funk/s103funk3.aup
+x aup/cohort2/s103f/s103f4.aup
+x aup/cohort2/s103f/s103f5.aup
+x aup/cohort2/s102mint/s091mint.aup
+x aup/cohort2/s102mint/s091mint2.aup
+x aup/cohort2/s102m/s102m1.aup
+x aup/cohort2/s102m/s102m2.aup
+x aup/cohort2/s101fssc/s090fssc.aup
+x aup/cohort2/s101f/s101f1.aup
+x aup/cohort1.5/s088fssc/
+x aup/cohort1.5/s088fssc/s088fssc.aup
+x aup/cohort1.5/s088fssc/s088fssc3.aup
+x aup/cohort1.5/s088fssc/s088fssc4.aup
+x aup/cohort1/s001f/
+x aup/cohort1/s001fssc/
+x aup/cohort1/s002m/
+x aup/cohort1/s002msci/
+x aup/cohort1/s003f/
+x aup/cohort1/s003fint/
+x aup/cohort1/s004fsci/
+x aup/cohort1/s005f/
+x aup/cohort1/s005fsci/
+x aup/cohort1/s006m/
+x aup/cohort1/s006mssc/
+x aup/cohort1/s007f/
+x aup/cohort1/s007fsci/
+x aup/cohort1/s008f/
+x aup/cohort1/s008fsci/
+x aup/cohort1/s009f/
+x aup/cohort1/s009fint/
+x aup/cohort1/s010f/
+x aup/cohort1/s010fint/
+x aup/cohort1/s011m/
+x aup/cohort1/s011mhum/
+x aup/cohort1/s012fssc/
+x aup/cohort1/s013m/
+x aup/cohort1/s013msci/
+x aup/cohort1/s014f/
+x aup/cohort1/s014fsci/
+x aup/cohort1/s015f/
+x aup/cohort1/s015fsci/
+x aup/cohort1/s016f/
+x aup/cohort1/s016fhum/
+x aup/cohort1/s017f/
+x aup/cohort1/s017fhum/
+x aup/cohort1/s018m/
+x aup/cohort1/s018mmed/
+x aup/cohort1/s019f/
+x aup/cohort1/s019fhum/
+x aup/cohort1/s020fsci/
+x aup/cohort1/s021m/
+x aup/cohort1/s021mssc/
+x aup/cohort1/s022fhum/
+x aup/cohort1/s023f/
+x aup/cohort1/s023fint/
+x aup/cohort1/s024f/
+x aup/cohort1/s024fsci/
+x aup/cohort1/s024sci/
+x aup/cohort1/s025f/
+x aup/cohort1/s025fhum/
+x aup/cohort1/s026f/
+x aup/cohort1/s026fint/
+x aup/cohort1/s027fssc/
+x aup/cohort1/s028f/
+x aup/cohort1/s028fint/
+x aup/cohort1/s029f/
+x aup/cohort1/s029fhum/
+x aup/cohort1/s030f/
+x aup/cohort1/s030fssc/
+x aup/cohort1/s031mssc/
+x aup/cohort1/s032fssc/
+x aup/cohort1/s033fhum/
+x aup/cohort1/s034fsci/
+x aup/cohort1/s035f/
+x aup/cohort1/s035fssc/
+x aup/cohort1/s036fsci/
+x aup/cohort1/s037f/
+x aup/cohort1/s037funk/
+x aup/cohort1/s038f/
+x aup/cohort1/s038fssc/
+x aup/cohort1/s039m/
+x aup/cohort1/s039mhum/
+x aup/cohort1/s040m/
+x aup/cohort1/s040msci/
+x aup/cohort1/s041f/
+x aup/cohort1/s041fsci/
+x aup/cohort1/s042m/
+x aup/cohort1/s042mhum/
+x aup/cohort1/s043m/
+x aup/cohort1/s043msci/
+x aup/cohort1/s044f/
+x aup/cohort1/s044fint/
+x aup/cohort1/s045f/
+x aup/cohort1/s045fint/
+x aup/cohort1/s046m/
+x aup/cohort1/s046mint/
+x aup/cohort1/s047f/
+x aup/cohort1/s047fint/
+x aup/cohort1/s048f/
+x aup/cohort1/s048fssc/
+x aup/cohort1/s049f/
+x aup/cohort1/s049fsci/
+x aup/cohort1/s050f/
+x aup/cohort1/s050fssc/
+x aup/cohort1/s051m/
+x aup/cohort1/s051mssc/
+x aup/cohort1/s052fhum/
+x aup/cohort1/s053f/
+x aup/cohort1/s053fhum/
+x aup/cohort1/s054m/
+x aup/cohort1/s054mssc/
+x aup/cohort1/s055msci/
+x aup/cohort1/s056fssc/
+x aup/cohort1/s057f/
+x aup/cohort1/s057fhum/
+x aup/cohort1/s058f/
+x aup/cohort1/s058fssc/
+x aup/cohort1/s059m/
+x aup/cohort1/s059mint/
+x aup/cohort1/s060m/
+x aup/cohort1/s060mint/
+x aup/cohort1/s061f/
+x aup/cohort1/s061fsci/
+x aup/cohort1/s062m/
+x aup/cohort1/s062mssc/
+x aup/cohort1/s063m/
+x aup/cohort1/s063mint/
+x aup/cohort1/s064m/
+x aup/cohort1/s064mssc/
+x aup/cohort1/s065f/
+x aup/cohort1/s065fsci/
+x aup/cohort1/s066m/
+x aup/cohort1/s066munk/
+x aup/cohort1/s067fint/
+x aup/cohort1/s068fsci/
+x aup/cohort1/s069f/
+x aup/cohort1/s069fssc/
+x aup/cohort1/s070f/
+x aup/cohort1/s070fssc/
+x aup/cohort1/s071f/
+x aup/cohort1/s071fssc/
+x aup/cohort1/s072f/
+x aup/cohort1/s072fsci/
+x aup/cohort1/s073m/
+x aup/cohort1/s073mhum/
+x aup/cohort1/s089f/
+x aup/cohort1/s089fssc/
+x aup/cohort1/s089fssc/s089fssc2.aup
+x aup/cohort1/s089fssc/s089fssc4.aup
+x aup/cohort1/s089f/s089f5.aup
+x aup/cohort1/s073mhum/s073mhum.aup
+x aup/cohort1/s073mhum/s073mhum2.aup
+x aup/cohort1/s073mhum/s073mhum3.aup
+x aup/cohort1/s073mhum/s073mhum4.aup
+x aup/cohort1/s073m/s073m5.aup
+x aup/cohort1/s072fsci/s072fsci.aup
+x aup/cohort1/s072fsci/s072fsci2.aup
+x aup/cohort1/s072fsci/s072fsci3.aup
+x aup/cohort1/s072fsci/s072fsci4.aup
+x aup/cohort1/s072f/s072f5.aup
+x aup/cohort1/s071fssc/s071fssc.aup
+x aup/cohort1/s071fssc/s071fssc2.aup
+x aup/cohort1/s071fssc/s071fssc3.aup
+x aup/cohort1/s071fssc/s071ssc2.aup
+x aup/cohort1/s071f/s071f5.aup
+x aup/cohort1/s070fssc/s070fssc.aup
+x aup/cohort1/s070fssc/s070fssc2.aup
+x aup/cohort1/s070fssc/s070fssc3.aup
+x aup/cohort1/s070fssc/s070fssc4.aup
+x aup/cohort1/s070f/s070f5.aup
+x aup/cohort1/s069fssc/s069fssc.aup
+x aup/cohort1/s069f/s069f5.aup
+x aup/cohort1/s068fsci/s068fsci.aup
+x aup/cohort1/s068fsci/s068fsci2.aup
+x aup/cohort1/s067fint/s067fint.aup
+x aup/cohort1/s066munk/s066munk.aup
+x aup/cohort1/s066munk/s066munk2.aup
+x aup/cohort1/s066munk/s066munk3.aup
+x aup/cohort1/s066munk/s066munk4.aup
+x aup/cohort1/s066munk/s066munk4_part2.aup
+x aup/cohort1/s066m/s066m4_part2.aup
+x aup/cohort1/s066m/s066m5.aup
+x aup/cohort1/s065fsci/s065fsci.aup
+x aup/cohort1/s065fsci/s065fsci2.aup
+x aup/cohort1/s065fsci/s065fsci3.aup
+x aup/cohort1/s065fsci/s065fsci4.aup
+x aup/cohort1/s065f/s065f5.aup
+x aup/cohort1/s064mssc/s064mssc.aup
+x aup/cohort1/s064mssc/s064mssc2.aup
+x aup/cohort1/s064mssc/s064mssc3.aup
+x aup/cohort1/s064mssc/s064mssc4.aup
+x aup/cohort1/s064m/s064m5.aup
+x aup/cohort1/s063mint/s063mint.aup
+x aup/cohort1/s063mint/s063mint2.aup
+x aup/cohort1/s063mint/s063mint3.aup
+x aup/cohort1/s063mint/s063mint4.aup
+x aup/cohort1/s063m/s063m5.aup
+x aup/cohort1/s062mssc/s062mssc.aup
+x aup/cohort1/s062mssc/s062mssc2.aup
+x aup/cohort1/s062mssc/s062mssc3.aup
+x aup/cohort1/s062mssc/s062mssc4.aup
+x aup/cohort1/s062m/s062m5.aup
+x aup/cohort1/s061fsci/s061fsci.aup
+x aup/cohort1/s061fsci/s061fsci2.aup
+x aup/cohort1/s061fsci/s061fsci3.aup
+x aup/cohort1/s061fsci/s061fsci4.aup
+x aup/cohort1/s061f/s061f5.aup
+x aup/cohort1/s060mint/s060mint.aup
+x aup/cohort1/s060mint/s060mint2.aup
+x aup/cohort1/s060mint/s060mint3.aup
+x aup/cohort1/s060mint/s060mint4.aup
+x aup/cohort1/s060m/s060m5.aup
+x aup/cohort1/s059mint/s059mint.aup
+x aup/cohort1/s059mint/s059mint2.aup
+x aup/cohort1/s059mint/s059mint3.aup
+x aup/cohort1/s059mint/s059mint4.aup
+x aup/cohort1/s059m/s059m5.aup
+x aup/cohort1/s058fssc/s058fssc.aup
+x aup/cohort1/s058fssc/s058fssc2.aup
+x aup/cohort1/s058fssc/s058fssc3.aup
+x aup/cohort1/s058f/s058f5.aup
+x aup/cohort1/s057fhum/s057fhum.aup
+x aup/cohort1/s057fhum/s057fhum2.aup
+x aup/cohort1/s057fhum/s057fhum3.aup
+x aup/cohort1/s057fhum/s057fhum4.aup
+x aup/cohort1/s057f/s057f5.aup
+x aup/cohort1/s056fssc/s056fssc.aup
+x aup/cohort1/s056fssc/s056fssc2.aup
+x aup/cohort1/s055msci/s055msci.aup
+x aup/cohort1/s055msci/s055msci2.aup
+x aup/cohort1/s054mssc/s054mssc.aup
+x aup/cohort1/s054mssc/s054mssc2.aup
+x aup/cohort1/s054mssc/s054mssc3.aup
+x aup/cohort1/s054mssc/s054mssc4.aup
+x aup/cohort1/s054m/s054m5.aup
+x aup/cohort1/s053fhum/s053fhum.aup
+x aup/cohort1/s053fhum/s053fhum2.aup
+x aup/cohort1/s053fhum/s053fhum3.aup
+x aup/cohort1/s053fhum/s053fhum4.aup
+x aup/cohort1/s053f/s053f5.aup
+x aup/cohort1/s052fhum/s052fhum.aup
+x aup/cohort1/s052fhum/s052fhum2.aup
+x aup/cohort1/s052fhum/s052fhum3.aup
+x aup/cohort1/s052fhum/s052fhum4.aup
+x aup/cohort1/s051mssc/s051mssc.aup
+x aup/cohort1/s051mssc/s051mssc2.aup
+x aup/cohort1/s051mssc/s051mssc3.aup
+x aup/cohort1/s051mssc/s051mssc4.aup
+x aup/cohort1/s051m/s051m5.aup
+x aup/cohort1/s050fssc/s050fssc.aup
+x aup/cohort1/s050fssc/s050fssc2.aup
+x aup/cohort1/s050fssc/s050fssc3.aup
+x aup/cohort1/s050f/s050f5.aup
+x aup/cohort1/s049fsci/s049fsci.aup
+x aup/cohort1/s049fsci/s049fsci2.aup
+x aup/cohort1/s049fsci/s049fsci3.aup
+x aup/cohort1/s049fsci/s049fsci4.aup
+x aup/cohort1/s049fsci/s049fsci4_HumanRightsText.aup
+x aup/cohort1/s049f/s049f4_HumanRightsText.aup
+x aup/cohort1/s049f/s049f5.aup
+x aup/cohort1/s048fssc/s048fssc.aup
+x aup/cohort1/s048fssc/s048fssc2.aup
+x aup/cohort1/s048fssc/s048fssc3.aup
+x aup/cohort1/s048fssc/s048fssc4.aup
+x aup/cohort1/s048f/s048f5.aup
+x aup/cohort1/s047fint/s047fint.aup
+x aup/cohort1/s047fint/s047fint2.aup
+x aup/cohort1/s047fint/s047fint3.aup
+x aup/cohort1/s047fint/s047fint4.aup
+x aup/cohort1/s047f/s047f5.aup
+x aup/cohort1/s046mint/s046mint.aup
+x aup/cohort1/s046mint/s046mint2.aup
+x aup/cohort1/s046mint/s046mint3.aup
+x aup/cohort1/s046mint/s046mint4.aup
+x aup/cohort1/s046m/s046m5.aup
+x aup/cohort1/s045fint/s045fint.aup
+x aup/cohort1/s045fint/s045fint2.aup
+x aup/cohort1/s045fint/s045fint3.aup
+x aup/cohort1/s045fint/s045fint4.aup
+x aup/cohort1/s045f/s045f5.aup
+x aup/cohort1/s044fint/s044fint.aup
+x aup/cohort1/s044fint/s044fint2.aup
+x aup/cohort1/s044fint/s044fint4.aup
+x aup/cohort1/s044f/s044f5.aup
+x aup/cohort1/s043msci/s043msci.aup
+x aup/cohort1/s043msci/s043msci2.aup
+x aup/cohort1/s043msci/s043msci3.aup
+x aup/cohort1/s043msci/s043msci4.aup
+x aup/cohort1/s043m/s043m5.aup
+x aup/cohort1/s042mhum/s042mhum.aup
+x aup/cohort1/s042mhum/s042mhum2.aup
+x aup/cohort1/s042mhum/s042mhum3.aup
+x aup/cohort1/s042mhum/s042mhum4.aup
+x aup/cohort1/s042m/s042m5.aup
+x aup/cohort1/s041fsci/s041fsci.aup
+x aup/cohort1/s041fsci/s041fsci2.aup
+x aup/cohort1/s041fsci/s041fsci3.aup
+x aup/cohort1/s041f/s041f5.aup
+x aup/cohort1/s040msci/s040msci.aup
+x aup/cohort1/s040m/s040m5.aup
+x aup/cohort1/s039mhum/s039mhum.aup
+x aup/cohort1/s039mhum/s039mhum2.aup
+x aup/cohort1/s039mhum/s039mhum3.aup
+x aup/cohort1/s039mhum/s039mhum4.aup
+x aup/cohort1/s039m/s039m5.aup
+x aup/cohort1/s038fssc/s038fssc.aup
+x aup/cohort1/s038fssc/s038fssc2.aup
+x aup/cohort1/s038fssc/s038fssc3.aup
+x aup/cohort1/s038fssc/s038fssc4.aup
+x aup/cohort1/s038f/s038f5.aup
+x aup/cohort1/s037funk/s037funk.aup
+x aup/cohort1/s037funk/s037funk2.aup
+x aup/cohort1/s037funk/s037funk3.aup
+x aup/cohort1/s037funk/s037funk4.aup
+x aup/cohort1/s037f/s037f5.aup
+x aup/cohort1/s036fsci/s036fsci.aup
+x aup/cohort1/s035fssc/s035fssc.aup
+x aup/cohort1/s035fssc/s035fssc2.aup
+x aup/cohort1/s035fssc/s035fssc3.aup
+x aup/cohort1/s035f/s035f5.aup
+x aup/cohort1/s034fsci/s034fsci.aup
+x aup/cohort1/s034fsci/s034fsci2.aup
+x aup/cohort1/s034fsci/s034fsci3.aup
+x aup/cohort1/s034fsci/s034fsci4.aup
+x aup/cohort1/s033fhum/s033fhum.aup
+x aup/cohort1/s032fssc/s032fssc.aup
+x aup/cohort1/s032fssc/s032fssc2.aup
+x aup/cohort1/s032fssc/s032fssc3.aup
+x aup/cohort1/s032fssc/s032fssc4.aup
+x aup/cohort1/s031mssc/s031mssc.aup
+x aup/cohort1/s030fssc/s030fssc.aup
+x aup/cohort1/s030fssc/s030fssc2.aup
+x aup/cohort1/s030f/s030f5.aup
+x aup/cohort1/s029fhum/s029fhum.aup
+x aup/cohort1/s029fhum/s029fhum2.aup
+x aup/cohort1/s029fhum/s029fhum3.aup
+x aup/cohort1/s029fhum/s029fhum4.aup
+x aup/cohort1/s029f/s029f5.aup
+x aup/cohort1/s028fint/s028fint.aup
+x aup/cohort1/s028fint/s028fint2.aup
+x aup/cohort1/s028fint/s028fint3.aup
+x aup/cohort1/s028fint/s028fint4.aup
+x aup/cohort1/s028f/s028f5.aup
+x aup/cohort1/s027fssc/s027fssc.aup
+x aup/cohort1/s027fssc/s027fssc2.aup
+x aup/cohort1/s027fssc/s027fssc3.aup
+x aup/cohort1/s026fint/s0262fint2.aup
+x aup/cohort1/s026fint/s026fint.aup
+x aup/cohort1/s026fint/s026fint2.aup
+x aup/cohort1/s026fint/s026fint3.aup
+x aup/cohort1/s026fint/s026fint4.aup
+x aup/cohort1/s026f/s026f5.aup
+x aup/cohort1/s025fhum/s025fhum.aup
+x aup/cohort1/s025fhum/s025fhum2.aup
+x aup/cohort1/s025fhum/s025fhum3.aup
+x aup/cohort1/s025fhum/s025fhum4.aup
+x aup/cohort1/s025f/s025f5.aup
+x aup/cohort1/s024sci/s024fsci.aup
+x aup/cohort1/s024sci/s024fsci2.aup
+x aup/cohort1/s024sci/s024fsci3.aup
+x aup/cohort1/s024sci/s024fsci4.aup
+x aup/cohort1/s024fsci/s024fsci.aup
+x aup/cohort1/s024fsci/s024fsci2.aup
+x aup/cohort1/s024fsci/s024fsci3.aup
+x aup/cohort1/s024fsci/s024fsci4.aup
+x aup/cohort1/s024f/s024f5.aup
+x aup/cohort1/s023fint/s023fint.aup
+x aup/cohort1/s023fint/s023fint2.aup
+x aup/cohort1/s023fint/s023fint3.aup
+x aup/cohort1/s023fint/s023fint4.aup
+x aup/cohort1/s023f/s023f5.aup
+x aup/cohort1/s022fhum/s022fhum.aup
+x aup/cohort1/s021mssc/s021mssc.aup
+x aup/cohort1/s021mssc/s021mssc2.aup
+x aup/cohort1/s021m/s021m5.aup
+x aup/cohort1/s020fsci/s020fsci.aup
+x aup/cohort1/s020fsci/s020fsci2.aup
+x aup/cohort1/s020fsci/s020fsci3.aup
+x aup/cohort1/s019fhum/s019fhum.aup
+x aup/cohort1/s019fhum/s019fhum3.aup
+x aup/cohort1/s019fhum/s019fhum4.aup
+x aup/cohort1/s019f/s019f5.aup
+x aup/cohort1/s018mmed/s018mmed.aup
+x aup/cohort1/s018m/s018m1.aup
+x aup/cohort1/s018m/s018m5.aup
+x aup/cohort1/s017fhum/s017fhum.aup
+x aup/cohort1/s017fhum/s017fhum2.aup
+x aup/cohort1/s017fhum/s017fhum3.aup
+x aup/cohort1/s017fhum/s017fhum4.aup
+x aup/cohort1/s017f/s017f5.aup
+x aup/cohort1/s016fhum/s016fhum.aup
+x aup/cohort1/s016fhum/s016fhum2.aup
+x aup/cohort1/s016fhum/s016fhum3.aup
+x aup/cohort1/s016fhum/s016fhum4.aup
+x aup/cohort1/s016f/s016f5.aup
+x aup/cohort1/s015fsci/s015fsci.aup
+x aup/cohort1/s015fsci/s015fsci2.aup
+x aup/cohort1/s015fsci/s015fsci3.aup
+x aup/cohort1/s015fsci/s015fsci4.aup
+x aup/cohort1/s015f/s015f5.aup
+x aup/cohort1/s014fsci/s014fsci.aup
+x aup/cohort1/s014fsci/s014fsci2.aup
+x aup/cohort1/s014fsci/s014fsci3.aup
+x aup/cohort1/s014fsci/s014fsci4.aup
+x aup/cohort1/s014f/s014f5.aup
+x aup/cohort1/s013msci/s013msci.aup
+x aup/cohort1/s013msci/s013msci2.aup
+x aup/cohort1/s013msci/s013msci3.aup
+x aup/cohort1/s013msci/s013msci4.aup
+x aup/cohort1/s013m/s013m5.aup
+x aup/cohort1/s012fssc/s012fssc.aup
+x aup/cohort1/s012fssc/s012fssc2.aup
+x aup/cohort1/s012fssc/s012fssc3.aup
+x aup/cohort1/s011mhum/s011mhum.aup
+x aup/cohort1/s011mhum/s011mhum2.aup
+x aup/cohort1/s011mhum/s011mhum3.aup
+x aup/cohort1/s011mhum/s011mhum4.aup
+x aup/cohort1/s011m/s011m5.aup
+x aup/cohort1/s010fint/s010fint.aup
+x aup/cohort1/s010fint/s010fint2.aup
+x aup/cohort1/s010fint/s010fint3.aup
+x aup/cohort1/s010fint/s010fint4.aup
+x aup/cohort1/s010f/s010f5.aup
+x aup/cohort1/s009fint/s009fint.aup
+x aup/cohort1/s009fint/s009fint2.aup
+x aup/cohort1/s009fint/s009fint3.aup
+x aup/cohort1/s009fint/s009fint4.aup
+x aup/cohort1/s009f/s009f5.aup
+x aup/cohort1/s008fsci/s008fsci.aup
+x aup/cohort1/s008fsci/s008fsci2.aup
+x aup/cohort1/s008fsci/s008fsci3.aup
+x aup/cohort1/s008fsci/s008fsci4.aup
+x aup/cohort1/s008f/s008f5.aup
+x aup/cohort1/s007fsci/s007fsci.aup
+x aup/cohort1/s007fsci/s007fsci2.aup
+x aup/cohort1/s007fsci/s007fsci3.aup
+x aup/cohort1/s007fsci/s007fsci4.aup
+x aup/cohort1/s007f/s007f5.aup
+x aup/cohort1/s006mssc/s006mssc.aup
+x aup/cohort1/s006mssc/s006mssc2.aup
+x aup/cohort1/s006m/s006m5.aup
+x aup/cohort1/s005fsci/s005fsci.aup
+x aup/cohort1/s005fsci/s005fsci2.aup
+x aup/cohort1/s005fsci/s005fsci3.aup
+x aup/cohort1/s005f/s005f5.aup
+x aup/cohort1/s004fsci/s004fsci.aup
+x aup/cohort1/s004fsci/s004fsci2.aup
+x aup/cohort1/s004fsci/s004fsci3.aup
+x aup/cohort1/s003fint/s003fint4.aup
+x aup/cohort1/s003f/s003f.aup
+x aup/cohort1/s003f/s003f1.aup
+x aup/cohort1/s003f/s003f2.aup
+x aup/cohort1/s003f/s003f3.aup
+x aup/cohort1/s003f/s003f5.aup
+x aup/cohort1/s002msci/s002msci.aup
+x aup/cohort1/s002msci/s002msci2.aup
+x aup/cohort1/s002msci/s002msci3.aup
+x aup/cohort1/s002msci/s002msci4.aup
+x aup/cohort1/s002m/s002m5.aup
+x aup/cohort1/s001fssc/s001fssc.aup
+x aup/cohort1/s001fssc/s001fssc2.aup
+x aup/cohort1/s001fssc/s001fssc3.aup
+x aup/cohort1/s001f/s001f1.aup
+x aup/cohort1/s001f/s001f2.aup
+x aup/cohort1/s001f/s001f5.aup
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup.tar.gz
+aup.tar.gz
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup.tar.gz*
+aup.tar.gz
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup.tar.gz*
+aup.tar.gz
+lauras-MacBook-Air-2:shell_magic lauramathieu$ man find
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup.tar.gz
+aup.tar.gz
+lauras-MacBook-Air-2:shell_magic lauramathieu$ 
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup
+aup
+aup/cohort2
+aup/cohort2/s128fsci
+aup/cohort2/s128fsci/s128fsci.aup
+aup/cohort2/s128fsci/s128fsci3.aup
+aup/cohort2/s128fsci/s128fsci2.aup
+aup/cohort2/s154m
+aup/cohort2/s154m/s154m5.aup
+aup/cohort2/s158f
+aup/cohort2/s158f/s158f5.aup
+aup/cohort2/s158f/s158f4.aup
+aup/cohort2/s111f
+aup/cohort2/s111f/s111f4.aup
+aup/cohort2/s111f/s111f5.aup
+aup/cohort2/s132m
+aup/cohort2/s132m/s132m4.aup
+aup/cohort2/s132m/s132m5.aup
+aup/cohort2/s177f
+aup/cohort2/s177f/s177f5.aup
+aup/cohort2/s177f/s177f4.aup
+aup/cohort2/s148fssc
+aup/cohort2/s148fssc/s148fssc2.aup
+aup/cohort2/s148fssc/s148fssc.aup
+aup/cohort2/s174fssc
+aup/cohort2/s174fssc/s174f4.aup
+aup/cohort2/s174fssc/s174fssc2.aup
+aup/cohort2/s174fssc/s174fssc3.aup
+aup/cohort2/s174fssc/s174fssc.aup
+aup/cohort2/s175fssc
+aup/cohort2/s175fssc/s175fssc2.aup
+aup/cohort2/s175fssc/s175fssc.aup
+aup/cohort2/s170funk
+aup/cohort2/s170funk/s170funk.aup
+aup/cohort2/s170funk/s170funk3.aup
+aup/cohort2/s158funk
+aup/cohort2/s158funk/s158funk3.aup
+aup/cohort2/s158funk/s158funk2.aup
+aup/cohort2/s158funk/s158funk.aup
+aup/cohort2/s138m
+aup/cohort2/s138m/s138m5.aup
+aup/cohort2/s138m/s138m4.aup
+aup/cohort2/s143fex
+aup/cohort2/s143fex/s143fex1.aup
+aup/cohort2/s171m
+aup/cohort2/s171m/s171m4.aup
+aup/cohort2/s171m/s171m5.aup
+aup/cohort2/s117m
+aup/cohort2/s117m/s117m5.aup
+aup/cohort2/s117m/s117m.aup
+aup/cohort2/s112f
+aup/cohort2/s112f/s112f5.aup
+aup/cohort2/s178m
+aup/cohort2/s178m/s178m4.aup
+aup/cohort2/s178m/s178m5.aup
+aup/cohort2/s171msci
+aup/cohort2/s171msci/s171msci.aup
+aup/cohort2/s171msci/s171msci3.aup
+aup/cohort2/s171msci/s171msci2.aup
+aup/cohort2/s174f
+aup/cohort2/s174f/s174f4.aup
+aup/cohort2/s174f/s174f5.aup
+aup/cohort2/s177fssc
+aup/cohort2/s177fssc/s177fssc2.aup
+aup/cohort2/s177fssc/s177fssc3.aup
+aup/cohort2/s177fssc/s177fssc.aup
+aup/cohort2/s163fssc
+aup/cohort2/s163fssc/s163fssc2.aup
+aup/cohort2/s163fssc/s163fssc3.aup
+aup/cohort2/s163fssc/s163fssc1.aup
+aup/cohort2/s164msci
+aup/cohort2/s164msci/s164msci1.aup
+aup/cohort2/s164msci/s164msci3.aup
+aup/cohort2/s164msci/s164msci2.aup
+aup/cohort2/s172m
+aup/cohort2/s172m/s172m5.aup
+aup/cohort2/s172m/s172m4.aup
+aup/cohort2/s151f
+aup/cohort2/s151f/s151f4.aup
+aup/cohort2/s169m
+aup/cohort2/s169m/s169m5.aup
+aup/cohort2/s106fsci
+aup/cohort2/s106fsci/s106fsci1.aup
+aup/cohort2/s106fsci/s106fsci2.aup
+aup/cohort2/s105munk
+aup/cohort2/s105munk/s105munk1.aup
+aup/cohort2/s124fint
+aup/cohort2/s124fint/s124fint3.aup
+aup/cohort2/s124fint/s124fint2.aup
+aup/cohort2/s124fint/s124fint.aup
+aup/cohort2/s103f
+aup/cohort2/s103f/s103f4.aup
+aup/cohort2/s103f/s103f5.aup
+aup/cohort2/s160msci
+aup/cohort2/s160msci/s160msci.aup
+aup/cohort2/s160msci/s160msci3.aup
+aup/cohort2/s160msci/s160msci2.aup
+aup/cohort2/s140f
+aup/cohort2/s140f/s140f4.aup
+aup/cohort2/s140f/s140f5.aup
+aup/cohort2/s167fssc
+aup/cohort2/s167fssc/s167fssc2.aup
+aup/cohort2/s167fssc/s167fssc3.aup
+aup/cohort2/s167fssc/s167fssc.aup
+aup/cohort2/s109f
+aup/cohort2/s109f/s109f5.aup
+aup/cohort2/s109f/s109f4.aup
+aup/cohort2/s125fint
+aup/cohort2/s125fint/s125fint3.aup
+aup/cohort2/s125fint/s125fint2.aup
+aup/cohort2/s125fint/s125fint.aup
+aup/cohort2/s138munk
+aup/cohort2/s138munk/s138mssc2.aup
+aup/cohort2/s138munk/s138mssc1.aup
+aup/cohort2/s138munk/s138m4.aup
+aup/cohort2/s113fsci
+aup/cohort2/s113fsci/s113fsci2.aup
+aup/cohort2/s113fsci/s113fsci3.aup
+aup/cohort2/s113fsci/s113fsci.aup
+aup/cohort2/s111fsci
+aup/cohort2/s111fsci/s111fsci.aup
+aup/cohort2/s111fsci/s111f4.aup
+aup/cohort2/s111fsci/s111fsci2.aup
+aup/cohort2/s111fsci/s111fsci3.aup
+aup/cohort2/s123m
+aup/cohort2/s123m/s123m5.aup
+aup/cohort2/s166f
+aup/cohort2/s166f/s166f4.aup
+aup/cohort2/s141mint
+aup/cohort2/s141mint/s141mint2.aup
+aup/cohort2/s141mint/s141mint3.aup
+aup/cohort2/s141mint/s141mint.aup
+aup/cohort2/s154mint
+aup/cohort2/s154mint/s154mint.aup
+aup/cohort2/s154mint/s154mint2.aup
+aup/cohort2/s154mint/s154mint3.aup
+aup/cohort2/s125f
+aup/cohort2/s125f/s125f4.aup
+aup/cohort2/s125f/s125f5.aup
+aup/cohort2/s160m
+aup/cohort2/s160m/s160m3.aup
+aup/cohort2/s160m/s160m5.aup
+aup/cohort2/s141m
+aup/cohort2/s141m/s141m4.aup
+aup/cohort2/s165mssc
+aup/cohort2/s165mssc/s165mssc1.aup
+aup/cohort2/s165mssc/s165mssc2.aup
+aup/cohort2/s108m
+aup/cohort2/s108m/s108m5.aup
+aup/cohort2/s104f
+aup/cohort2/s104f/s104f4.aup
+aup/cohort2/s127m
+aup/cohort2/s127m/s127m4.aup
+aup/cohort2/s127m/s127m5.aup
+aup/cohort2/s116fssc
+aup/cohort2/s116fssc/s116fssc3.aup
+aup/cohort2/s116fssc/s116fssc2.aup
+aup/cohort2/s116fssc/s116fssc.aup
+aup/cohort2/s121f
+aup/cohort2/s121f/s121f5.aup
+aup/cohort2/s168f
+aup/cohort2/s168f/s168f4.aup
+aup/cohort2/s168f/s168f5.aup
+aup/cohort2/s164m
+aup/cohort2/s164m/s164m5.aup
+aup/cohort2/s147f
+aup/cohort2/s147f/s147f4.aup
+aup/cohort2/s147f/s147f5.aup
+aup/cohort2/s102m
+aup/cohort2/s102m/s102m2.aup
+aup/cohort2/s102m/s102m1.aup
+aup/cohort2/s181f
+aup/cohort2/s181f/s181f4.aup
+aup/cohort2/s181f/s181f5.aup
+aup/cohort2/s107f
+aup/cohort2/s107f/s107f5.aup
+aup/cohort2/s107f/s107f4.aup
+aup/cohort2/s118mint
+aup/cohort2/s118mint/s118mint.aup
+aup/cohort2/s118mint/s118mint2.aup
+aup/cohort2/s118mint/s118mint3.aup
+aup/cohort2/s118mint/s118mint2a.aup
+aup/cohort2/s142fint
+aup/cohort2/s142fint/s142fint1.aup
+aup/cohort2/s142fint/s142fint2.aup
+aup/cohort2/s142fint/s142fint3.aup
+aup/cohort2/s161f
+aup/cohort2/s161f/s161f4.aup
+aup/cohort2/s161f/s161f5.aup
+aup/cohort2/s128f
+aup/cohort2/s128f/s128f5.aup
+aup/cohort2/s128f/s128f4.aup
+aup/cohort2/s101fssc
+aup/cohort2/s101fssc/s090fssc.aup
+aup/cohort2/s115fssc
+aup/cohort2/s115fssc/s115fssc3.aup
+aup/cohort2/s115fssc/s115fssc.aup
+aup/cohort2/s122f
+aup/cohort2/s122f/s122f1.aup
+aup/cohort2/s122f/s122f4.aup
+aup/cohort2/s122f/s122f5.aup
+aup/cohort2/s162munk
+aup/cohort2/s162munk/s162munk2.aup
+aup/cohort2/s162munk/s162munk3.aup
+aup/cohort2/s161fsci
+aup/cohort2/s161fsci/s161fsci1.aup
+aup/cohort2/s161fsci/s161fsci3.aup
+aup/cohort2/s161fsci/s161fsci2.aup
+aup/cohort2/s139f
+aup/cohort2/s139f/s139f4.aup
+aup/cohort2/s139f/s139f5.aup
+aup/cohort2/s170f
+aup/cohort2/s170f/s170f5.aup
+aup/cohort2/s170f/s170f4.aup
+aup/cohort2/s153fint
+aup/cohort2/s153fint/s153fint.aup
+aup/cohort2/s153fint/s153fint2-part2.aup
+aup/cohort2/s153fint/s153fint2.aup
+aup/cohort2/s153fint/s153fint3.aup
+aup/cohort2/s139fssc
+aup/cohort2/s139fssc/s139fssc1.aup
+aup/cohort2/s139fssc/s139fssc2.aup
+aup/cohort2/s139fssc/s139fssc3.aup
+aup/cohort2/s104fssc
+aup/cohort2/s104fssc/s104f4.aup
+aup/cohort2/s104fssc/s104fssc3.aup
+aup/cohort2/s104fssc/s104fssc2.aup
+aup/cohort2/s104fssc/s104fssc1.aup
+aup/cohort2/s155f
+aup/cohort2/s155f/s155f4.aup
+aup/cohort2/s155f/s155f5.aup
+aup/cohort2/s136m
+aup/cohort2/s136m/s136m5.aup
+aup/cohort2/s136m/s136m4.aup
+aup/cohort2/s173f
+aup/cohort2/s173f/s173f5.aup
+aup/cohort2/s115f
+aup/cohort2/s115f/s115f5.aup
+aup/cohort2/s115f/s115f4.aup
+aup/cohort2/s103funk
+aup/cohort2/s103funk/s103funk1.aup
+aup/cohort2/s103funk/s103funk3.aup
+aup/cohort2/s103funk/s103funk2.aup
+aup/cohort2/s112fssc
+aup/cohort2/s112fssc/s112f4.aup
+aup/cohort2/s112fssc/s112fssc.aup
+aup/cohort2/s112fssc/s112fssc3.aup
+aup/cohort2/s112fssc/s112fssc2.aup
+aup/cohort2/s107fssc
+aup/cohort2/s107fssc/s107fssc1.aup
+aup/cohort2/s107fssc/s107fssc3.aup
+aup/cohort2/s107fssc/s107fssc2.aup
+aup/cohort2/s179fint
+aup/cohort2/s179fint/s179fint3.aup
+aup/cohort2/s179fint/s179fint1.aup
+aup/cohort2/s156f
+aup/cohort2/s156f/s156f5.aup
+aup/cohort2/s156f/s156f4.aup
+aup/cohort2/s173fsci
+aup/cohort2/s173fsci/s173fsci.aup
+aup/cohort2/s173fsci/s173fsci2.aup
+aup/cohort2/s137m
+aup/cohort2/s137m/s137m5.aup
+aup/cohort2/s137m/s137m4.aup
+aup/cohort2/s114f
+aup/cohort2/s114f/s114f5.aup
+aup/cohort2/s118m
+aup/cohort2/s118m/s118m2a.aup
+aup/cohort2/s118m/s118m5.aup
+aup/cohort2/s118m/s118m4.aup
+aup/cohort2/s130msci
+aup/cohort2/s130msci/s130msci3.aup
+aup/cohort2/s130msci/s130msci2.aup
+aup/cohort2/s130msci/s130msci.aup
+aup/cohort2/s131f
+aup/cohort2/s131f/s131f4.aup
+aup/cohort2/s131f/s131f5.aup
+aup/cohort2/s181flaw
+aup/cohort2/s181flaw/s181flaw2.aup
+aup/cohort2/s181flaw/s181flaw3.aup
+aup/cohort2/s181flaw/s181flaw1.aup
+aup/cohort2/s134m
+aup/cohort2/s134m/s134m5.aup
+aup/cohort2/s155fsci
+aup/cohort2/s155fsci/s155fsci2.aup
+aup/cohort2/s155fsci/s155fsci3.aup
+aup/cohort2/s155fsci/s155fsci1.aup
+aup/cohort2/s135fssc
+aup/cohort2/s135fssc/s135fssc.aup
+aup/cohort2/s135fssc/s135fssc2.aup
+aup/cohort2/s135fssc/s135fssc3.aup
+aup/cohort2/s135fssc/rename
+aup/cohort2/s135fssc/rename/s135ssc2.aup
+aup/cohort2/s121fssc
+aup/cohort2/s121fssc/s121fssc2.aup
+aup/cohort2/s121fssc/s121fssc3.aup
+aup/cohort2/s121fssc/s121fssc.aup
+aup/cohort2/s120fssc
+aup/cohort2/s120fssc/s120fssc2.aup
+aup/cohort2/s120fssc/s120fssc3.aup
+aup/cohort2/s120fssc/s120fssc.aup
+aup/cohort2/s176fint
+aup/cohort2/s176fint/s176fint.aup
+aup/cohort2/s140fsci
+aup/cohort2/s140fsci/s140fsci2.aup
+aup/cohort2/s140fsci/s140fsci3.aup
+aup/cohort2/s140fsci/s140fsci.aup
+aup/cohort2/s168fsci
+aup/cohort2/s168fsci/s168f4.aup
+aup/cohort2/s168fsci/s168fsci.aup
+aup/cohort2/s168fsci/s168fsci3.aup
+aup/cohort2/s152mssc
+aup/cohort2/s152mssc/s152mssc.aup
+aup/cohort2/s106f
+aup/cohort2/s106f/s106f5.aup
+aup/cohort2/s106f/s106f4.aup
+aup/cohort2/s114fhum
+aup/cohort2/s114fhum/s114fhum.aup
+aup/cohort2/s114fhum/s114fhum3.aup
+aup/cohort2/s110fexc
+aup/cohort2/s110fexc/s110fexc.aup
+aup/cohort2/s166fint
+aup/cohort2/s166fint/s166fint.aup
+aup/cohort2/s166fint/s166fint3.aup
+aup/cohort2/s166fint/s166fint2.aup
+aup/cohort2/s166fint/renamed
+aup/cohort2/s166fint/renamed/s166fssc3.aup
+aup/cohort2/s136msci
+aup/cohort2/s136msci/s136msci3.aup
+aup/cohort2/s136msci/s136msci2.aup
+aup/cohort2/s136msci/s136mfsi.aup
+aup/cohort2/s119fssc
+aup/cohort2/s119fssc/s119fssc.aup
+aup/cohort2/s119fssc/s119fssc3.aup
+aup/cohort2/s119fssc/s119fssc2.aup
+aup/cohort2/s119fssc/s119fssc4.aup
+aup/cohort2/s131fssc
+aup/cohort2/s131fssc/s131fssc.aup
+aup/cohort2/s131fssc/s131fssc2.aup
+aup/cohort2/s131fssc/s131fssc3.aup
+aup/cohort2/s157mssc
+aup/cohort2/s157mssc/s157mssc2.aup
+aup/cohort2/s157mssc/s157mssc1.aup
+aup/cohort2/s151fsci
+aup/cohort2/s151fsci/s151fsci2.aup
+aup/cohort2/s151fsci/s151f4.aup
+aup/cohort2/s151fsci/s151fsci.aup
+aup/cohort2/s144flaw
+aup/cohort2/s144flaw/s144flaw2.aup
+aup/cohort2/s144flaw/s144flaw3.aup
+aup/cohort2/s144flaw/s144flaw1.aup
+aup/cohort2/s145f
+aup/cohort2/s145f/s145f5.aup
+aup/cohort2/s169mssc
+aup/cohort2/s169mssc/s169mssc2-part2.aup
+aup/cohort2/s169mssc/s169mssc2.aup
+aup/cohort2/s169mssc/s169mssc3.aup
+aup/cohort2/s169mssc/s169mssc.aup
+aup/cohort2/s117mint
+aup/cohort2/s117mint/s117mint2.aup
+aup/cohort2/s117mint/s117mint3.aup
+aup/cohort2/s117mint/s117mint.aup
+aup/cohort2/s163f
+aup/cohort2/s163f/s163f5.aup
+aup/cohort2/s163f/s163f4.aup
+aup/cohort2/s122funk
+aup/cohort2/s122funk/s122f4.aup
+aup/cohort2/s122funk/s122funk1.aup
+aup/cohort2/s122funk/s122funk2.aup
+aup/cohort2/s122funk/s122funk3.aup
+aup/cohort2/s133fssc
+aup/cohort2/s133fssc/s133fssc.aup
+aup/cohort2/s120f
+aup/cohort2/s120f/s120f1.aup
+aup/cohort2/s102mint
+aup/cohort2/s102mint/s091mint2.aup
+aup/cohort2/s102mint/s091mint.aup
+aup/cohort2/s146fsci
+aup/cohort2/s146fsci/s146fsci.aup
+aup/cohort2/s180f
+aup/cohort2/s180f/s180f5.aup
+aup/cohort2/s109fsci
+aup/cohort2/s109fsci/s109fsci2.aup
+aup/cohort2/s109fsci/s109fsci3.aup
+aup/cohort2/s159fhum
+aup/cohort2/s159fhum/s159fhum.aup
+aup/cohort2/s167f
+aup/cohort2/s167f/s167f5.aup
+aup/cohort2/s101f
+aup/cohort2/s101f/s101f1.aup
+aup/cohort2/s142f
+aup/cohort2/s142f/s142f5.aup
+aup/cohort2/s142f/s142f4.aup
+aup/cohort2/s124f
+aup/cohort2/s124f/s124f5.aup
+aup/cohort2/s172mint
+aup/cohort2/s172mint/s172mint3.aup
+aup/cohort2/s172mint/s172mint.aup
+aup/cohort2/s172mint/s172mint2.aup
+aup/cohort2/s178msci
+aup/cohort2/s178msci/s178msci3.aup
+aup/cohort2/s178msci/s178msci2.aup
+aup/cohort2/s178msci/s178msci1.aup
+aup/cohort2/s156fssc
+aup/cohort2/s156fssc/s156f4.aup
+aup/cohort2/s156fssc/s156fssc1.aup
+aup/cohort2/s156fssc/s156fssc3.aup
+aup/cohort2/s156fssc/s156fssc2.aup
+aup/cohort2/s129mhum
+aup/cohort2/s129mhum/s129mhum2.aup
+aup/cohort2/s129mhum/s129mhum.aup
+aup/cohort2/s180fssc
+aup/cohort2/s180fssc/s180fssc3.aup
+aup/cohort2/s180fssc/s180fssc2.aup
+aup/cohort2/s180fssc/s180fssc1.aup
+aup/cohort2/s162m
+aup/cohort2/s162m/s162m4.aup
+aup/cohort2/s162m/s162m5.aup
+aup/cohort2/s130m
+aup/cohort2/s130m/s130m5.aup
+aup/cohort2/s130m/s130m4.aup
+aup/cohort2/s147fssc
+aup/cohort2/s147fssc/s147fssc.aup
+aup/cohort2/s147fssc/s147fssc3.aup
+aup/cohort2/s147fssc/s147fssc2.aup
+aup/cohort2/s134mssc
+aup/cohort2/s134mssc/s134mssc2.aup
+aup/cohort2/s134mssc/s134mssc3.aup
+aup/cohort2/s134mssc/s134mssc.aup
+aup/cohort2/s126fsci
+aup/cohort2/s126fsci/s126fsci3.aup
+aup/cohort2/s126fsci/s126fsci2.aup
+aup/cohort2/s126fsci/s126fsci4.aup
+aup/cohort2/s126fsci/s126fsci.aup
+aup/cohort2/s108mssc
+aup/cohort2/s108mssc/s108mssc3.aup
+aup/cohort2/s108mssc/s108mssc2.aup
+aup/cohort2/s108mssc/s108mssc1.aup
+aup/cohort2/s119f
+aup/cohort2/s119f/s119f5.aup
+aup/cohort2/s119f/s119f4_20130515.aup
+aup/cohort2/s127munk
+aup/cohort2/s127munk/s127munk2.aup
+aup/cohort2/s127munk/s127munk3.aup
+aup/cohort2/s127munk/s127munk.aup
+aup/cohort2/s145fssc
+aup/cohort2/s145fssc/s145fssc3.aup
+aup/cohort2/s145fssc/s145fssc2.aup
+aup/cohort2/s135f
+aup/cohort2/s135f/s135f5.aup
+aup/cohort2/s135f/s135f4.aup
+aup/cohort2/s132munk
+aup/cohort2/s132munk/s132munk.aup
+aup/cohort2/s132munk/s132munk2.aup
+aup/cohort2/s132munk/s132munk3.aup
+aup/cohort2/s137mssc
+aup/cohort2/s137mssc/s137mssc2.aup
+aup/cohort2/s137mssc/s137mssc3.aup
+aup/cohort2/s137mssc/s137mssc1.aup
+aup/cohort2/s153f
+aup/cohort2/s153f/s153f4.aup
+aup/cohort2/s153f/s153f5.aup
+aup/cohort2/s123mssc
+aup/cohort2/s123mssc/s123mssc2.aup
+aup/cohort2/s123mssc/s123mssc3.aup
+aup/cohort2/s149fhum
+aup/cohort2/s149fhum/s149fhum2.aup
+aup/cohort2/s149fhum/s149fhum3.aup
+aup/cohort2/s149fhum/s149fhum1.aup
+aup/cohort3
+aup/cohort3/s213f
+aup/cohort3/s213f/s213f4.aup
+aup/cohort3/s213f/s213f3.aup
+aup/cohort3/s213f/s213f2.aup
+aup/cohort3/s213funk
+aup/cohort3/s213funk/s213funk1.aup
+aup/cohort3/s236f
+aup/cohort3/s236f/s236f4.aup
+aup/cohort3/s236f/s236f5.aup
+aup/cohort3/s236f/s236f2.aup
+aup/cohort3/s236f/s236f3.aup
+aup/cohort3/s233fhum
+aup/cohort3/s233fhum/s233f2.aup
+aup/cohort3/s233fhum/s233fhum.aup
+aup/cohort3/s263fsci
+aup/cohort3/s263fsci/s263fsci.aup
+aup/cohort3/s265mssc
+aup/cohort3/s265mssc/s265mssc.aup
+aup/cohort3/s212funk
+aup/cohort3/s212funk/s212f2.aup
+aup/cohort3/s212funk/s212funk.aup
+aup/cohort3/s269fint
+aup/cohort3/s269fint/s269fint.aup
+aup/cohort3/s269fint/s269f2.aup
+aup/cohort3/s219f
+aup/cohort3/s219f/s219f4.aup
+aup/cohort3/s219f/s219f5.aup
+aup/cohort3/s219f/s219f2.aup
+aup/cohort3/s219f/s219f3.aup
+aup/cohort3/s250f
+aup/cohort3/s250f/s250f3.aup
+aup/cohort3/s250f/s250f2.aup
+aup/cohort3/s250f/s250f5.aup
+aup/cohort3/s250f/s250f4a.aup
+aup/cohort3/s250f/s250f4b.aup
+aup/cohort3/s215m
+aup/cohort3/s215m/s215m4.aup
+aup/cohort3/s215m/s215m5.aup
+aup/cohort3/s215m/s215m2.aup
+aup/cohort3/s215m/s215m3.aup
+aup/cohort3/s204funk
+aup/cohort3/s204funk/s204funk1.aup
+aup/cohort3/s255m
+aup/cohort3/s255m/s255m3.aup
+aup/cohort3/s255m/s255m2.aup
+aup/cohort3/s255m/s255m5.aup
+aup/cohort3/s255m/s255m4.aup
+aup/cohort3/s201fssc
+aup/cohort3/s201fssc/s201fssc.aup
+aup/cohort3/s210f
+aup/cohort3/s210f/s210f4.aup
+aup/cohort3/s210f/s210f5.aup
+aup/cohort3/s210f/s210f2.aup
+aup/cohort3/s210f/s210f3.aup
+aup/cohort3/s224fhum
+aup/cohort3/s224fhum/s224fhum.aup
+aup/cohort3/s235f
+aup/cohort3/s235f/s235f5.aup
+aup/cohort3/s235f/s235f4.aup
+aup/cohort3/s235f/s235f3.aup
+aup/cohort3/s235f/s235f2.aup
+aup/cohort3/s206msci
+aup/cohort3/s206msci/s206msci.aup
+aup/cohort3/s253f
+aup/cohort3/s253f/s253f2.aup
+aup/cohort3/s253f/s253f3.aup
+aup/cohort3/s253f/s253f4.aup
+aup/cohort3/s253f/s253f5.aup
+aup/cohort3/s205funk
+aup/cohort3/s205funk/s205funk1.aup
+aup/cohort3/s238fssc
+aup/cohort3/s238fssc/s238fssc.aup
+aup/cohort3/s202msci
+aup/cohort3/s202msci/s202msci.aup
+aup/cohort3/s244m
+aup/cohort3/s244m/s244m2.aup
+aup/cohort3/s244m/s244m3.aup
+aup/cohort3/s244m/s244m4.aup
+aup/cohort3/s244m/s244m5.aup
+aup/cohort3/s201f
+aup/cohort3/s201f/s201f5.aup
+aup/cohort3/s201f/s201f4.aup
+aup/cohort3/s201f/s201f3.aup
+aup/cohort3/s201f/s201f2.aup
+aup/cohort3/s248f
+aup/cohort3/s248f/s248f2.aup
+aup/cohort3/s248f/s248f3.aup
+aup/cohort3/s248f/s248f4.aup
+aup/cohort3/s248f/s248f5.aup
+aup/cohort3/s258fsci
+aup/cohort3/s258fsci/s258fsci1.aup
+aup/cohort3/s267munk
+aup/cohort3/s267munk/s267m2.aup
+aup/cohort3/s267munk/s267munk.aup
+aup/cohort3/s209fhum
+aup/cohort3/s209fhum/s209fhum.aup
+aup/cohort3/s271fsci
+aup/cohort3/s271fsci/s271fsci.aup
+aup/cohort3/s242f
+aup/cohort3/s242f/s242f3.aup
+aup/cohort3/s242f/s242f2.aup
+aup/cohort3/s239fssc
+aup/cohort3/s239fssc/s239fssc.aup
+aup/cohort3/s211fssc
+aup/cohort3/s211fssc/s211fssc1.aup
+aup/cohort3/s214funk
+aup/cohort3/s214funk/s214funk1.aup
+aup/cohort3/s216funk
+aup/cohort3/s216funk/s216funk1.aup
+aup/cohort3/s266flaw
+aup/cohort3/s266flaw/s266flaw.aup
+aup/cohort3/s266flaw/s266f2.aup
+aup/cohort3/s237mint
+aup/cohort3/s237mint/s237m2.aup
+aup/cohort3/s237mint/s237mint1.aup
+aup/cohort3/s241f
+aup/cohort3/s241f/spare-second-version-r2
+aup/cohort3/s241f/spare-second-version-r2/s241f2.aup
+aup/cohort3/s241f/s241f2.aup
+aup/cohort3/s241f/s241f3.aup
+aup/cohort3/s241f/s241f4.aup
+aup/cohort3/s241f/s241f5.aup
+aup/cohort3/s208f
+aup/cohort3/s208f/s208f5.aup
+aup/cohort3/s208f/s208f4.aup
+aup/cohort3/s208f/s208f3.aup
+aup/cohort3/s208f/s208f2.aup
+aup/cohort3/s259mdou
+aup/cohort3/s259mdou/s259mdou.aup
+aup/cohort3/s243m
+aup/cohort3/s243m/s243m5.aup
+aup/cohort3/s243m/s243m2.aup
+aup/cohort3/s223fint
+aup/cohort3/s223fint/s223fint.aup
+aup/cohort3/s225m
+aup/cohort3/s225m/s255m5.aup
+aup/cohort3/s225m/s225m3.aup
+aup/cohort3/s225m/s225m2.aup
+aup/cohort3/s225m/s225m5.aup
+aup/cohort3/s225m/s225m4.aup
+aup/cohort3/s260f
+aup/cohort3/s260f/s260f4.aup
+aup/cohort3/s260f/s260f5.aup
+aup/cohort3/s223f
+aup/cohort3/s223f/s223f2.aup
+aup/cohort3/s223f/s223f3.aup
+aup/cohort3/s223f/s223f4.aup
+aup/cohort3/s223f/s223f5.aup
+aup/cohort3/s217munk
+aup/cohort3/s217munk/s217munk1.aup
+aup/cohort3/s217munk/s217m2.aup
+aup/cohort3/s228fsci
+aup/cohort3/s228fsci/s228f2.aup
+aup/cohort3/s228fsci/s228fsci1.aup
+aup/cohort3/s228fsci/s228fsci3.aup
+aup/cohort3/s248fssc
+aup/cohort3/s248fssc/s248fssc1.aup
+aup/cohort3/s245f
+aup/cohort3/s245f/s245f5.aup
+aup/cohort3/s245f/s245f4.aup
+aup/cohort3/s245f/s245f3.aup
+aup/cohort3/s245f/s245f2.aup
+aup/cohort3/s205f
+aup/cohort3/s205f/s250f5.aup
+aup/cohort3/s205f/s205f2.aup
+aup/cohort3/s205f/s205f3.aup
+aup/cohort3/s205f/s205f4.aup
+aup/cohort3/s205f/s205f5.aup
+aup/cohort3/s264msci
+aup/cohort3/s264msci/s264msci.aup
+aup/cohort3/s263f
+aup/cohort3/s263f/s263f5.aup
+aup/cohort3/s263f/s263f4.aup
+aup/cohort3/s220f
+aup/cohort3/s220f/s220f3.aup
+aup/cohort3/s220f/s220f2.aup
+aup/cohort3/s220f/s220f5.aup
+aup/cohort3/s220f/s220f4.aup
+aup/cohort3/s269f
+aup/cohort3/s269f/s269f4.aup
+aup/cohort3/s269f/s269f5.aup
+aup/cohort3/s269f/s269f2.aup
+aup/cohort3/s269f/s269f3.aup
+aup/cohort3/s265m
+aup/cohort3/s265m/s265m4.aup
+aup/cohort3/s265m/s265m2.aup
+aup/cohort3/s265m/s265m3.aup
+aup/cohort3/s246f
+aup/cohort3/s246f/s246f2.aup
+aup/cohort3/s262funk
+aup/cohort3/s262funk/s262funk.aup
+aup/cohort3/s237m
+aup/cohort3/s237m/s237m3.aup
+aup/cohort3/s237m/s237m2.aup
+aup/cohort3/s237m/s237m5.aup
+aup/cohort3/s237m/s237m4.aup
+aup/cohort3/s261msci
+aup/cohort3/s261msci/s261msci.aup
+aup/cohort3/s214f
+aup/cohort3/s214f/s214f1.aup
+aup/cohort3/s214f/s214f3.aup
+aup/cohort3/s214f/s214f2.aup
+aup/cohort3/s214f/s214f5.aup
+aup/cohort3/s214f/s214f4.aup
+aup/cohort3/s215mssc
+aup/cohort3/s215mssc/s215mssc.aup
+aup/cohort3/s257f
+aup/cohort3/s257f/s257f55.aup
+aup/cohort3/s257f/s257f5.aup
+aup/cohort3/s257f/s257f1.aup
+aup/cohort3/s257f/s257f2.aup
+aup/cohort3/s257f/s257f.aup
+aup/cohort3/s238f
+aup/cohort3/s238f/s238f2.aup
+aup/cohort3/s271f
+aup/cohort3/s271f/s271f5.aup
+aup/cohort3/s271f/s271f4.aup
+aup/cohort3/s271f/s271f3.aup
+aup/cohort3/s271f/s271f2.aup
+aup/cohort3/s249funk
+aup/cohort3/s249funk/s249f2.aup
+aup/cohort3/s249funk/s249funk.aup
+aup/cohort3/s270fssc
+aup/cohort3/s270fssc/s270fssc.aup
+aup/cohort3/s232f
+aup/cohort3/s232f/s232f3.aup
+aup/cohort3/s232f/s232f2.aup
+aup/cohort3/s270f
+aup/cohort3/s270f/s270f5.aup
+aup/cohort3/s270f/s270f4.aup
+aup/cohort3/s270f/s270f3.aup
+aup/cohort3/s216f
+aup/cohort3/s216f/s216f2.aup
+aup/cohort3/s216f/s216f3.aup
+aup/cohort3/s216f/s216f4.aup
+aup/cohort3/s216f/s216f5.aup
+aup/cohort3/s259m
+aup/cohort3/s259m/s259m4.aup
+aup/cohort3/s259m/s259m5.aup
+aup/cohort3/s259m/s259m2.aup
+aup/cohort3/s259m/s259m3.aup
+aup/cohort3/s241fssc
+aup/cohort3/s241fssc/s241fssc.aup
+aup/cohort3/s241fssc/s241f2.aup
+aup/cohort3/s203mhum
+aup/cohort3/s203mhum/s203mhum1.aup
+aup/cohort3/s250funk
+aup/cohort3/s250funk/s250funk.aup
+aup/cohort3/s233f
+aup/cohort3/s233f/s233f3.aup
+aup/cohort3/s233f/s233f5.aup
+aup/cohort3/s233f/s233f4.aup
+aup/cohort3/s273f
+aup/cohort3/s273f/s273f4.aup
+aup/cohort3/s273f/s273f5.aup
+aup/cohort3/s273f/s273f2.aup
+aup/cohort3/s273f/s273f3.aup
+aup/cohort3/s257fssc
+aup/cohort3/s257fssc/s257ssc1.aup
+aup/cohort3/s256f
+aup/cohort3/s256f/s256f5.aup
+aup/cohort3/s256f/s256f4.aup
+aup/cohort3/s256f/s256f3.aup
+aup/cohort3/s256f/s256f2.aup
+aup/cohort3/s256f/s256f4_formal_English.aup
+aup/cohort3/s256fssc
+aup/cohort3/s256fssc/s256fssc1.aup
+aup/cohort3/s210fint
+aup/cohort3/s210fint/s210fint1.aup
+aup/cohort3/s204f
+aup/cohort3/s204f/s204f2.aup
+aup/cohort3/s204f/s204f3.aup
+aup/cohort3/s204f/s204f4.aup
+aup/cohort3/s204f/s204f5.aup
+aup/cohort3/s246fssc
+aup/cohort3/s246fssc/s246fssc.aup
+aup/cohort3/s252fssc
+aup/cohort3/s252fssc/s252fssc1.aup
+aup/cohort3/s262f
+aup/cohort3/s262f/s262f5.aup
+aup/cohort3/s262f/s262f4.aup
+aup/cohort3/s262f/s262f3.aup
+aup/cohort3/s262f/s262f2.aup
+aup/cohort3/s226fsci
+aup/cohort3/s226fsci/s226fsci1.aup
+aup/cohort3/s226fsci/s226f2.aup
+aup/cohort3/s227fsci
+aup/cohort3/s227fsci/s227fsci1.aup
+aup/cohort3/s253fssc
+aup/cohort3/s253fssc/s253fssc.aup
+aup/cohort3/s247fssc
+aup/cohort3/s247fssc/s247fssc1.aup
+aup/cohort3/s202m
+aup/cohort3/s202m/s202m3.aup
+aup/cohort3/s202m/s202m2.aup
+aup/cohort3/s202m/s202m5.aup
+aup/cohort3/s202m/s202m4.aup
+aup/cohort3/s268fbio
+aup/cohort3/s268fbio/s268fbio.aup
+aup/cohort3/s242funk
+aup/cohort3/s242funk/s242funk1.aup
+aup/cohort3/s242funk/s242f2.aup
+aup/cohort3/s247f
+aup/cohort3/s247f/s247f4.aup
+aup/cohort3/s247f/s247f5.aup
+aup/cohort3/s247f/s247f2.aup
+aup/cohort3/s247f/s247f3.aup
+aup/cohort3/s207f
+aup/cohort3/s207f/s207f3.aup
+aup/cohort3/s207f/s207f2.aup
+aup/cohort3/s207f/s207f5.aup
+aup/cohort3/s207f/s207f4.aup
+aup/cohort3/s207fint
+aup/cohort3/s207fint/s207fint.aup
+aup/cohort3/s228f
+aup/cohort3/s228f/s228f3.aup
+aup/cohort3/s228f/s228f2.aup
+aup/cohort3/s228f/s228f5.aup
+aup/cohort3/s228f/s228f4.aup
+aup/cohort3/s219fsci
+aup/cohort3/s219fsci/s219fsci1.aup
+aup/cohort3/s219fsci/s219f2.aup
+aup/cohort3/s267m
+aup/cohort3/s267m/s267m5.aup
+aup/cohort3/s267m/s267m4.aup
+aup/cohort3/s267m/s267m3.aup
+aup/cohort3/s267m/s267m2.aup
+aup/cohort3/s274fhum
+aup/cohort3/s274fhum/s274fhum.aup
+aup/cohort3/s222f
+aup/cohort3/s222f/s222f2.aup
+aup/cohort3/s222f/s222f3.aup
+aup/cohort3/s222f/s222f4.aup
+aup/cohort3/s222f/s222f5.aup
+aup/cohort3/s232funk
+aup/cohort3/s232funk/s232funk.aup
+aup/cohort3/s225msci
+aup/cohort3/s225msci/s225msci1.aup
+aup/cohort3/s225msci/s225m2.aup
+aup/cohort3/s209f
+aup/cohort3/s209f/s209f5.aup
+aup/cohort3/s209f/s209f4.aup
+aup/cohort3/s209f/s209f3.aup
+aup/cohort3/s209f/s209f2.aup
+aup/cohort3/s240f
+aup/cohort3/s240f/s240f2.aup
+aup/cohort3/s240f/s240f3.aup
+aup/cohort3/s240f/s240f4.aup
+aup/cohort3/s240f/s240f5.aup
+aup/cohort3/s260fint
+aup/cohort3/s260fint/s260fint.aup
+aup/cohort3/s226f
+aup/cohort3/s226f/s226f5.aup
+aup/cohort3/s226f/s226f4.aup
+aup/cohort3/s226f/s226f3.aup
+aup/cohort3/s226f/s226f2.aup
+aup/cohort3/s266f
+aup/cohort3/s266f/s266f8.aup
+aup/cohort3/s266f/s266f2.aup
+aup/cohort3/s266f/s266f3.aup
+aup/cohort3/s208fssc
+aup/cohort3/s208fssc/s208fssc.aup
+aup/cohort3/s220fssc
+aup/cohort3/s220fssc/s220fssc1.aup
+aup/cohort3/s220fssc/s220f2.aup
+aup/cohort3/s249f
+aup/cohort3/s249f/s249f2.aup
+aup/cohort3/s249f/s249f3.aup
+aup/cohort3/s249f/s249f4.aup
+aup/cohort3/s249f/s249f5.aup
+aup/cohort3/s254fsci
+aup/cohort3/s254fsci/s254fsci.aup
+aup/cohort3/s240fsci
+aup/cohort3/s240fsci/s240fsci.aup
+aup/cohort3/s240fsci/s240f2.aup
+aup/cohort3/s243munk
+aup/cohort3/s243munk/s243munk-irish-uhdr.aup
+aup/cohort3/s243munk/s243munk1.aup
+aup/cohort3/s243munk/s243m2.aup
+aup/cohort3/s206m
+aup/cohort3/s206m/s206m4.aup
+aup/cohort3/s206m/s206m5.aup
+aup/cohort3/s206m/s206m2.aup
+aup/cohort3/s206m/s206m3.aup
+aup/cohort3/s229m
+aup/cohort3/s229m/s229m4.aup
+aup/cohort3/s229m/s229m5.aup
+aup/cohort3/s229m/s229m2.aup
+aup/cohort3/s229m/s229m3.aup
+aup/cohort3/s230funk
+aup/cohort3/s230funk/s230funk1.aup
+aup/cohort3/s211f
+aup/cohort3/s211f/s211f4.aup
+aup/cohort3/s211f/s211f5.aup
+aup/cohort3/s211f/s211f3.aup
+aup/cohort3/s273fint
+aup/cohort3/s273fint/s273f4.aup
+aup/cohort3/s273fint/s273fint1.aup
+aup/cohort3/s234funk
+aup/cohort3/s234funk/s234funk.aup
+aup/cohort3/s258f
+aup/cohort3/s258f/s257f5.aup
+aup/cohort3/s258f/s258f3.aup
+aup/cohort3/s258f/s258f2.aup
+aup/cohort3/s258f/s258f5.aup
+aup/cohort3/s258f/s258f4.aup
+aup/cohort3/s231fssc
+aup/cohort3/s231fssc/s231fssc.aup
+aup/cohort3/s245fsci
+aup/cohort3/s245fsci/s245fsci1.aup
+aup/cohort3/s245fsci/s245f2.aup
+aup/cohort3/s229mint
+aup/cohort3/s229mint/s229m2.aup
+aup/cohort3/s229mint/s229mint1.aup
+aup/cohort3/s234f
+aup/cohort3/s234f/s234f4.aup
+aup/cohort3/s234f/s234f3.aup
+aup/cohort3/s234f/s234f2.aup
+aup/cohort3/s221msoc
+aup/cohort3/s221msoc/s221msoc.aup
+aup/cohort3/s217m
+aup/cohort3/s217m/s217m4.aup
+aup/cohort3/s217m/s217m3.aup
+aup/cohort3/s217m/s217m2.aup
+aup/cohort3/s218fssc
+aup/cohort3/s218fssc/s218fssc1.aup
+aup/cohort3/s218fssc/s218f2.aup
+aup/cohort3/s252f
+aup/cohort3/s252f/s252f2.aup
+aup/cohort3/s252f/s252f3.aup
+aup/cohort3/s252f/s252f4.aup
+aup/cohort3/s252f/s252f5.aup
+aup/cohort3/s235funk
+aup/cohort3/s235funk/s235f4.aup
+aup/cohort3/s235funk/s235funk.aup
+aup/cohort3/s212f
+aup/cohort3/s212f/s212f5.aup
+aup/cohort3/s212f/s212f4.aup
+aup/cohort3/s212f/s212f3.aup
+aup/cohort3/s212f/s212f2.aup
+aup/cohort3/s274f
+aup/cohort3/s274f/s274f4.aup
+aup/cohort3/s244munk
+aup/cohort3/s244munk/s244munk1.aup
+aup/cohort3/s255mssc
+aup/cohort3/s255mssc/s255mssc1.aup
+aup/cohort3/s222funk
+aup/cohort3/s222funk/s222funk.aup
+aup/cohort3/s236funk
+aup/cohort3/s236funk/s236funk1.aup
+aup/cohort3/s218f
+aup/cohort3/s218f/s218f4.aup
+aup/cohort3/s218f/s218f5.aup
+aup/cohort3/s218f/s218f2.aup
+aup/.DS_Store
+aup/cohort1
+aup/cohort1/s042mhum
+aup/cohort1/s042mhum/s042mhum4.aup
+aup/cohort1/s042mhum/s042mhum2.aup
+aup/cohort1/s042mhum/s042mhum3.aup
+aup/cohort1/s042mhum/s042mhum.aup
+aup/cohort1/s049f
+aup/cohort1/s049f/s049f4_HumanRightsText.aup
+aup/cohort1/s049f/s049f5.aup
+aup/cohort1/s006m
+aup/cohort1/s006m/s006m5.aup
+aup/cohort1/s025fhum
+aup/cohort1/s025fhum/s025fhum3.aup
+aup/cohort1/s025fhum/s025fhum2.aup
+aup/cohort1/s025fhum/s025fhum4.aup
+aup/cohort1/s025fhum/s025fhum.aup
+aup/cohort1/s061fsci
+aup/cohort1/s061fsci/s061fsci.aup
+aup/cohort1/s061fsci/s061fsci4.aup
+aup/cohort1/s061fsci/s061fsci3.aup
+aup/cohort1/s061fsci/s061fsci2.aup
+aup/cohort1/s049fsci
+aup/cohort1/s049fsci/s049fsci2.aup
+aup/cohort1/s049fsci/s049fsci3.aup
+aup/cohort1/s049fsci/s049fsci4_HumanRightsText.aup
+aup/cohort1/s049fsci/s049fsci4.aup
+aup/cohort1/s049fsci/s049fsci.aup
+aup/cohort1/s019fhum
+aup/cohort1/s019fhum/s019fhum4.aup
+aup/cohort1/s019fhum/s019fhum3.aup
+aup/cohort1/s019fhum/s019fhum.aup
+aup/cohort1/s025f
+aup/cohort1/s025f/s025f5.aup
+aup/cohort1/s060m
+aup/cohort1/s060m/s060m5.aup
+aup/cohort1/s001fssc
+aup/cohort1/s001fssc/s001fssc.aup
+aup/cohort1/s001fssc/s001fssc3.aup
+aup/cohort1/s001fssc/s001fssc2.aup
+aup/cohort1/s013msci
+aup/cohort1/s013msci/s013msci2.aup
+aup/cohort1/s013msci/s013msci3.aup
+aup/cohort1/s013msci/s013msci4.aup
+aup/cohort1/s013msci/s013msci.aup
+aup/cohort1/s065f
+aup/cohort1/s065f/s065f5.aup
+aup/cohort1/s033fhum
+aup/cohort1/s033fhum/s033fhum.aup
+aup/cohort1/s046m
+aup/cohort1/s046m/s046m5.aup
+aup/cohort1/s003f
+aup/cohort1/s003f/s003f.aup
+aup/cohort1/s003f/s003f1.aup
+aup/cohort1/s003f/s003f2.aup
+aup/cohort1/s003f/s003f3.aup
+aup/cohort1/s003f/s003f5.aup
+aup/cohort1/s009f
+aup/cohort1/s009f/s009f5.aup
+aup/cohort1/s064mssc
+aup/cohort1/s064mssc/s064mssc2.aup
+aup/cohort1/s064mssc/s064mssc3.aup
+aup/cohort1/s064mssc/s064mssc4.aup
+aup/cohort1/s064mssc/s064mssc.aup
+aup/cohort1/s026f
+aup/cohort1/s026f/s026f5.aup
+aup/cohort1/s063m
+aup/cohort1/s063m/s063m5.aup
+aup/cohort1/s044fint
+aup/cohort1/s044fint/s044fint4.aup
+aup/cohort1/s044fint/s044fint2.aup
+aup/cohort1/s044fint/s044fint.aup
+aup/cohort1/s012fssc
+aup/cohort1/s012fssc/s012fssc3.aup
+aup/cohort1/s012fssc/s012fssc2.aup
+aup/cohort1/s012fssc/s012fssc.aup
+aup/cohort1/s072fsci
+aup/cohort1/s072fsci/s072fsci.aup
+aup/cohort1/s072fsci/s072fsci3.aup
+aup/cohort1/s072fsci/s072fsci2.aup
+aup/cohort1/s072fsci/s072fsci4.aup
+aup/cohort1/s022fhum
+aup/cohort1/s022fhum/s022fhum.aup
+aup/cohort1/s037f
+aup/cohort1/s037f/s037f5.aup
+aup/cohort1/s045fint
+aup/cohort1/s045fint/s045fint4.aup
+aup/cohort1/s045fint/s045fint2.aup
+aup/cohort1/s045fint/s045fint3.aup
+aup/cohort1/s045fint/s045fint.aup
+aup/cohort1/s047fint
+aup/cohort1/s047fint/s047fint.aup
+aup/cohort1/s047fint/s047fint2.aup
+aup/cohort1/s047fint/s047fint3.aup
+aup/cohort1/s047fint/s047fint4.aup
+aup/cohort1/s054m
+aup/cohort1/s054m/s054m5.aup
+aup/cohort1/s058f
+aup/cohort1/s058f/s058f5.aup
+aup/cohort1/s065fsci
+aup/cohort1/s065fsci/s065fsci4.aup
+aup/cohort1/s065fsci/s065fsci3.aup
+aup/cohort1/s065fsci/s065fsci2.aup
+aup/cohort1/s065fsci/s065fsci.aup
+aup/cohort1/s066munk
+aup/cohort1/s066munk/s066munk2.aup
+aup/cohort1/s066munk/s066munk3.aup
+aup/cohort1/s066munk/s066munk4.aup
+aup/cohort1/s066munk/s066munk.aup
+aup/cohort1/s066munk/s066munk4_part2.aup
+aup/cohort1/s062mssc
+aup/cohort1/s062mssc/s062mssc4.aup
+aup/cohort1/s062mssc/s062mssc2.aup
+aup/cohort1/s062mssc/s062mssc3.aup
+aup/cohort1/s062mssc/s062mssc.aup
+aup/cohort1/s038fssc
+aup/cohort1/s038fssc/s038fssc.aup
+aup/cohort1/s038fssc/s038fssc4.aup
+aup/cohort1/s038fssc/s038fssc2.aup
+aup/cohort1/s038fssc/s038fssc3.aup
+aup/cohort1/s002msci
+aup/cohort1/s002msci/s002msci2.aup
+aup/cohort1/s002msci/s002msci3.aup
+aup/cohort1/s002msci/s002msci4.aup
+aup/cohort1/s002msci/s002msci.aup
+aup/cohort1/s009fint
+aup/cohort1/s009fint/s009fint4.aup
+aup/cohort1/s009fint/s009fint.aup
+aup/cohort1/s009fint/s009fint2.aup
+aup/cohort1/s009fint/s009fint3.aup
+aup/cohort1/s053fhum
+aup/cohort1/s053fhum/s053fhum.aup
+aup/cohort1/s053fhum/s053fhum2.aup
+aup/cohort1/s053fhum/s053fhum3.aup
+aup/cohort1/s053fhum/s053fhum4.aup
+aup/cohort1/s015f
+aup/cohort1/s015f/s015f5.aup
+aup/cohort1/s046mint
+aup/cohort1/s046mint/s046mint.aup
+aup/cohort1/s046mint/s046mint4.aup
+aup/cohort1/s046mint/s046mint2.aup
+aup/cohort1/s046mint/s046mint3.aup
+aup/cohort1/s052fhum
+aup/cohort1/s052fhum/s052fhum.aup
+aup/cohort1/s052fhum/s052fhum2.aup
+aup/cohort1/s052fhum/s052fhum3.aup
+aup/cohort1/s052fhum/s052fhum4.aup
+aup/cohort1/s013m
+aup/cohort1/s013m/s013m5.aup
+aup/cohort1/s030f
+aup/cohort1/s030f/s030f5.aup
+aup/cohort1/s089fssc
+aup/cohort1/s089fssc/s089fssc2.aup
+aup/cohort1/s089fssc/s089fssc4.aup
+aup/cohort1/s048fssc
+aup/cohort1/s048fssc/s048fssc3.aup
+aup/cohort1/s048fssc/s048fssc2.aup
+aup/cohort1/s048fssc/s048fssc4.aup
+aup/cohort1/s048fssc/s048fssc.aup
+aup/cohort1/s070f
+aup/cohort1/s070f/s070f5.aup
+aup/cohort1/s006mssc
+aup/cohort1/s006mssc/s006mssc.aup
+aup/cohort1/s006mssc/s006mssc2.aup
+aup/cohort1/s014fsci
+aup/cohort1/s014fsci/s014fsci.aup
+aup/cohort1/s014fsci/s014fsci2.aup
+aup/cohort1/s014fsci/s014fsci3.aup
+aup/cohort1/s014fsci/s014fsci4.aup
+aup/cohort1/s016f
+aup/cohort1/s016f/s016f5.aup
+aup/cohort1/s059m
+aup/cohort1/s059m/s059m5.aup
+aup/cohort1/s015fsci
+aup/cohort1/s015fsci/s015fsci.aup
+aup/cohort1/s015fsci/s015fsci2.aup
+aup/cohort1/s015fsci/s015fsci3.aup
+aup/cohort1/s015fsci/s015fsci4.aup
+aup/cohort1/s023fint
+aup/cohort1/s023fint/s023fint.aup
+aup/cohort1/s023fint/s023fint4.aup
+aup/cohort1/s023fint/s023fint3.aup
+aup/cohort1/s023fint/s023fint2.aup
+aup/cohort1/s042m
+aup/cohort1/s042m/s042m5.aup
+aup/cohort1/s007f
+aup/cohort1/s007f/s007f5.aup
+aup/cohort1/s071fssc
+aup/cohort1/s071fssc/s071fssc.aup
+aup/cohort1/s071fssc/s071ssc2.aup
+aup/cohort1/s071fssc/s071fssc2.aup
+aup/cohort1/s071fssc/s071fssc3.aup
+aup/cohort1/s005fsci
+aup/cohort1/s005fsci/s005fsci2.aup
+aup/cohort1/s005fsci/s005fsci3.aup
+aup/cohort1/s005fsci/s005fsci.aup
+aup/cohort1/s061f
+aup/cohort1/s061f/s061f5.aup
+aup/cohort1/s028f
+aup/cohort1/s028f/s028f5.aup
+aup/cohort1/s004fsci
+aup/cohort1/s004fsci/s004fsci2.aup
+aup/cohort1/s004fsci/s004fsci3.aup
+aup/cohort1/s004fsci/s004fsci.aup
+aup/cohort1/s044f
+aup/cohort1/s044f/s044f5.aup
+aup/cohort1/s058fssc
+aup/cohort1/s058fssc/s058fssc3.aup
+aup/cohort1/s058fssc/s058fssc2.aup
+aup/cohort1/s058fssc/s058fssc.aup
+aup/cohort1/s070fssc
+aup/cohort1/s070fssc/s070fssc.aup
+aup/cohort1/s070fssc/s070fssc4.aup
+aup/cohort1/s070fssc/s070fssc2.aup
+aup/cohort1/s070fssc/s070fssc3.aup
+aup/cohort1/s026fint
+aup/cohort1/s026fint/s0262fint2.aup
+aup/cohort1/s026fint/s026fint4.aup
+aup/cohort1/s026fint/s026fint3.aup
+aup/cohort1/s026fint/s026fint2.aup
+aup/cohort1/s026fint/s026fint.aup
+aup/cohort1/s018mmed
+aup/cohort1/s018mmed/s018mmed.aup
+aup/cohort1/s064m
+aup/cohort1/s064m/s064m5.aup
+aup/cohort1/s057fhum
+aup/cohort1/s057fhum/s057fhum2.aup
+aup/cohort1/s057fhum/s057fhum3.aup
+aup/cohort1/s057fhum/s057fhum4.aup
+aup/cohort1/s057fhum/s057fhum.aup
+aup/cohort1/s007fsci
+aup/cohort1/s007fsci/s007fsci4.aup
+aup/cohort1/s007fsci/s007fsci2.aup
+aup/cohort1/s007fsci/s007fsci3.aup
+aup/cohort1/s007fsci/s007fsci.aup
+aup/cohort1/s047f
+aup/cohort1/s047f/s047f5.aup
+aup/cohort1/s002m
+aup/cohort1/s002m/s002m5.aup
+aup/cohort1/s028fint
+aup/cohort1/s028fint/s028fint4.aup
+aup/cohort1/s028fint/s028fint.aup
+aup/cohort1/s028fint/s028fint3.aup
+aup/cohort1/s028fint/s028fint2.aup
+aup/cohort1/s056fssc
+aup/cohort1/s056fssc/s056fssc2.aup
+aup/cohort1/s056fssc/s056fssc.aup
+aup/cohort1/s005f
+aup/cohort1/s005f/s005f5.aup
+aup/cohort1/s040m
+aup/cohort1/s040m/s040m5.aup
+aup/cohort1/s036fsci
+aup/cohort1/s036fsci/s036fsci.aup
+aup/cohort1/s069f
+aup/cohort1/s069f/s069f5.aup
+aup/cohort1/s024sci
+aup/cohort1/s024sci/s024fsci3.aup
+aup/cohort1/s024sci/s024fsci2.aup
+aup/cohort1/s024sci/s024fsci.aup
+aup/cohort1/s024sci/s024fsci4.aup
+aup/cohort1/s031mssc
+aup/cohort1/s031mssc/s031mssc.aup
+aup/cohort1/s003fint
+aup/cohort1/s003fint/s003fint4.aup
+aup/cohort1/s069fssc
+aup/cohort1/s069fssc/s069fssc.aup
+aup/cohort1/s043m
+aup/cohort1/s043m/s043m5.aup
+aup/cohort1/s089f
+aup/cohort1/s089f/s089f5.aup
+aup/cohort1/s059mint
+aup/cohort1/s059mint/s059mint4.aup
+aup/cohort1/s059mint/s059mint2.aup
+aup/cohort1/s059mint/s059mint3.aup
+aup/cohort1/s059mint/s059mint.aup
+aup/cohort1/s029f
+aup/cohort1/s029f/s029f5.aup
+aup/cohort1/s066m
+aup/cohort1/s066m/s066m4_part2.aup
+aup/cohort1/s066m/s066m5.aup
+aup/cohort1/s023f
+aup/cohort1/s023f/s023f5.aup
+aup/cohort1/s020fsci
+aup/cohort1/s020fsci/s020fsci3.aup
+aup/cohort1/s020fsci/s020fsci.aup
+aup/cohort1/s020fsci/s020fsci2.aup
+aup/cohort1/s034fsci
+aup/cohort1/s034fsci/s034fsci.aup
+aup/cohort1/s034fsci/s034fsci3.aup
+aup/cohort1/s034fsci/s034fsci2.aup
+aup/cohort1/s034fsci/s034fsci4.aup
+aup/cohort1/s008fsci
+aup/cohort1/s008fsci/s008fsci.aup
+aup/cohort1/s008fsci/s008fsci4.aup
+aup/cohort1/s008fsci/s008fsci2.aup
+aup/cohort1/s008fsci/s008fsci3.aup
+aup/cohort1/s045f
+aup/cohort1/s045f/s045f5.aup
+aup/cohort1/s071f
+aup/cohort1/s071f/s071f5.aup
+aup/cohort1/s038f
+aup/cohort1/s038f/s038f5.aup
+aup/cohort1/s050fssc
+aup/cohort1/s050fssc/s050fssc3.aup
+aup/cohort1/s050fssc/s050fssc2.aup
+aup/cohort1/s050fssc/s050fssc.aup
+aup/cohort1/s024fsci
+aup/cohort1/s024fsci/s024fsci3.aup
+aup/cohort1/s024fsci/s024fsci2.aup
+aup/cohort1/s024fsci/s024fsci.aup
+aup/cohort1/s024fsci/s024fsci4.aup
+aup/cohort1/s060mint
+aup/cohort1/s060mint/s060mint3.aup
+aup/cohort1/s060mint/s060mint2.aup
+aup/cohort1/s060mint/s060mint4.aup
+aup/cohort1/s060mint/s060mint.aup
+aup/cohort1/s017f
+aup/cohort1/s017f/s017f5.aup
+aup/cohort1/s011m
+aup/cohort1/s011m/s011m5.aup
+aup/cohort1/s043msci
+aup/cohort1/s043msci/s043msci4.aup
+aup/cohort1/s043msci/s043msci.aup
+aup/cohort1/s043msci/s043msci2.aup
+aup/cohort1/s043msci/s043msci3.aup
+aup/cohort1/s039mhum
+aup/cohort1/s039mhum/s039mhum.aup
+aup/cohort1/s039mhum/s039mhum3.aup
+aup/cohort1/s039mhum/s039mhum2.aup
+aup/cohort1/s039mhum/s039mhum4.aup
+aup/cohort1/s011mhum
+aup/cohort1/s011mhum/s011mhum.aup
+aup/cohort1/s011mhum/s011mhum4.aup
+aup/cohort1/s011mhum/s011mhum2.aup
+aup/cohort1/s011mhum/s011mhum3.aup
+aup/cohort1/s055msci
+aup/cohort1/s055msci/s055msci2.aup
+aup/cohort1/s055msci/s055msci.aup
+aup/cohort1/s072f
+aup/cohort1/s072f/s072f5.aup
+aup/cohort1/s014f
+aup/cohort1/s014f/s014f5.aup
+aup/cohort1/s021mssc
+aup/cohort1/s021mssc/s021mssc.aup
+aup/cohort1/s021mssc/s021mssc2.aup
+aup/cohort1/s051m
+aup/cohort1/s051m/s051m5.aup
+aup/cohort1/s063mint
+aup/cohort1/s063mint/s063mint.aup
+aup/cohort1/s063mint/s063mint4.aup
+aup/cohort1/s063mint/s063mint3.aup
+aup/cohort1/s063mint/s063mint2.aup
+aup/cohort1/s018m
+aup/cohort1/s018m/s018m5.aup
+aup/cohort1/s018m/s018m1.aup
+aup/cohort1/s057f
+aup/cohort1/s057f/s057f5.aup
+aup/cohort1/s040msci
+aup/cohort1/s040msci/s040msci.aup
+aup/cohort1/s010fint
+aup/cohort1/s010fint/s010fint2.aup
+aup/cohort1/s010fint/s010fint3.aup
+aup/cohort1/s010fint/s010fint4.aup
+aup/cohort1/s010fint/s010fint.aup
+aup/cohort1/s035fssc
+aup/cohort1/s035fssc/s035fssc.aup
+aup/cohort1/s035fssc/s035fssc2.aup
+aup/cohort1/s035fssc/s035fssc3.aup
+aup/cohort1/s010f
+aup/cohort1/s010f/s010f5.aup
+aup/cohort1/s041fsci
+aup/cohort1/s041fsci/s041fsci.aup
+aup/cohort1/s041fsci/s041fsci2.aup
+aup/cohort1/s041fsci/s041fsci3.aup
+aup/cohort1/s039m
+aup/cohort1/s039m/s039m5.aup
+aup/cohort1/s035f
+aup/cohort1/s035f/s035f5.aup
+aup/cohort1/s068fsci
+aup/cohort1/s068fsci/s068fsci.aup
+aup/cohort1/s068fsci/s068fsci2.aup
+aup/cohort1/s053f
+aup/cohort1/s053f/s053f5.aup
+aup/cohort1/s073m
+aup/cohort1/s073m/s073m5.aup
+aup/cohort1/s051mssc
+aup/cohort1/s051mssc/s051mssc3.aup
+aup/cohort1/s051mssc/s051mssc2.aup
+aup/cohort1/s051mssc/s051mssc4.aup
+aup/cohort1/s051mssc/s051mssc.aup
+aup/cohort1/s050f
+aup/cohort1/s050f/s050f5.aup
+aup/cohort1/s019f
+aup/cohort1/s019f/s019f5.aup
+aup/cohort1/s027fssc
+aup/cohort1/s027fssc/s027fssc.aup
+aup/cohort1/s027fssc/s027fssc2.aup
+aup/cohort1/s027fssc/s027fssc3.aup
+aup/cohort1/s021m
+aup/cohort1/s021m/s021m5.aup
+aup/cohort1/s017fhum
+aup/cohort1/s017fhum/s017fhum.aup
+aup/cohort1/s017fhum/s017fhum4.aup
+aup/cohort1/s017fhum/s017fhum2.aup
+aup/cohort1/s017fhum/s017fhum3.aup
+aup/cohort1/s008f
+aup/cohort1/s008f/s008f5.aup
+aup/cohort1/s041f
+aup/cohort1/s041f/s041f5.aup
+aup/cohort1/s054mssc
+aup/cohort1/s054mssc/s054mssc.aup
+aup/cohort1/s054mssc/s054mssc3.aup
+aup/cohort1/s054mssc/s054mssc2.aup
+aup/cohort1/s054mssc/s054mssc4.aup
+aup/cohort1/s016fhum
+aup/cohort1/s016fhum/s016fhum.aup
+aup/cohort1/s016fhum/s016fhum4.aup
+aup/cohort1/s016fhum/s016fhum2.aup
+aup/cohort1/s016fhum/s016fhum3.aup
+aup/cohort1/s062m
+aup/cohort1/s062m/s062m5.aup
+aup/cohort1/s032fssc
+aup/cohort1/s032fssc/s032fssc4.aup
+aup/cohort1/s032fssc/s032fssc.aup
+aup/cohort1/s032fssc/s032fssc2.aup
+aup/cohort1/s032fssc/s032fssc3.aup
+aup/cohort1/s037funk
+aup/cohort1/s037funk/s037funk.aup
+aup/cohort1/s037funk/s037funk2.aup
+aup/cohort1/s037funk/s037funk3.aup
+aup/cohort1/s037funk/s037funk4.aup
+aup/cohort1/s030fssc
+aup/cohort1/s030fssc/s030fssc2.aup
+aup/cohort1/s030fssc/s030fssc.aup
+aup/cohort1/s048f
+aup/cohort1/s048f/s048f5.aup
+aup/cohort1/s001f
+aup/cohort1/s001f/s001f2.aup
+aup/cohort1/s001f/s001f1.aup
+aup/cohort1/s001f/s001f5.aup
+aup/cohort1/s029fhum
+aup/cohort1/s029fhum/s029fhum.aup
+aup/cohort1/s029fhum/s029fhum4.aup
+aup/cohort1/s029fhum/s029fhum3.aup
+aup/cohort1/s029fhum/s029fhum2.aup
+aup/cohort1/s024f
+aup/cohort1/s024f/s024f5.aup
+aup/cohort1/s073mhum
+aup/cohort1/s073mhum/s073mhum4.aup
+aup/cohort1/s073mhum/s073mhum.aup
+aup/cohort1/s073mhum/s073mhum3.aup
+aup/cohort1/s073mhum/s073mhum2.aup
+aup/cohort1/s067fint
+aup/cohort1/s067fint/s067fint.aup
+aup/cohort1.5
+aup/cohort1.5/s088fssc
+aup/cohort1.5/s088fssc/s088fssc.aup
+aup/cohort1.5/s088fssc/s088fssc3.aup
+aup/cohort1.5/s088fssc/s088fssc4.aup
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find* aup
+-bash: find*: command not found
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find aup*
+aup
+aup/cohort2
+aup/cohort2/s128fsci
+aup/cohort2/s128fsci/s128fsci.aup
+aup/cohort2/s128fsci/s128fsci3.aup
+aup/cohort2/s128fsci/s128fsci2.aup
+aup/cohort2/s154m
+aup/cohort2/s154m/s154m5.aup
+aup/cohort2/s158f
+aup/cohort2/s158f/s158f5.aup
+aup/cohort2/s158f/s158f4.aup
+aup/cohort2/s111f
+aup/cohort2/s111f/s111f4.aup
+aup/cohort2/s111f/s111f5.aup
+aup/cohort2/s132m
+aup/cohort2/s132m/s132m4.aup
+aup/cohort2/s132m/s132m5.aup
+aup/cohort2/s177f
+aup/cohort2/s177f/s177f5.aup
+aup/cohort2/s177f/s177f4.aup
+aup/cohort2/s148fssc
+aup/cohort2/s148fssc/s148fssc2.aup
+aup/cohort2/s148fssc/s148fssc.aup
+aup/cohort2/s174fssc
+aup/cohort2/s174fssc/s174f4.aup
+aup/cohort2/s174fssc/s174fssc2.aup
+aup/cohort2/s174fssc/s174fssc3.aup
+aup/cohort2/s174fssc/s174fssc.aup
+aup/cohort2/s175fssc
+aup/cohort2/s175fssc/s175fssc2.aup
+aup/cohort2/s175fssc/s175fssc.aup
+aup/cohort2/s170funk
+aup/cohort2/s170funk/s170funk.aup
+aup/cohort2/s170funk/s170funk3.aup
+aup/cohort2/s158funk
+aup/cohort2/s158funk/s158funk3.aup
+aup/cohort2/s158funk/s158funk2.aup
+aup/cohort2/s158funk/s158funk.aup
+aup/cohort2/s138m
+aup/cohort2/s138m/s138m5.aup
+aup/cohort2/s138m/s138m4.aup
+aup/cohort2/s143fex
+aup/cohort2/s143fex/s143fex1.aup
+aup/cohort2/s171m
+aup/cohort2/s171m/s171m4.aup
+aup/cohort2/s171m/s171m5.aup
+aup/cohort2/s117m
+aup/cohort2/s117m/s117m5.aup
+aup/cohort2/s117m/s117m.aup
+aup/cohort2/s112f
+aup/cohort2/s112f/s112f5.aup
+aup/cohort2/s178m
+aup/cohort2/s178m/s178m4.aup
+aup/cohort2/s178m/s178m5.aup
+aup/cohort2/s171msci
+aup/cohort2/s171msci/s171msci.aup
+aup/cohort2/s171msci/s171msci3.aup
+aup/cohort2/s171msci/s171msci2.aup
+aup/cohort2/s174f
+aup/cohort2/s174f/s174f4.aup
+aup/cohort2/s174f/s174f5.aup
+aup/cohort2/s177fssc
+aup/cohort2/s177fssc/s177fssc2.aup
+aup/cohort2/s177fssc/s177fssc3.aup
+aup/cohort2/s177fssc/s177fssc.aup
+aup/cohort2/s163fssc
+aup/cohort2/s163fssc/s163fssc2.aup
+aup/cohort2/s163fssc/s163fssc3.aup
+aup/cohort2/s163fssc/s163fssc1.aup
+aup/cohort2/s164msci
+aup/cohort2/s164msci/s164msci1.aup
+aup/cohort2/s164msci/s164msci3.aup
+aup/cohort2/s164msci/s164msci2.aup
+aup/cohort2/s172m
+aup/cohort2/s172m/s172m5.aup
+aup/cohort2/s172m/s172m4.aup
+aup/cohort2/s151f
+aup/cohort2/s151f/s151f4.aup
+aup/cohort2/s169m
+aup/cohort2/s169m/s169m5.aup
+aup/cohort2/s106fsci
+aup/cohort2/s106fsci/s106fsci1.aup
+aup/cohort2/s106fsci/s106fsci2.aup
+aup/cohort2/s105munk
+aup/cohort2/s105munk/s105munk1.aup
+aup/cohort2/s124fint
+aup/cohort2/s124fint/s124fint3.aup
+aup/cohort2/s124fint/s124fint2.aup
+aup/cohort2/s124fint/s124fint.aup
+aup/cohort2/s103f
+aup/cohort2/s103f/s103f4.aup
+aup/cohort2/s103f/s103f5.aup
+aup/cohort2/s160msci
+aup/cohort2/s160msci/s160msci.aup
+aup/cohort2/s160msci/s160msci3.aup
+aup/cohort2/s160msci/s160msci2.aup
+aup/cohort2/s140f
+aup/cohort2/s140f/s140f4.aup
+aup/cohort2/s140f/s140f5.aup
+aup/cohort2/s167fssc
+aup/cohort2/s167fssc/s167fssc2.aup
+aup/cohort2/s167fssc/s167fssc3.aup
+aup/cohort2/s167fssc/s167fssc.aup
+aup/cohort2/s109f
+aup/cohort2/s109f/s109f5.aup
+aup/cohort2/s109f/s109f4.aup
+aup/cohort2/s125fint
+aup/cohort2/s125fint/s125fint3.aup
+aup/cohort2/s125fint/s125fint2.aup
+aup/cohort2/s125fint/s125fint.aup
+aup/cohort2/s138munk
+aup/cohort2/s138munk/s138mssc2.aup
+aup/cohort2/s138munk/s138mssc1.aup
+aup/cohort2/s138munk/s138m4.aup
+aup/cohort2/s113fsci
+aup/cohort2/s113fsci/s113fsci2.aup
+aup/cohort2/s113fsci/s113fsci3.aup
+aup/cohort2/s113fsci/s113fsci.aup
+aup/cohort2/s111fsci
+aup/cohort2/s111fsci/s111fsci.aup
+aup/cohort2/s111fsci/s111f4.aup
+aup/cohort2/s111fsci/s111fsci2.aup
+aup/cohort2/s111fsci/s111fsci3.aup
+aup/cohort2/s123m
+aup/cohort2/s123m/s123m5.aup
+aup/cohort2/s166f
+aup/cohort2/s166f/s166f4.aup
+aup/cohort2/s141mint
+aup/cohort2/s141mint/s141mint2.aup
+aup/cohort2/s141mint/s141mint3.aup
+aup/cohort2/s141mint/s141mint.aup
+aup/cohort2/s154mint
+aup/cohort2/s154mint/s154mint.aup
+aup/cohort2/s154mint/s154mint2.aup
+aup/cohort2/s154mint/s154mint3.aup
+aup/cohort2/s125f
+aup/cohort2/s125f/s125f4.aup
+aup/cohort2/s125f/s125f5.aup
+aup/cohort2/s160m
+aup/cohort2/s160m/s160m3.aup
+aup/cohort2/s160m/s160m5.aup
+aup/cohort2/s141m
+aup/cohort2/s141m/s141m4.aup
+aup/cohort2/s165mssc
+aup/cohort2/s165mssc/s165mssc1.aup
+aup/cohort2/s165mssc/s165mssc2.aup
+aup/cohort2/s108m
+aup/cohort2/s108m/s108m5.aup
+aup/cohort2/s104f
+aup/cohort2/s104f/s104f4.aup
+aup/cohort2/s127m
+aup/cohort2/s127m/s127m4.aup
+aup/cohort2/s127m/s127m5.aup
+aup/cohort2/s116fssc
+aup/cohort2/s116fssc/s116fssc3.aup
+aup/cohort2/s116fssc/s116fssc2.aup
+aup/cohort2/s116fssc/s116fssc.aup
+aup/cohort2/s121f
+aup/cohort2/s121f/s121f5.aup
+aup/cohort2/s168f
+aup/cohort2/s168f/s168f4.aup
+aup/cohort2/s168f/s168f5.aup
+aup/cohort2/s164m
+aup/cohort2/s164m/s164m5.aup
+aup/cohort2/s147f
+aup/cohort2/s147f/s147f4.aup
+aup/cohort2/s147f/s147f5.aup
+aup/cohort2/s102m
+aup/cohort2/s102m/s102m2.aup
+aup/cohort2/s102m/s102m1.aup
+aup/cohort2/s181f
+aup/cohort2/s181f/s181f4.aup
+aup/cohort2/s181f/s181f5.aup
+aup/cohort2/s107f
+aup/cohort2/s107f/s107f5.aup
+aup/cohort2/s107f/s107f4.aup
+aup/cohort2/s118mint
+aup/cohort2/s118mint/s118mint.aup
+aup/cohort2/s118mint/s118mint2.aup
+aup/cohort2/s118mint/s118mint3.aup
+aup/cohort2/s118mint/s118mint2a.aup
+aup/cohort2/s142fint
+aup/cohort2/s142fint/s142fint1.aup
+aup/cohort2/s142fint/s142fint2.aup
+aup/cohort2/s142fint/s142fint3.aup
+aup/cohort2/s161f
+aup/cohort2/s161f/s161f4.aup
+aup/cohort2/s161f/s161f5.aup
+aup/cohort2/s128f
+aup/cohort2/s128f/s128f5.aup
+aup/cohort2/s128f/s128f4.aup
+aup/cohort2/s101fssc
+aup/cohort2/s101fssc/s090fssc.aup
+aup/cohort2/s115fssc
+aup/cohort2/s115fssc/s115fssc3.aup
+aup/cohort2/s115fssc/s115fssc.aup
+aup/cohort2/s122f
+aup/cohort2/s122f/s122f1.aup
+aup/cohort2/s122f/s122f4.aup
+aup/cohort2/s122f/s122f5.aup
+aup/cohort2/s162munk
+aup/cohort2/s162munk/s162munk2.aup
+aup/cohort2/s162munk/s162munk3.aup
+aup/cohort2/s161fsci
+aup/cohort2/s161fsci/s161fsci1.aup
+aup/cohort2/s161fsci/s161fsci3.aup
+aup/cohort2/s161fsci/s161fsci2.aup
+aup/cohort2/s139f
+aup/cohort2/s139f/s139f4.aup
+aup/cohort2/s139f/s139f5.aup
+aup/cohort2/s170f
+aup/cohort2/s170f/s170f5.aup
+aup/cohort2/s170f/s170f4.aup
+aup/cohort2/s153fint
+aup/cohort2/s153fint/s153fint.aup
+aup/cohort2/s153fint/s153fint2-part2.aup
+aup/cohort2/s153fint/s153fint2.aup
+aup/cohort2/s153fint/s153fint3.aup
+aup/cohort2/s139fssc
+aup/cohort2/s139fssc/s139fssc1.aup
+aup/cohort2/s139fssc/s139fssc2.aup
+aup/cohort2/s139fssc/s139fssc3.aup
+aup/cohort2/s104fssc
+aup/cohort2/s104fssc/s104f4.aup
+aup/cohort2/s104fssc/s104fssc3.aup
+aup/cohort2/s104fssc/s104fssc2.aup
+aup/cohort2/s104fssc/s104fssc1.aup
+aup/cohort2/s155f
+aup/cohort2/s155f/s155f4.aup
+aup/cohort2/s155f/s155f5.aup
+aup/cohort2/s136m
+aup/cohort2/s136m/s136m5.aup
+aup/cohort2/s136m/s136m4.aup
+aup/cohort2/s173f
+aup/cohort2/s173f/s173f5.aup
+aup/cohort2/s115f
+aup/cohort2/s115f/s115f5.aup
+aup/cohort2/s115f/s115f4.aup
+aup/cohort2/s103funk
+aup/cohort2/s103funk/s103funk1.aup
+aup/cohort2/s103funk/s103funk3.aup
+aup/cohort2/s103funk/s103funk2.aup
+aup/cohort2/s112fssc
+aup/cohort2/s112fssc/s112f4.aup
+aup/cohort2/s112fssc/s112fssc.aup
+aup/cohort2/s112fssc/s112fssc3.aup
+aup/cohort2/s112fssc/s112fssc2.aup
+aup/cohort2/s107fssc
+aup/cohort2/s107fssc/s107fssc1.aup
+aup/cohort2/s107fssc/s107fssc3.aup
+aup/cohort2/s107fssc/s107fssc2.aup
+aup/cohort2/s179fint
+aup/cohort2/s179fint/s179fint3.aup
+aup/cohort2/s179fint/s179fint1.aup
+aup/cohort2/s156f
+aup/cohort2/s156f/s156f5.aup
+aup/cohort2/s156f/s156f4.aup
+aup/cohort2/s173fsci
+aup/cohort2/s173fsci/s173fsci.aup
+aup/cohort2/s173fsci/s173fsci2.aup
+aup/cohort2/s137m
+aup/cohort2/s137m/s137m5.aup
+aup/cohort2/s137m/s137m4.aup
+aup/cohort2/s114f
+aup/cohort2/s114f/s114f5.aup
+aup/cohort2/s118m
+aup/cohort2/s118m/s118m2a.aup
+aup/cohort2/s118m/s118m5.aup
+aup/cohort2/s118m/s118m4.aup
+aup/cohort2/s130msci
+aup/cohort2/s130msci/s130msci3.aup
+aup/cohort2/s130msci/s130msci2.aup
+aup/cohort2/s130msci/s130msci.aup
+aup/cohort2/s131f
+aup/cohort2/s131f/s131f4.aup
+aup/cohort2/s131f/s131f5.aup
+aup/cohort2/s181flaw
+aup/cohort2/s181flaw/s181flaw2.aup
+aup/cohort2/s181flaw/s181flaw3.aup
+aup/cohort2/s181flaw/s181flaw1.aup
+aup/cohort2/s134m
+aup/cohort2/s134m/s134m5.aup
+aup/cohort2/s155fsci
+aup/cohort2/s155fsci/s155fsci2.aup
+aup/cohort2/s155fsci/s155fsci3.aup
+aup/cohort2/s155fsci/s155fsci1.aup
+aup/cohort2/s135fssc
+aup/cohort2/s135fssc/s135fssc.aup
+aup/cohort2/s135fssc/s135fssc2.aup
+aup/cohort2/s135fssc/s135fssc3.aup
+aup/cohort2/s135fssc/rename
+aup/cohort2/s135fssc/rename/s135ssc2.aup
+aup/cohort2/s121fssc
+aup/cohort2/s121fssc/s121fssc2.aup
+aup/cohort2/s121fssc/s121fssc3.aup
+aup/cohort2/s121fssc/s121fssc.aup
+aup/cohort2/s120fssc
+aup/cohort2/s120fssc/s120fssc2.aup
+aup/cohort2/s120fssc/s120fssc3.aup
+aup/cohort2/s120fssc/s120fssc.aup
+aup/cohort2/s176fint
+aup/cohort2/s176fint/s176fint.aup
+aup/cohort2/s140fsci
+aup/cohort2/s140fsci/s140fsci2.aup
+aup/cohort2/s140fsci/s140fsci3.aup
+aup/cohort2/s140fsci/s140fsci.aup
+aup/cohort2/s168fsci
+aup/cohort2/s168fsci/s168f4.aup
+aup/cohort2/s168fsci/s168fsci.aup
+aup/cohort2/s168fsci/s168fsci3.aup
+aup/cohort2/s152mssc
+aup/cohort2/s152mssc/s152mssc.aup
+aup/cohort2/s106f
+aup/cohort2/s106f/s106f5.aup
+aup/cohort2/s106f/s106f4.aup
+aup/cohort2/s114fhum
+aup/cohort2/s114fhum/s114fhum.aup
+aup/cohort2/s114fhum/s114fhum3.aup
+aup/cohort2/s110fexc
+aup/cohort2/s110fexc/s110fexc.aup
+aup/cohort2/s166fint
+aup/cohort2/s166fint/s166fint.aup
+aup/cohort2/s166fint/s166fint3.aup
+aup/cohort2/s166fint/s166fint2.aup
+aup/cohort2/s166fint/renamed
+aup/cohort2/s166fint/renamed/s166fssc3.aup
+aup/cohort2/s136msci
+aup/cohort2/s136msci/s136msci3.aup
+aup/cohort2/s136msci/s136msci2.aup
+aup/cohort2/s136msci/s136mfsi.aup
+aup/cohort2/s119fssc
+aup/cohort2/s119fssc/s119fssc.aup
+aup/cohort2/s119fssc/s119fssc3.aup
+aup/cohort2/s119fssc/s119fssc2.aup
+aup/cohort2/s119fssc/s119fssc4.aup
+aup/cohort2/s131fssc
+aup/cohort2/s131fssc/s131fssc.aup
+aup/cohort2/s131fssc/s131fssc2.aup
+aup/cohort2/s131fssc/s131fssc3.aup
+aup/cohort2/s157mssc
+aup/cohort2/s157mssc/s157mssc2.aup
+aup/cohort2/s157mssc/s157mssc1.aup
+aup/cohort2/s151fsci
+aup/cohort2/s151fsci/s151fsci2.aup
+aup/cohort2/s151fsci/s151f4.aup
+aup/cohort2/s151fsci/s151fsci.aup
+aup/cohort2/s144flaw
+aup/cohort2/s144flaw/s144flaw2.aup
+aup/cohort2/s144flaw/s144flaw3.aup
+aup/cohort2/s144flaw/s144flaw1.aup
+aup/cohort2/s145f
+aup/cohort2/s145f/s145f5.aup
+aup/cohort2/s169mssc
+aup/cohort2/s169mssc/s169mssc2-part2.aup
+aup/cohort2/s169mssc/s169mssc2.aup
+aup/cohort2/s169mssc/s169mssc3.aup
+aup/cohort2/s169mssc/s169mssc.aup
+aup/cohort2/s117mint
+aup/cohort2/s117mint/s117mint2.aup
+aup/cohort2/s117mint/s117mint3.aup
+aup/cohort2/s117mint/s117mint.aup
+aup/cohort2/s163f
+aup/cohort2/s163f/s163f5.aup
+aup/cohort2/s163f/s163f4.aup
+aup/cohort2/s122funk
+aup/cohort2/s122funk/s122f4.aup
+aup/cohort2/s122funk/s122funk1.aup
+aup/cohort2/s122funk/s122funk2.aup
+aup/cohort2/s122funk/s122funk3.aup
+aup/cohort2/s133fssc
+aup/cohort2/s133fssc/s133fssc.aup
+aup/cohort2/s120f
+aup/cohort2/s120f/s120f1.aup
+aup/cohort2/s102mint
+aup/cohort2/s102mint/s091mint2.aup
+aup/cohort2/s102mint/s091mint.aup
+aup/cohort2/s146fsci
+aup/cohort2/s146fsci/s146fsci.aup
+aup/cohort2/s180f
+aup/cohort2/s180f/s180f5.aup
+aup/cohort2/s109fsci
+aup/cohort2/s109fsci/s109fsci2.aup
+aup/cohort2/s109fsci/s109fsci3.aup
+aup/cohort2/s159fhum
+aup/cohort2/s159fhum/s159fhum.aup
+aup/cohort2/s167f
+aup/cohort2/s167f/s167f5.aup
+aup/cohort2/s101f
+aup/cohort2/s101f/s101f1.aup
+aup/cohort2/s142f
+aup/cohort2/s142f/s142f5.aup
+aup/cohort2/s142f/s142f4.aup
+aup/cohort2/s124f
+aup/cohort2/s124f/s124f5.aup
+aup/cohort2/s172mint
+aup/cohort2/s172mint/s172mint3.aup
+aup/cohort2/s172mint/s172mint.aup
+aup/cohort2/s172mint/s172mint2.aup
+aup/cohort2/s178msci
+aup/cohort2/s178msci/s178msci3.aup
+aup/cohort2/s178msci/s178msci2.aup
+aup/cohort2/s178msci/s178msci1.aup
+aup/cohort2/s156fssc
+aup/cohort2/s156fssc/s156f4.aup
+aup/cohort2/s156fssc/s156fssc1.aup
+aup/cohort2/s156fssc/s156fssc3.aup
+aup/cohort2/s156fssc/s156fssc2.aup
+aup/cohort2/s129mhum
+aup/cohort2/s129mhum/s129mhum2.aup
+aup/cohort2/s129mhum/s129mhum.aup
+aup/cohort2/s180fssc
+aup/cohort2/s180fssc/s180fssc3.aup
+aup/cohort2/s180fssc/s180fssc2.aup
+aup/cohort2/s180fssc/s180fssc1.aup
+aup/cohort2/s162m
+aup/cohort2/s162m/s162m4.aup
+aup/cohort2/s162m/s162m5.aup
+aup/cohort2/s130m
+aup/cohort2/s130m/s130m5.aup
+aup/cohort2/s130m/s130m4.aup
+aup/cohort2/s147fssc
+aup/cohort2/s147fssc/s147fssc.aup
+aup/cohort2/s147fssc/s147fssc3.aup
+aup/cohort2/s147fssc/s147fssc2.aup
+aup/cohort2/s134mssc
+aup/cohort2/s134mssc/s134mssc2.aup
+aup/cohort2/s134mssc/s134mssc3.aup
+aup/cohort2/s134mssc/s134mssc.aup
+aup/cohort2/s126fsci
+aup/cohort2/s126fsci/s126fsci3.aup
+aup/cohort2/s126fsci/s126fsci2.aup
+aup/cohort2/s126fsci/s126fsci4.aup
+aup/cohort2/s126fsci/s126fsci.aup
+aup/cohort2/s108mssc
+aup/cohort2/s108mssc/s108mssc3.aup
+aup/cohort2/s108mssc/s108mssc2.aup
+aup/cohort2/s108mssc/s108mssc1.aup
+aup/cohort2/s119f
+aup/cohort2/s119f/s119f5.aup
+aup/cohort2/s119f/s119f4_20130515.aup
+aup/cohort2/s127munk
+aup/cohort2/s127munk/s127munk2.aup
+aup/cohort2/s127munk/s127munk3.aup
+aup/cohort2/s127munk/s127munk.aup
+aup/cohort2/s145fssc
+aup/cohort2/s145fssc/s145fssc3.aup
+aup/cohort2/s145fssc/s145fssc2.aup
+aup/cohort2/s135f
+aup/cohort2/s135f/s135f5.aup
+aup/cohort2/s135f/s135f4.aup
+aup/cohort2/s132munk
+aup/cohort2/s132munk/s132munk.aup
+aup/cohort2/s132munk/s132munk2.aup
+aup/cohort2/s132munk/s132munk3.aup
+aup/cohort2/s137mssc
+aup/cohort2/s137mssc/s137mssc2.aup
+aup/cohort2/s137mssc/s137mssc3.aup
+aup/cohort2/s137mssc/s137mssc1.aup
+aup/cohort2/s153f
+aup/cohort2/s153f/s153f4.aup
+aup/cohort2/s153f/s153f5.aup
+aup/cohort2/s123mssc
+aup/cohort2/s123mssc/s123mssc2.aup
+aup/cohort2/s123mssc/s123mssc3.aup
+aup/cohort2/s149fhum
+aup/cohort2/s149fhum/s149fhum2.aup
+aup/cohort2/s149fhum/s149fhum3.aup
+aup/cohort2/s149fhum/s149fhum1.aup
+aup/cohort3
+aup/cohort3/s213f
+aup/cohort3/s213f/s213f4.aup
+aup/cohort3/s213f/s213f3.aup
+aup/cohort3/s213f/s213f2.aup
+aup/cohort3/s213funk
+aup/cohort3/s213funk/s213funk1.aup
+aup/cohort3/s236f
+aup/cohort3/s236f/s236f4.aup
+aup/cohort3/s236f/s236f5.aup
+aup/cohort3/s236f/s236f2.aup
+aup/cohort3/s236f/s236f3.aup
+aup/cohort3/s233fhum
+aup/cohort3/s233fhum/s233f2.aup
+aup/cohort3/s233fhum/s233fhum.aup
+aup/cohort3/s263fsci
+aup/cohort3/s263fsci/s263fsci.aup
+aup/cohort3/s265mssc
+aup/cohort3/s265mssc/s265mssc.aup
+aup/cohort3/s212funk
+aup/cohort3/s212funk/s212f2.aup
+aup/cohort3/s212funk/s212funk.aup
+aup/cohort3/s269fint
+aup/cohort3/s269fint/s269fint.aup
+aup/cohort3/s269fint/s269f2.aup
+aup/cohort3/s219f
+aup/cohort3/s219f/s219f4.aup
+aup/cohort3/s219f/s219f5.aup
+aup/cohort3/s219f/s219f2.aup
+aup/cohort3/s219f/s219f3.aup
+aup/cohort3/s250f
+aup/cohort3/s250f/s250f3.aup
+aup/cohort3/s250f/s250f2.aup
+aup/cohort3/s250f/s250f5.aup
+aup/cohort3/s250f/s250f4a.aup
+aup/cohort3/s250f/s250f4b.aup
+aup/cohort3/s215m
+aup/cohort3/s215m/s215m4.aup
+aup/cohort3/s215m/s215m5.aup
+aup/cohort3/s215m/s215m2.aup
+aup/cohort3/s215m/s215m3.aup
+aup/cohort3/s204funk
+aup/cohort3/s204funk/s204funk1.aup
+aup/cohort3/s255m
+aup/cohort3/s255m/s255m3.aup
+aup/cohort3/s255m/s255m2.aup
+aup/cohort3/s255m/s255m5.aup
+aup/cohort3/s255m/s255m4.aup
+aup/cohort3/s201fssc
+aup/cohort3/s201fssc/s201fssc.aup
+aup/cohort3/s210f
+aup/cohort3/s210f/s210f4.aup
+aup/cohort3/s210f/s210f5.aup
+aup/cohort3/s210f/s210f2.aup
+aup/cohort3/s210f/s210f3.aup
+aup/cohort3/s224fhum
+aup/cohort3/s224fhum/s224fhum.aup
+aup/cohort3/s235f
+aup/cohort3/s235f/s235f5.aup
+aup/cohort3/s235f/s235f4.aup
+aup/cohort3/s235f/s235f3.aup
+aup/cohort3/s235f/s235f2.aup
+aup/cohort3/s206msci
+aup/cohort3/s206msci/s206msci.aup
+aup/cohort3/s253f
+aup/cohort3/s253f/s253f2.aup
+aup/cohort3/s253f/s253f3.aup
+aup/cohort3/s253f/s253f4.aup
+aup/cohort3/s253f/s253f5.aup
+aup/cohort3/s205funk
+aup/cohort3/s205funk/s205funk1.aup
+aup/cohort3/s238fssc
+aup/cohort3/s238fssc/s238fssc.aup
+aup/cohort3/s202msci
+aup/cohort3/s202msci/s202msci.aup
+aup/cohort3/s244m
+aup/cohort3/s244m/s244m2.aup
+aup/cohort3/s244m/s244m3.aup
+aup/cohort3/s244m/s244m4.aup
+aup/cohort3/s244m/s244m5.aup
+aup/cohort3/s201f
+aup/cohort3/s201f/s201f5.aup
+aup/cohort3/s201f/s201f4.aup
+aup/cohort3/s201f/s201f3.aup
+aup/cohort3/s201f/s201f2.aup
+aup/cohort3/s248f
+aup/cohort3/s248f/s248f2.aup
+aup/cohort3/s248f/s248f3.aup
+aup/cohort3/s248f/s248f4.aup
+aup/cohort3/s248f/s248f5.aup
+aup/cohort3/s258fsci
+aup/cohort3/s258fsci/s258fsci1.aup
+aup/cohort3/s267munk
+aup/cohort3/s267munk/s267m2.aup
+aup/cohort3/s267munk/s267munk.aup
+aup/cohort3/s209fhum
+aup/cohort3/s209fhum/s209fhum.aup
+aup/cohort3/s271fsci
+aup/cohort3/s271fsci/s271fsci.aup
+aup/cohort3/s242f
+aup/cohort3/s242f/s242f3.aup
+aup/cohort3/s242f/s242f2.aup
+aup/cohort3/s239fssc
+aup/cohort3/s239fssc/s239fssc.aup
+aup/cohort3/s211fssc
+aup/cohort3/s211fssc/s211fssc1.aup
+aup/cohort3/s214funk
+aup/cohort3/s214funk/s214funk1.aup
+aup/cohort3/s216funk
+aup/cohort3/s216funk/s216funk1.aup
+aup/cohort3/s266flaw
+aup/cohort3/s266flaw/s266flaw.aup
+aup/cohort3/s266flaw/s266f2.aup
+aup/cohort3/s237mint
+aup/cohort3/s237mint/s237m2.aup
+aup/cohort3/s237mint/s237mint1.aup
+aup/cohort3/s241f
+aup/cohort3/s241f/spare-second-version-r2
+aup/cohort3/s241f/spare-second-version-r2/s241f2.aup
+aup/cohort3/s241f/s241f2.aup
+aup/cohort3/s241f/s241f3.aup
+aup/cohort3/s241f/s241f4.aup
+aup/cohort3/s241f/s241f5.aup
+aup/cohort3/s208f
+aup/cohort3/s208f/s208f5.aup
+aup/cohort3/s208f/s208f4.aup
+aup/cohort3/s208f/s208f3.aup
+aup/cohort3/s208f/s208f2.aup
+aup/cohort3/s259mdou
+aup/cohort3/s259mdou/s259mdou.aup
+aup/cohort3/s243m
+aup/cohort3/s243m/s243m5.aup
+aup/cohort3/s243m/s243m2.aup
+aup/cohort3/s223fint
+aup/cohort3/s223fint/s223fint.aup
+aup/cohort3/s225m
+aup/cohort3/s225m/s255m5.aup
+aup/cohort3/s225m/s225m3.aup
+aup/cohort3/s225m/s225m2.aup
+aup/cohort3/s225m/s225m5.aup
+aup/cohort3/s225m/s225m4.aup
+aup/cohort3/s260f
+aup/cohort3/s260f/s260f4.aup
+aup/cohort3/s260f/s260f5.aup
+aup/cohort3/s223f
+aup/cohort3/s223f/s223f2.aup
+aup/cohort3/s223f/s223f3.aup
+aup/cohort3/s223f/s223f4.aup
+aup/cohort3/s223f/s223f5.aup
+aup/cohort3/s217munk
+aup/cohort3/s217munk/s217munk1.aup
+aup/cohort3/s217munk/s217m2.aup
+aup/cohort3/s228fsci
+aup/cohort3/s228fsci/s228f2.aup
+aup/cohort3/s228fsci/s228fsci1.aup
+aup/cohort3/s228fsci/s228fsci3.aup
+aup/cohort3/s248fssc
+aup/cohort3/s248fssc/s248fssc1.aup
+aup/cohort3/s245f
+aup/cohort3/s245f/s245f5.aup
+aup/cohort3/s245f/s245f4.aup
+aup/cohort3/s245f/s245f3.aup
+aup/cohort3/s245f/s245f2.aup
+aup/cohort3/s205f
+aup/cohort3/s205f/s250f5.aup
+aup/cohort3/s205f/s205f2.aup
+aup/cohort3/s205f/s205f3.aup
+aup/cohort3/s205f/s205f4.aup
+aup/cohort3/s205f/s205f5.aup
+aup/cohort3/s264msci
+aup/cohort3/s264msci/s264msci.aup
+aup/cohort3/s263f
+aup/cohort3/s263f/s263f5.aup
+aup/cohort3/s263f/s263f4.aup
+aup/cohort3/s220f
+aup/cohort3/s220f/s220f3.aup
+aup/cohort3/s220f/s220f2.aup
+aup/cohort3/s220f/s220f5.aup
+aup/cohort3/s220f/s220f4.aup
+aup/cohort3/s269f
+aup/cohort3/s269f/s269f4.aup
+aup/cohort3/s269f/s269f5.aup
+aup/cohort3/s269f/s269f2.aup
+aup/cohort3/s269f/s269f3.aup
+aup/cohort3/s265m
+aup/cohort3/s265m/s265m4.aup
+aup/cohort3/s265m/s265m2.aup
+aup/cohort3/s265m/s265m3.aup
+aup/cohort3/s246f
+aup/cohort3/s246f/s246f2.aup
+aup/cohort3/s262funk
+aup/cohort3/s262funk/s262funk.aup
+aup/cohort3/s237m
+aup/cohort3/s237m/s237m3.aup
+aup/cohort3/s237m/s237m2.aup
+aup/cohort3/s237m/s237m5.aup
+aup/cohort3/s237m/s237m4.aup
+aup/cohort3/s261msci
+aup/cohort3/s261msci/s261msci.aup
+aup/cohort3/s214f
+aup/cohort3/s214f/s214f1.aup
+aup/cohort3/s214f/s214f3.aup
+aup/cohort3/s214f/s214f2.aup
+aup/cohort3/s214f/s214f5.aup
+aup/cohort3/s214f/s214f4.aup
+aup/cohort3/s215mssc
+aup/cohort3/s215mssc/s215mssc.aup
+aup/cohort3/s257f
+aup/cohort3/s257f/s257f55.aup
+aup/cohort3/s257f/s257f5.aup
+aup/cohort3/s257f/s257f1.aup
+aup/cohort3/s257f/s257f2.aup
+aup/cohort3/s257f/s257f.aup
+aup/cohort3/s238f
+aup/cohort3/s238f/s238f2.aup
+aup/cohort3/s271f
+aup/cohort3/s271f/s271f5.aup
+aup/cohort3/s271f/s271f4.aup
+aup/cohort3/s271f/s271f3.aup
+aup/cohort3/s271f/s271f2.aup
+aup/cohort3/s249funk
+aup/cohort3/s249funk/s249f2.aup
+aup/cohort3/s249funk/s249funk.aup
+aup/cohort3/s270fssc
+aup/cohort3/s270fssc/s270fssc.aup
+aup/cohort3/s232f
+aup/cohort3/s232f/s232f3.aup
+aup/cohort3/s232f/s232f2.aup
+aup/cohort3/s270f
+aup/cohort3/s270f/s270f5.aup
+aup/cohort3/s270f/s270f4.aup
+aup/cohort3/s270f/s270f3.aup
+aup/cohort3/s216f
+aup/cohort3/s216f/s216f2.aup
+aup/cohort3/s216f/s216f3.aup
+aup/cohort3/s216f/s216f4.aup
+aup/cohort3/s216f/s216f5.aup
+aup/cohort3/s259m
+aup/cohort3/s259m/s259m4.aup
+aup/cohort3/s259m/s259m5.aup
+aup/cohort3/s259m/s259m2.aup
+aup/cohort3/s259m/s259m3.aup
+aup/cohort3/s241fssc
+aup/cohort3/s241fssc/s241fssc.aup
+aup/cohort3/s241fssc/s241f2.aup
+aup/cohort3/s203mhum
+aup/cohort3/s203mhum/s203mhum1.aup
+aup/cohort3/s250funk
+aup/cohort3/s250funk/s250funk.aup
+aup/cohort3/s233f
+aup/cohort3/s233f/s233f3.aup
+aup/cohort3/s233f/s233f5.aup
+aup/cohort3/s233f/s233f4.aup
+aup/cohort3/s273f
+aup/cohort3/s273f/s273f4.aup
+aup/cohort3/s273f/s273f5.aup
+aup/cohort3/s273f/s273f2.aup
+aup/cohort3/s273f/s273f3.aup
+aup/cohort3/s257fssc
+aup/cohort3/s257fssc/s257ssc1.aup
+aup/cohort3/s256f
+aup/cohort3/s256f/s256f5.aup
+aup/cohort3/s256f/s256f4.aup
+aup/cohort3/s256f/s256f3.aup
+aup/cohort3/s256f/s256f2.aup
+aup/cohort3/s256f/s256f4_formal_English.aup
+aup/cohort3/s256fssc
+aup/cohort3/s256fssc/s256fssc1.aup
+aup/cohort3/s210fint
+aup/cohort3/s210fint/s210fint1.aup
+aup/cohort3/s204f
+aup/cohort3/s204f/s204f2.aup
+aup/cohort3/s204f/s204f3.aup
+aup/cohort3/s204f/s204f4.aup
+aup/cohort3/s204f/s204f5.aup
+aup/cohort3/s246fssc
+aup/cohort3/s246fssc/s246fssc.aup
+aup/cohort3/s252fssc
+aup/cohort3/s252fssc/s252fssc1.aup
+aup/cohort3/s262f
+aup/cohort3/s262f/s262f5.aup
+aup/cohort3/s262f/s262f4.aup
+aup/cohort3/s262f/s262f3.aup
+aup/cohort3/s262f/s262f2.aup
+aup/cohort3/s226fsci
+aup/cohort3/s226fsci/s226fsci1.aup
+aup/cohort3/s226fsci/s226f2.aup
+aup/cohort3/s227fsci
+aup/cohort3/s227fsci/s227fsci1.aup
+aup/cohort3/s253fssc
+aup/cohort3/s253fssc/s253fssc.aup
+aup/cohort3/s247fssc
+aup/cohort3/s247fssc/s247fssc1.aup
+aup/cohort3/s202m
+aup/cohort3/s202m/s202m3.aup
+aup/cohort3/s202m/s202m2.aup
+aup/cohort3/s202m/s202m5.aup
+aup/cohort3/s202m/s202m4.aup
+aup/cohort3/s268fbio
+aup/cohort3/s268fbio/s268fbio.aup
+aup/cohort3/s242funk
+aup/cohort3/s242funk/s242funk1.aup
+aup/cohort3/s242funk/s242f2.aup
+aup/cohort3/s247f
+aup/cohort3/s247f/s247f4.aup
+aup/cohort3/s247f/s247f5.aup
+aup/cohort3/s247f/s247f2.aup
+aup/cohort3/s247f/s247f3.aup
+aup/cohort3/s207f
+aup/cohort3/s207f/s207f3.aup
+aup/cohort3/s207f/s207f2.aup
+aup/cohort3/s207f/s207f5.aup
+aup/cohort3/s207f/s207f4.aup
+aup/cohort3/s207fint
+aup/cohort3/s207fint/s207fint.aup
+aup/cohort3/s228f
+aup/cohort3/s228f/s228f3.aup
+aup/cohort3/s228f/s228f2.aup
+aup/cohort3/s228f/s228f5.aup
+aup/cohort3/s228f/s228f4.aup
+aup/cohort3/s219fsci
+aup/cohort3/s219fsci/s219fsci1.aup
+aup/cohort3/s219fsci/s219f2.aup
+aup/cohort3/s267m
+aup/cohort3/s267m/s267m5.aup
+aup/cohort3/s267m/s267m4.aup
+aup/cohort3/s267m/s267m3.aup
+aup/cohort3/s267m/s267m2.aup
+aup/cohort3/s274fhum
+aup/cohort3/s274fhum/s274fhum.aup
+aup/cohort3/s222f
+aup/cohort3/s222f/s222f2.aup
+aup/cohort3/s222f/s222f3.aup
+aup/cohort3/s222f/s222f4.aup
+aup/cohort3/s222f/s222f5.aup
+aup/cohort3/s232funk
+aup/cohort3/s232funk/s232funk.aup
+aup/cohort3/s225msci
+aup/cohort3/s225msci/s225msci1.aup
+aup/cohort3/s225msci/s225m2.aup
+aup/cohort3/s209f
+aup/cohort3/s209f/s209f5.aup
+aup/cohort3/s209f/s209f4.aup
+aup/cohort3/s209f/s209f3.aup
+aup/cohort3/s209f/s209f2.aup
+aup/cohort3/s240f
+aup/cohort3/s240f/s240f2.aup
+aup/cohort3/s240f/s240f3.aup
+aup/cohort3/s240f/s240f4.aup
+aup/cohort3/s240f/s240f5.aup
+aup/cohort3/s260fint
+aup/cohort3/s260fint/s260fint.aup
+aup/cohort3/s226f
+aup/cohort3/s226f/s226f5.aup
+aup/cohort3/s226f/s226f4.aup
+aup/cohort3/s226f/s226f3.aup
+aup/cohort3/s226f/s226f2.aup
+aup/cohort3/s266f
+aup/cohort3/s266f/s266f8.aup
+aup/cohort3/s266f/s266f2.aup
+aup/cohort3/s266f/s266f3.aup
+aup/cohort3/s208fssc
+aup/cohort3/s208fssc/s208fssc.aup
+aup/cohort3/s220fssc
+aup/cohort3/s220fssc/s220fssc1.aup
+aup/cohort3/s220fssc/s220f2.aup
+aup/cohort3/s249f
+aup/cohort3/s249f/s249f2.aup
+aup/cohort3/s249f/s249f3.aup
+aup/cohort3/s249f/s249f4.aup
+aup/cohort3/s249f/s249f5.aup
+aup/cohort3/s254fsci
+aup/cohort3/s254fsci/s254fsci.aup
+aup/cohort3/s240fsci
+aup/cohort3/s240fsci/s240fsci.aup
+aup/cohort3/s240fsci/s240f2.aup
+aup/cohort3/s243munk
+aup/cohort3/s243munk/s243munk-irish-uhdr.aup
+aup/cohort3/s243munk/s243munk1.aup
+aup/cohort3/s243munk/s243m2.aup
+aup/cohort3/s206m
+aup/cohort3/s206m/s206m4.aup
+aup/cohort3/s206m/s206m5.aup
+aup/cohort3/s206m/s206m2.aup
+aup/cohort3/s206m/s206m3.aup
+aup/cohort3/s229m
+aup/cohort3/s229m/s229m4.aup
+aup/cohort3/s229m/s229m5.aup
+aup/cohort3/s229m/s229m2.aup
+aup/cohort3/s229m/s229m3.aup
+aup/cohort3/s230funk
+aup/cohort3/s230funk/s230funk1.aup
+aup/cohort3/s211f
+aup/cohort3/s211f/s211f4.aup
+aup/cohort3/s211f/s211f5.aup
+aup/cohort3/s211f/s211f3.aup
+aup/cohort3/s273fint
+aup/cohort3/s273fint/s273f4.aup
+aup/cohort3/s273fint/s273fint1.aup
+aup/cohort3/s234funk
+aup/cohort3/s234funk/s234funk.aup
+aup/cohort3/s258f
+aup/cohort3/s258f/s257f5.aup
+aup/cohort3/s258f/s258f3.aup
+aup/cohort3/s258f/s258f2.aup
+aup/cohort3/s258f/s258f5.aup
+aup/cohort3/s258f/s258f4.aup
+aup/cohort3/s231fssc
+aup/cohort3/s231fssc/s231fssc.aup
+aup/cohort3/s245fsci
+aup/cohort3/s245fsci/s245fsci1.aup
+aup/cohort3/s245fsci/s245f2.aup
+aup/cohort3/s229mint
+aup/cohort3/s229mint/s229m2.aup
+aup/cohort3/s229mint/s229mint1.aup
+aup/cohort3/s234f
+aup/cohort3/s234f/s234f4.aup
+aup/cohort3/s234f/s234f3.aup
+aup/cohort3/s234f/s234f2.aup
+aup/cohort3/s221msoc
+aup/cohort3/s221msoc/s221msoc.aup
+aup/cohort3/s217m
+aup/cohort3/s217m/s217m4.aup
+aup/cohort3/s217m/s217m3.aup
+aup/cohort3/s217m/s217m2.aup
+aup/cohort3/s218fssc
+aup/cohort3/s218fssc/s218fssc1.aup
+aup/cohort3/s218fssc/s218f2.aup
+aup/cohort3/s252f
+aup/cohort3/s252f/s252f2.aup
+aup/cohort3/s252f/s252f3.aup
+aup/cohort3/s252f/s252f4.aup
+aup/cohort3/s252f/s252f5.aup
+aup/cohort3/s235funk
+aup/cohort3/s235funk/s235f4.aup
+aup/cohort3/s235funk/s235funk.aup
+aup/cohort3/s212f
+aup/cohort3/s212f/s212f5.aup
+aup/cohort3/s212f/s212f4.aup
+aup/cohort3/s212f/s212f3.aup
+aup/cohort3/s212f/s212f2.aup
+aup/cohort3/s274f
+aup/cohort3/s274f/s274f4.aup
+aup/cohort3/s244munk
+aup/cohort3/s244munk/s244munk1.aup
+aup/cohort3/s255mssc
+aup/cohort3/s255mssc/s255mssc1.aup
+aup/cohort3/s222funk
+aup/cohort3/s222funk/s222funk.aup
+aup/cohort3/s236funk
+aup/cohort3/s236funk/s236funk1.aup
+aup/cohort3/s218f
+aup/cohort3/s218f/s218f4.aup
+aup/cohort3/s218f/s218f5.aup
+aup/cohort3/s218f/s218f2.aup
+aup/.DS_Store
+aup/cohort1
+aup/cohort1/s042mhum
+aup/cohort1/s042mhum/s042mhum4.aup
+aup/cohort1/s042mhum/s042mhum2.aup
+aup/cohort1/s042mhum/s042mhum3.aup
+aup/cohort1/s042mhum/s042mhum.aup
+aup/cohort1/s049f
+aup/cohort1/s049f/s049f4_HumanRightsText.aup
+aup/cohort1/s049f/s049f5.aup
+aup/cohort1/s006m
+aup/cohort1/s006m/s006m5.aup
+aup/cohort1/s025fhum
+aup/cohort1/s025fhum/s025fhum3.aup
+aup/cohort1/s025fhum/s025fhum2.aup
+aup/cohort1/s025fhum/s025fhum4.aup
+aup/cohort1/s025fhum/s025fhum.aup
+aup/cohort1/s061fsci
+aup/cohort1/s061fsci/s061fsci.aup
+aup/cohort1/s061fsci/s061fsci4.aup
+aup/cohort1/s061fsci/s061fsci3.aup
+aup/cohort1/s061fsci/s061fsci2.aup
+aup/cohort1/s049fsci
+aup/cohort1/s049fsci/s049fsci2.aup
+aup/cohort1/s049fsci/s049fsci3.aup
+aup/cohort1/s049fsci/s049fsci4_HumanRightsText.aup
+aup/cohort1/s049fsci/s049fsci4.aup
+aup/cohort1/s049fsci/s049fsci.aup
+aup/cohort1/s019fhum
+aup/cohort1/s019fhum/s019fhum4.aup
+aup/cohort1/s019fhum/s019fhum3.aup
+aup/cohort1/s019fhum/s019fhum.aup
+aup/cohort1/s025f
+aup/cohort1/s025f/s025f5.aup
+aup/cohort1/s060m
+aup/cohort1/s060m/s060m5.aup
+aup/cohort1/s001fssc
+aup/cohort1/s001fssc/s001fssc.aup
+aup/cohort1/s001fssc/s001fssc3.aup
+aup/cohort1/s001fssc/s001fssc2.aup
+aup/cohort1/s013msci
+aup/cohort1/s013msci/s013msci2.aup
+aup/cohort1/s013msci/s013msci3.aup
+aup/cohort1/s013msci/s013msci4.aup
+aup/cohort1/s013msci/s013msci.aup
+aup/cohort1/s065f
+aup/cohort1/s065f/s065f5.aup
+aup/cohort1/s033fhum
+aup/cohort1/s033fhum/s033fhum.aup
+aup/cohort1/s046m
+aup/cohort1/s046m/s046m5.aup
+aup/cohort1/s003f
+aup/cohort1/s003f/s003f.aup
+aup/cohort1/s003f/s003f1.aup
+aup/cohort1/s003f/s003f2.aup
+aup/cohort1/s003f/s003f3.aup
+aup/cohort1/s003f/s003f5.aup
+aup/cohort1/s009f
+aup/cohort1/s009f/s009f5.aup
+aup/cohort1/s064mssc
+aup/cohort1/s064mssc/s064mssc2.aup
+aup/cohort1/s064mssc/s064mssc3.aup
+aup/cohort1/s064mssc/s064mssc4.aup
+aup/cohort1/s064mssc/s064mssc.aup
+aup/cohort1/s026f
+aup/cohort1/s026f/s026f5.aup
+aup/cohort1/s063m
+aup/cohort1/s063m/s063m5.aup
+aup/cohort1/s044fint
+aup/cohort1/s044fint/s044fint4.aup
+aup/cohort1/s044fint/s044fint2.aup
+aup/cohort1/s044fint/s044fint.aup
+aup/cohort1/s012fssc
+aup/cohort1/s012fssc/s012fssc3.aup
+aup/cohort1/s012fssc/s012fssc2.aup
+aup/cohort1/s012fssc/s012fssc.aup
+aup/cohort1/s072fsci
+aup/cohort1/s072fsci/s072fsci.aup
+aup/cohort1/s072fsci/s072fsci3.aup
+aup/cohort1/s072fsci/s072fsci2.aup
+aup/cohort1/s072fsci/s072fsci4.aup
+aup/cohort1/s022fhum
+aup/cohort1/s022fhum/s022fhum.aup
+aup/cohort1/s037f
+aup/cohort1/s037f/s037f5.aup
+aup/cohort1/s045fint
+aup/cohort1/s045fint/s045fint4.aup
+aup/cohort1/s045fint/s045fint2.aup
+aup/cohort1/s045fint/s045fint3.aup
+aup/cohort1/s045fint/s045fint.aup
+aup/cohort1/s047fint
+aup/cohort1/s047fint/s047fint.aup
+aup/cohort1/s047fint/s047fint2.aup
+aup/cohort1/s047fint/s047fint3.aup
+aup/cohort1/s047fint/s047fint4.aup
+aup/cohort1/s054m
+aup/cohort1/s054m/s054m5.aup
+aup/cohort1/s058f
+aup/cohort1/s058f/s058f5.aup
+aup/cohort1/s065fsci
+aup/cohort1/s065fsci/s065fsci4.aup
+aup/cohort1/s065fsci/s065fsci3.aup
+aup/cohort1/s065fsci/s065fsci2.aup
+aup/cohort1/s065fsci/s065fsci.aup
+aup/cohort1/s066munk
+aup/cohort1/s066munk/s066munk2.aup
+aup/cohort1/s066munk/s066munk3.aup
+aup/cohort1/s066munk/s066munk4.aup
+aup/cohort1/s066munk/s066munk.aup
+aup/cohort1/s066munk/s066munk4_part2.aup
+aup/cohort1/s062mssc
+aup/cohort1/s062mssc/s062mssc4.aup
+aup/cohort1/s062mssc/s062mssc2.aup
+aup/cohort1/s062mssc/s062mssc3.aup
+aup/cohort1/s062mssc/s062mssc.aup
+aup/cohort1/s038fssc
+aup/cohort1/s038fssc/s038fssc.aup
+aup/cohort1/s038fssc/s038fssc4.aup
+aup/cohort1/s038fssc/s038fssc2.aup
+aup/cohort1/s038fssc/s038fssc3.aup
+aup/cohort1/s002msci
+aup/cohort1/s002msci/s002msci2.aup
+aup/cohort1/s002msci/s002msci3.aup
+aup/cohort1/s002msci/s002msci4.aup
+aup/cohort1/s002msci/s002msci.aup
+aup/cohort1/s009fint
+aup/cohort1/s009fint/s009fint4.aup
+aup/cohort1/s009fint/s009fint.aup
+aup/cohort1/s009fint/s009fint2.aup
+aup/cohort1/s009fint/s009fint3.aup
+aup/cohort1/s053fhum
+aup/cohort1/s053fhum/s053fhum.aup
+aup/cohort1/s053fhum/s053fhum2.aup
+aup/cohort1/s053fhum/s053fhum3.aup
+aup/cohort1/s053fhum/s053fhum4.aup
+aup/cohort1/s015f
+aup/cohort1/s015f/s015f5.aup
+aup/cohort1/s046mint
+aup/cohort1/s046mint/s046mint.aup
+aup/cohort1/s046mint/s046mint4.aup
+aup/cohort1/s046mint/s046mint2.aup
+aup/cohort1/s046mint/s046mint3.aup
+aup/cohort1/s052fhum
+aup/cohort1/s052fhum/s052fhum.aup
+aup/cohort1/s052fhum/s052fhum2.aup
+aup/cohort1/s052fhum/s052fhum3.aup
+aup/cohort1/s052fhum/s052fhum4.aup
+aup/cohort1/s013m
+aup/cohort1/s013m/s013m5.aup
+aup/cohort1/s030f
+aup/cohort1/s030f/s030f5.aup
+aup/cohort1/s089fssc
+aup/cohort1/s089fssc/s089fssc2.aup
+aup/cohort1/s089fssc/s089fssc4.aup
+aup/cohort1/s048fssc
+aup/cohort1/s048fssc/s048fssc3.aup
+aup/cohort1/s048fssc/s048fssc2.aup
+aup/cohort1/s048fssc/s048fssc4.aup
+aup/cohort1/s048fssc/s048fssc.aup
+aup/cohort1/s070f
+aup/cohort1/s070f/s070f5.aup
+aup/cohort1/s006mssc
+aup/cohort1/s006mssc/s006mssc.aup
+aup/cohort1/s006mssc/s006mssc2.aup
+aup/cohort1/s014fsci
+aup/cohort1/s014fsci/s014fsci.aup
+aup/cohort1/s014fsci/s014fsci2.aup
+aup/cohort1/s014fsci/s014fsci3.aup
+aup/cohort1/s014fsci/s014fsci4.aup
+aup/cohort1/s016f
+aup/cohort1/s016f/s016f5.aup
+aup/cohort1/s059m
+aup/cohort1/s059m/s059m5.aup
+aup/cohort1/s015fsci
+aup/cohort1/s015fsci/s015fsci.aup
+aup/cohort1/s015fsci/s015fsci2.aup
+aup/cohort1/s015fsci/s015fsci3.aup
+aup/cohort1/s015fsci/s015fsci4.aup
+aup/cohort1/s023fint
+aup/cohort1/s023fint/s023fint.aup
+aup/cohort1/s023fint/s023fint4.aup
+aup/cohort1/s023fint/s023fint3.aup
+aup/cohort1/s023fint/s023fint2.aup
+aup/cohort1/s042m
+aup/cohort1/s042m/s042m5.aup
+aup/cohort1/s007f
+aup/cohort1/s007f/s007f5.aup
+aup/cohort1/s071fssc
+aup/cohort1/s071fssc/s071fssc.aup
+aup/cohort1/s071fssc/s071ssc2.aup
+aup/cohort1/s071fssc/s071fssc2.aup
+aup/cohort1/s071fssc/s071fssc3.aup
+aup/cohort1/s005fsci
+aup/cohort1/s005fsci/s005fsci2.aup
+aup/cohort1/s005fsci/s005fsci3.aup
+aup/cohort1/s005fsci/s005fsci.aup
+aup/cohort1/s061f
+aup/cohort1/s061f/s061f5.aup
+aup/cohort1/s028f
+aup/cohort1/s028f/s028f5.aup
+aup/cohort1/s004fsci
+aup/cohort1/s004fsci/s004fsci2.aup
+aup/cohort1/s004fsci/s004fsci3.aup
+aup/cohort1/s004fsci/s004fsci.aup
+aup/cohort1/s044f
+aup/cohort1/s044f/s044f5.aup
+aup/cohort1/s058fssc
+aup/cohort1/s058fssc/s058fssc3.aup
+aup/cohort1/s058fssc/s058fssc2.aup
+aup/cohort1/s058fssc/s058fssc.aup
+aup/cohort1/s070fssc
+aup/cohort1/s070fssc/s070fssc.aup
+aup/cohort1/s070fssc/s070fssc4.aup
+aup/cohort1/s070fssc/s070fssc2.aup
+aup/cohort1/s070fssc/s070fssc3.aup
+aup/cohort1/s026fint
+aup/cohort1/s026fint/s0262fint2.aup
+aup/cohort1/s026fint/s026fint4.aup
+aup/cohort1/s026fint/s026fint3.aup
+aup/cohort1/s026fint/s026fint2.aup
+aup/cohort1/s026fint/s026fint.aup
+aup/cohort1/s018mmed
+aup/cohort1/s018mmed/s018mmed.aup
+aup/cohort1/s064m
+aup/cohort1/s064m/s064m5.aup
+aup/cohort1/s057fhum
+aup/cohort1/s057fhum/s057fhum2.aup
+aup/cohort1/s057fhum/s057fhum3.aup
+aup/cohort1/s057fhum/s057fhum4.aup
+aup/cohort1/s057fhum/s057fhum.aup
+aup/cohort1/s007fsci
+aup/cohort1/s007fsci/s007fsci4.aup
+aup/cohort1/s007fsci/s007fsci2.aup
+aup/cohort1/s007fsci/s007fsci3.aup
+aup/cohort1/s007fsci/s007fsci.aup
+aup/cohort1/s047f
+aup/cohort1/s047f/s047f5.aup
+aup/cohort1/s002m
+aup/cohort1/s002m/s002m5.aup
+aup/cohort1/s028fint
+aup/cohort1/s028fint/s028fint4.aup
+aup/cohort1/s028fint/s028fint.aup
+aup/cohort1/s028fint/s028fint3.aup
+aup/cohort1/s028fint/s028fint2.aup
+aup/cohort1/s056fssc
+aup/cohort1/s056fssc/s056fssc2.aup
+aup/cohort1/s056fssc/s056fssc.aup
+aup/cohort1/s005f
+aup/cohort1/s005f/s005f5.aup
+aup/cohort1/s040m
+aup/cohort1/s040m/s040m5.aup
+aup/cohort1/s036fsci
+aup/cohort1/s036fsci/s036fsci.aup
+aup/cohort1/s069f
+aup/cohort1/s069f/s069f5.aup
+aup/cohort1/s024sci
+aup/cohort1/s024sci/s024fsci3.aup
+aup/cohort1/s024sci/s024fsci2.aup
+aup/cohort1/s024sci/s024fsci.aup
+aup/cohort1/s024sci/s024fsci4.aup
+aup/cohort1/s031mssc
+aup/cohort1/s031mssc/s031mssc.aup
+aup/cohort1/s003fint
+aup/cohort1/s003fint/s003fint4.aup
+aup/cohort1/s069fssc
+aup/cohort1/s069fssc/s069fssc.aup
+aup/cohort1/s043m
+aup/cohort1/s043m/s043m5.aup
+aup/cohort1/s089f
+aup/cohort1/s089f/s089f5.aup
+aup/cohort1/s059mint
+aup/cohort1/s059mint/s059mint4.aup
+aup/cohort1/s059mint/s059mint2.aup
+aup/cohort1/s059mint/s059mint3.aup
+aup/cohort1/s059mint/s059mint.aup
+aup/cohort1/s029f
+aup/cohort1/s029f/s029f5.aup
+aup/cohort1/s066m
+aup/cohort1/s066m/s066m4_part2.aup
+aup/cohort1/s066m/s066m5.aup
+aup/cohort1/s023f
+aup/cohort1/s023f/s023f5.aup
+aup/cohort1/s020fsci
+aup/cohort1/s020fsci/s020fsci3.aup
+aup/cohort1/s020fsci/s020fsci.aup
+aup/cohort1/s020fsci/s020fsci2.aup
+aup/cohort1/s034fsci
+aup/cohort1/s034fsci/s034fsci.aup
+aup/cohort1/s034fsci/s034fsci3.aup
+aup/cohort1/s034fsci/s034fsci2.aup
+aup/cohort1/s034fsci/s034fsci4.aup
+aup/cohort1/s008fsci
+aup/cohort1/s008fsci/s008fsci.aup
+aup/cohort1/s008fsci/s008fsci4.aup
+aup/cohort1/s008fsci/s008fsci2.aup
+aup/cohort1/s008fsci/s008fsci3.aup
+aup/cohort1/s045f
+aup/cohort1/s045f/s045f5.aup
+aup/cohort1/s071f
+aup/cohort1/s071f/s071f5.aup
+aup/cohort1/s038f
+aup/cohort1/s038f/s038f5.aup
+aup/cohort1/s050fssc
+aup/cohort1/s050fssc/s050fssc3.aup
+aup/cohort1/s050fssc/s050fssc2.aup
+aup/cohort1/s050fssc/s050fssc.aup
+aup/cohort1/s024fsci
+aup/cohort1/s024fsci/s024fsci3.aup
+aup/cohort1/s024fsci/s024fsci2.aup
+aup/cohort1/s024fsci/s024fsci.aup
+aup/cohort1/s024fsci/s024fsci4.aup
+aup/cohort1/s060mint
+aup/cohort1/s060mint/s060mint3.aup
+aup/cohort1/s060mint/s060mint2.aup
+aup/cohort1/s060mint/s060mint4.aup
+aup/cohort1/s060mint/s060mint.aup
+aup/cohort1/s017f
+aup/cohort1/s017f/s017f5.aup
+aup/cohort1/s011m
+aup/cohort1/s011m/s011m5.aup
+aup/cohort1/s043msci
+aup/cohort1/s043msci/s043msci4.aup
+aup/cohort1/s043msci/s043msci.aup
+aup/cohort1/s043msci/s043msci2.aup
+aup/cohort1/s043msci/s043msci3.aup
+aup/cohort1/s039mhum
+aup/cohort1/s039mhum/s039mhum.aup
+aup/cohort1/s039mhum/s039mhum3.aup
+aup/cohort1/s039mhum/s039mhum2.aup
+aup/cohort1/s039mhum/s039mhum4.aup
+aup/cohort1/s011mhum
+aup/cohort1/s011mhum/s011mhum.aup
+aup/cohort1/s011mhum/s011mhum4.aup
+aup/cohort1/s011mhum/s011mhum2.aup
+aup/cohort1/s011mhum/s011mhum3.aup
+aup/cohort1/s055msci
+aup/cohort1/s055msci/s055msci2.aup
+aup/cohort1/s055msci/s055msci.aup
+aup/cohort1/s072f
+aup/cohort1/s072f/s072f5.aup
+aup/cohort1/s014f
+aup/cohort1/s014f/s014f5.aup
+aup/cohort1/s021mssc
+aup/cohort1/s021mssc/s021mssc.aup
+aup/cohort1/s021mssc/s021mssc2.aup
+aup/cohort1/s051m
+aup/cohort1/s051m/s051m5.aup
+aup/cohort1/s063mint
+aup/cohort1/s063mint/s063mint.aup
+aup/cohort1/s063mint/s063mint4.aup
+aup/cohort1/s063mint/s063mint3.aup
+aup/cohort1/s063mint/s063mint2.aup
+aup/cohort1/s018m
+aup/cohort1/s018m/s018m5.aup
+aup/cohort1/s018m/s018m1.aup
+aup/cohort1/s057f
+aup/cohort1/s057f/s057f5.aup
+aup/cohort1/s040msci
+aup/cohort1/s040msci/s040msci.aup
+aup/cohort1/s010fint
+aup/cohort1/s010fint/s010fint2.aup
+aup/cohort1/s010fint/s010fint3.aup
+aup/cohort1/s010fint/s010fint4.aup
+aup/cohort1/s010fint/s010fint.aup
+aup/cohort1/s035fssc
+aup/cohort1/s035fssc/s035fssc.aup
+aup/cohort1/s035fssc/s035fssc2.aup
+aup/cohort1/s035fssc/s035fssc3.aup
+aup/cohort1/s010f
+aup/cohort1/s010f/s010f5.aup
+aup/cohort1/s041fsci
+aup/cohort1/s041fsci/s041fsci.aup
+aup/cohort1/s041fsci/s041fsci2.aup
+aup/cohort1/s041fsci/s041fsci3.aup
+aup/cohort1/s039m
+aup/cohort1/s039m/s039m5.aup
+aup/cohort1/s035f
+aup/cohort1/s035f/s035f5.aup
+aup/cohort1/s068fsci
+aup/cohort1/s068fsci/s068fsci.aup
+aup/cohort1/s068fsci/s068fsci2.aup
+aup/cohort1/s053f
+aup/cohort1/s053f/s053f5.aup
+aup/cohort1/s073m
+aup/cohort1/s073m/s073m5.aup
+aup/cohort1/s051mssc
+aup/cohort1/s051mssc/s051mssc3.aup
+aup/cohort1/s051mssc/s051mssc2.aup
+aup/cohort1/s051mssc/s051mssc4.aup
+aup/cohort1/s051mssc/s051mssc.aup
+aup/cohort1/s050f
+aup/cohort1/s050f/s050f5.aup
+aup/cohort1/s019f
+aup/cohort1/s019f/s019f5.aup
+aup/cohort1/s027fssc
+aup/cohort1/s027fssc/s027fssc.aup
+aup/cohort1/s027fssc/s027fssc2.aup
+aup/cohort1/s027fssc/s027fssc3.aup
+aup/cohort1/s021m
+aup/cohort1/s021m/s021m5.aup
+aup/cohort1/s017fhum
+aup/cohort1/s017fhum/s017fhum.aup
+aup/cohort1/s017fhum/s017fhum4.aup
+aup/cohort1/s017fhum/s017fhum2.aup
+aup/cohort1/s017fhum/s017fhum3.aup
+aup/cohort1/s008f
+aup/cohort1/s008f/s008f5.aup
+aup/cohort1/s041f
+aup/cohort1/s041f/s041f5.aup
+aup/cohort1/s054mssc
+aup/cohort1/s054mssc/s054mssc.aup
+aup/cohort1/s054mssc/s054mssc3.aup
+aup/cohort1/s054mssc/s054mssc2.aup
+aup/cohort1/s054mssc/s054mssc4.aup
+aup/cohort1/s016fhum
+aup/cohort1/s016fhum/s016fhum.aup
+aup/cohort1/s016fhum/s016fhum4.aup
+aup/cohort1/s016fhum/s016fhum2.aup
+aup/cohort1/s016fhum/s016fhum3.aup
+aup/cohort1/s062m
+aup/cohort1/s062m/s062m5.aup
+aup/cohort1/s032fssc
+aup/cohort1/s032fssc/s032fssc4.aup
+aup/cohort1/s032fssc/s032fssc.aup
+aup/cohort1/s032fssc/s032fssc2.aup
+aup/cohort1/s032fssc/s032fssc3.aup
+aup/cohort1/s037funk
+aup/cohort1/s037funk/s037funk.aup
+aup/cohort1/s037funk/s037funk2.aup
+aup/cohort1/s037funk/s037funk3.aup
+aup/cohort1/s037funk/s037funk4.aup
+aup/cohort1/s030fssc
+aup/cohort1/s030fssc/s030fssc2.aup
+aup/cohort1/s030fssc/s030fssc.aup
+aup/cohort1/s048f
+aup/cohort1/s048f/s048f5.aup
+aup/cohort1/s001f
+aup/cohort1/s001f/s001f2.aup
+aup/cohort1/s001f/s001f1.aup
+aup/cohort1/s001f/s001f5.aup
+aup/cohort1/s029fhum
+aup/cohort1/s029fhum/s029fhum.aup
+aup/cohort1/s029fhum/s029fhum4.aup
+aup/cohort1/s029fhum/s029fhum3.aup
+aup/cohort1/s029fhum/s029fhum2.aup
+aup/cohort1/s024f
+aup/cohort1/s024f/s024f5.aup
+aup/cohort1/s073mhum
+aup/cohort1/s073mhum/s073mhum4.aup
+aup/cohort1/s073mhum/s073mhum.aup
+aup/cohort1/s073mhum/s073mhum3.aup
+aup/cohort1/s073mhum/s073mhum2.aup
+aup/cohort1/s067fint
+aup/cohort1/s067fint/s067fint.aup
+aup/cohort1.5
+aup/cohort1.5/s088fssc
+aup/cohort1.5/s088fssc/s088fssc.aup
+aup/cohort1.5/s088fssc/s088fssc3.aup
+aup/cohort1.5/s088fssc/s088fssc4.aup
+aup.tar.gz
+lauras-MacBook-Air-2:shell_magic lauramathieu$ less .aup
+.aup: No such file or directory
+lauras-MacBook-Air-2:shell_magic lauramathieu$ echo 'hello world' >  hello_world.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ touch file.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ echo 'file contents' > file.txt
+lauras-MacBook-Air-2:shell_magic lauramathieu$ cat file.txt
+file contents
+lauras-MacBook-Air-2:shell_magic lauramathieu$ find 
